@@ -20,4 +20,4 @@
 
 ***
 <p><em>🤯 If you find errors in the content of this project, don't hesitate to submit issues or pull requests on GitHub for corrections, I really, really appreciate it</em></p>
-<p><em>🤯如果你发现本项目有任何内容上的错误，欢迎在 GitHub 提交 issues 或者 pull requests 进行指正</em></p>
+<p><em>🤯如果你发现本项目有任何内容上的错误，欢迎在 GitHub 提交 issues 或者 pull requests 进行打脸</em></p>
