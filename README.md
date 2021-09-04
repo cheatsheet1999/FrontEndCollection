@@ -1,7 +1,8 @@
 # FrontEndCollection
 
 ## Web Development Basics
-[1. What happens when you type in a URL 🟡](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)
+[1. What happens when you type in a URL](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)  
+[2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
