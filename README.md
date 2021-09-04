@@ -2,7 +2,10 @@
 
 ## Web Development Basics
 [1. What happens when you type in a URL](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)  
-[2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)
+[2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)  
+<a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance? </a>
+
+
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
