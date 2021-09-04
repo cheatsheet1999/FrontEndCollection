@@ -9,8 +9,8 @@
 #### ⭐⭐
 [Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
 #### ⭐⭐⭐
-[_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
-
+[_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
+[_Merge Intervals_](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)
 ### String
 
 ### Linked-List
