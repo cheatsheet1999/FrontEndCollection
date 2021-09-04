@@ -1,4 +1,7 @@
 # FrontEndCollection
+
+## Web Development Basics
+
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
@@ -6,7 +9,7 @@
 #### ⭐⭐
 [Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
 #### ⭐⭐⭐
-[Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
+[_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
 
 ### String
 
