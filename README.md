@@ -3,7 +3,8 @@
 ## Web Development Basics
 [1. What happens when you type in a URL](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)  
 [2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)  
-<a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance? </a>
+<a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance?</a>  
+<a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/6">4. HTML5 offline storage mechanism</a>
 
 
 ## Data Structures & Algorithm Part
