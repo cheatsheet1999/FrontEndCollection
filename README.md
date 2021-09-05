@@ -15,7 +15,8 @@
 [Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
 #### ⭐⭐⭐
 [_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
-[_Merge Intervals_](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)
+[_Merge Intervals_](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
+[_Longest Consecutive Sequence_](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)
 ### String
 
 ### Linked-List
