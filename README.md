@@ -18,7 +18,8 @@
 #### ⭐⭐⭐
 [_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
 [_Merge Intervals_](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
-[_Longest Consecutive Sequence_](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)
+[_Longest Consecutive Sequence_](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
+[_Largest Numbers In a Range_](https://github.com/cheatsheet1999/FrontEndCollection/issues/new)
 ### String
 
 ### Linked-List
