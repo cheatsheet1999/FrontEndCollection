@@ -8,7 +8,8 @@
 [5. Common time and space-complexity](https://github.com/cheatsheet1999/FrontEndCollection/issues/9)  
 [6. What has been deprecated, and what is new on HTML5?](https://github.com/cheatsheet1999/FrontEndCollection/issues/11)
 
-
+## Demo
+[1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
