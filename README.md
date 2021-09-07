@@ -6,7 +6,8 @@
 <a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance?</a>  
 <a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/6">4. HTML5 offline storage mechanism</a>  
 [5. Common time and space-complexity](https://github.com/cheatsheet1999/FrontEndCollection/issues/9)  
-[6. What has been deprecated, and what is new on HTML5?](https://github.com/cheatsheet1999/FrontEndCollection/issues/11)
+[6. What has been deprecated, and what is new on HTML5?](https://github.com/cheatsheet1999/FrontEndCollection/issues/11)  
+[7. How the DOM really works?](https://github.com/cheatsheet1999/FrontEndCollection/issues/18)
 
 ## Demo
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)
