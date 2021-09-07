@@ -28,7 +28,7 @@
 
 
 **<details><summary>Database Basics</summary>**
-  - Todo...
+  - [ER diagram, Relational Algebra, SQL / NOSQL Quiz](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)
   </details>
 
 ***
