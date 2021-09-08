@@ -10,7 +10,8 @@
 [7. How the DOM really works?](https://github.com/cheatsheet1999/FrontEndCollection/issues/18)
 
 ## Demo
-[1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)
+[1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)  
+[2. ModalBox](https://github.com/cheatsheet1999/FrontEndCollection/issues/23) 
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
