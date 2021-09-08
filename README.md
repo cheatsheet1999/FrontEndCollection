@@ -15,7 +15,7 @@
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
-[Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
+[Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)
 #### ⭐⭐
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
