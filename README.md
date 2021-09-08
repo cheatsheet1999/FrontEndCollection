@@ -14,17 +14,18 @@
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
-[Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)
+[Todol](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
 #### ⭐⭐
-[_Construct Binary Tree from Preorder and Inorder Traversal_](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)
+[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
+[Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
 #### ⭐⭐⭐
-[_Product of Array Except Self_](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
-[_Merge Intervals_](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
-[_Longest Consecutive Sequence_](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
-[_Largest Numbers In a Range_](https://github.com/cheatsheet1999/FrontEndCollection/issues/13)  
-[_Gas Station_](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
-[_Top K Frequent Elements_](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
-[_3 Sum_](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)
+[Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
+[Merge Intervals](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
+[Longest Consecutive Sequence](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
+[Largest Numbers In a Range](https://github.com/cheatsheet1999/FrontEndCollection/issues/13)  
+[Gas Station](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
+[Top K Frequent Elements](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
+[3 Sum](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)
 ### String
 
 ### Linked-List
