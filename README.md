@@ -23,7 +23,8 @@
 [_Longest Consecutive Sequence_](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
 [_Largest Numbers In a Range_](https://github.com/cheatsheet1999/FrontEndCollection/issues/13)  
 [_Gas Station_](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
-[_Top K Frequent Elements_](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)
+[_Top K Frequent Elements_](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
+[_3 Sum_](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)
 ### String
 
 ### Linked-List
