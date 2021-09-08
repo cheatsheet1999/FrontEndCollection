@@ -14,10 +14,11 @@
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
-[Todol](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
+[Todo...](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
 #### ⭐⭐
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
-[Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)
+[Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
+[Binary Tree Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/22)
 #### ⭐⭐⭐
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
 [Merge Intervals](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
