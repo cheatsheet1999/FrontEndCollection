@@ -24,7 +24,7 @@
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
 [Merge Intervals](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
 [Longest Consecutive Sequence](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
-[Largest Numbers In a Range](https://github.com/cheatsheet1999/FrontEndCollection/issues/13)  
+[Coin Change](https://github.com/cheatsheet1999/FrontEndCollection/issues/13)  
 [Gas Station](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
 [Top K Frequent Elements](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
 [3 Sum](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)
