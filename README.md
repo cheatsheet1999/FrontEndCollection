@@ -15,7 +15,7 @@
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
-[Binary Search]
+[Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/issues/25)
 #### ⭐⭐
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
