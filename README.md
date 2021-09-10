@@ -10,7 +10,8 @@
 [7. How the DOM really works?](https://github.com/cheatsheet1999/FrontEndCollection/issues/18)  
 [8. Inline elements, Block elements, and what are the differences?](https://github.com/cheatsheet1999/FrontEndCollection/issues/27)  
 [9. Several ways to call a function](https://github.com/cheatsheet1999/FrontEndCollection/issues/28)  
-[10. A brief introduction of the differences between "src" and "href"](https://github.com/cheatsheet1999/FrontEndCollection/issues/29)
+[10. A brief introduction of the differences between "src" and "href"](https://github.com/cheatsheet1999/FrontEndCollection/issues/29)  
+[11. A brief introduction of Call, Apply, Bind](https://github.com/cheatsheet1999/FrontEndCollection/issues/30)
 
 ## Demo
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)  
