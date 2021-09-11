@@ -20,7 +20,8 @@
 ### Array
 #### ⭐
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/issues/25)  
-[Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)
+[Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
+[Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)
 #### ⭐⭐
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
