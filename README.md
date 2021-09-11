@@ -17,7 +17,9 @@
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)  
 [2. ModalBox](https://github.com/cheatsheet1999/FrontEndCollection/issues/23) 
 
-## Deep Dive in Javascript
+## Deep Dive in Javascript 
+[_Learn More on BFE.dev_](https://bigfrontend.dev/)  
+
 [1. Implement Curry()](https://github.com/cheatsheet1999/FrontEndCollection/issues/33)
 
 ## Data Structures & Algorithm Part in JavaScript
