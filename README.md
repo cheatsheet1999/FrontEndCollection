@@ -16,6 +16,10 @@
 ## Demo
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)  
 [2. ModalBox](https://github.com/cheatsheet1999/FrontEndCollection/issues/23) 
+
+## Deep Dive in Javascript
+
+
 ## Data Structures & Algorithm Part
 ### Array
 #### ⭐
