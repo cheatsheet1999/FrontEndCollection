@@ -18,9 +18,9 @@
 [2. ModalBox](https://github.com/cheatsheet1999/FrontEndCollection/issues/23) 
 
 ## Deep Dive in Javascript
+[1. Implement Curry()](https://github.com/cheatsheet1999/FrontEndCollection/issues/33)
 
-
-## Data Structures & Algorithm Part
+## Data Structures & Algorithm Part in JavaScript
 ### Array
 #### ⭐
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/issues/25)  
