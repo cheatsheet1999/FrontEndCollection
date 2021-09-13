@@ -51,8 +51,8 @@
 
 
 **<details><summary>Database Basics</summary>**
-  - [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)
-  - [Data Storage]
+  - [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)  
+  - [Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)
   </details>
 
 ***
