@@ -37,7 +37,7 @@
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Intersection of Two Arrays II](https://github.com/cheatsheet1999/FrontEndCollection/issues/36)  
-[Remove Nth Node From End of List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Leet-Algo/Remove%20Nth%20Node%20From%20End%20of%20List.md)
+[Remove Nth Node From End of List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20Nth%20Node%20From%20End%20of%20List.md)
 #### ⭐⭐⭐
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
 [Merge Intervals](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
