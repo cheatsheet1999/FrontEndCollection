@@ -20,8 +20,8 @@
 ## Deep Dive in Javascript 
 [_Learn More on BFE.dev_](https://bigfrontend.dev/)  
 
-[1. Implement Curry()](https://github.com/cheatsheet1999/FrontEndCollection/issues/33)  
-[2. implement Array.prototype.flat()]
+[1. Implement Curry()](https://github.com/cheatsheet1999/FrontEndCollection/issues/33)   
+[2. implement Array.prototype.flat()](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Core/implement%20Array.prototype.flat().md)
 
 ## Data Structures & Algorithm Part in JavaScript
 ### Array
