@@ -49,7 +49,7 @@
 [Top K Frequent Elements](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
 [3 Sum](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)  
 [Count Binary Substrings](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Binary%20Substrings.md)  
-[Word Search]()
+[Word Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Word%20Search.md)
 ### String
 
 ### Linked-List
