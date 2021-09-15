@@ -48,7 +48,8 @@
 [Gas Station](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
 [Top K Frequent Elements](https://github.com/cheatsheet1999/FrontEndCollection/issues/19)  
 [3 Sum](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)  
-[Count Binary Substrings](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Binary%20Substrings.md)
+[Count Binary Substrings](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Binary%20Substrings.md)  
+[Word Search]()
 ### String
 
 ### Linked-List
