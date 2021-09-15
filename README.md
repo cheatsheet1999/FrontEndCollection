@@ -50,7 +50,7 @@
 [3 Sum](https://github.com/cheatsheet1999/FrontEndCollection/issues/20)  
 [Count Binary Substrings](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Binary%20Substrings.md)  
 [Word Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Word%20Search.md)  
-[Subarray Sum Equals K]()
+[Subarray Sum Equals K](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subarray%20Sum%20Equals%20K.md)
 ### String
 
 ### Linked-List
