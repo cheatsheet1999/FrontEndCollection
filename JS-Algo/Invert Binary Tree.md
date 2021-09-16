@@ -6,8 +6,12 @@
 ```Javascript
 /*
         4
-     2     7
-   1  3   6  9  
+     2     7            =>      7       =>      7       =>      2       =>      2
+   1  3   6  9                 6 9             9 6             1 3             3 1
+   
+         4                       4                  4
+      2     7           =>    2     7   =>       7     2 
+    1  3   6  9              3 1   9 6          9 6   3 1 
 */
 
 
@@ -15,6 +19,7 @@
 
 function invertTree(root) {
   if (root == null) return root;
+  //go deep on the right sub tree, then swap one layer up, the last step is to exchange root.left and root.right
   [root.left, root.right] = [invertTree(root.right), invertTree(root.left)];
   return root;
 }
