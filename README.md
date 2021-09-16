@@ -1,6 +1,7 @@
 # FrontEndCollection (Keep updating, hopefully...)
 
 ## Web Development Basics
+### HTML
 [1. What happens when you type in a URL](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)  
 [2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)  
 <a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance?</a>  
@@ -12,7 +13,9 @@
 [9. Several ways to call a function](https://github.com/cheatsheet1999/FrontEndCollection/issues/28)  
 [10. A brief introduction of the differences between "src" and "href"](https://github.com/cheatsheet1999/FrontEndCollection/issues/29)  
 [11. A brief introduction of Call, Apply, Bind](https://github.com/cheatsheet1999/FrontEndCollection/issues/30)  
-[12. Time and space complexity for common sorting algorithm](https://github.com/cheatsheet1999/FrontEndCollection/issues/9)
+[12. Time and space complexity for common sorting algorithm](https://github.com/cheatsheet1999/FrontEndCollection/issues/9)  
+
+### CSS
 
 ## Demo
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)  
