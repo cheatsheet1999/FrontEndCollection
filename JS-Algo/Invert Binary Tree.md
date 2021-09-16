@@ -24,3 +24,13 @@ function invertTree(root) {
   return root;
 }
 ```
+
+#### BFS
+```Javascript
+/*
+        4                               4                                                                                       4
+     2     7            =>           7     2            =>       2      =>      2        =>     7       =>      7       =>    7     
+   1  3   6  9                     6  9   1  3                 1   3          3   1           6   9           9   6
+*/
+      
+```
