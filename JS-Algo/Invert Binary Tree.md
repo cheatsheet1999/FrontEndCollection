@@ -2,7 +2,7 @@
 <img width="654" alt="Screen Shot 2021-09-16 at 11 55 14 AM" src="https://user-images.githubusercontent.com/37787994/133669190-8f802990-469b-41dd-9e10-8497dcc41aa9.png">
 
 
-#### Recursive
+#### Recursive O(n)
 ```Javascript
 /*
         4
@@ -25,7 +25,7 @@ function invertTree(root) {
 }
 ```
 
-#### BFS
+#### BFS O(n)
 ```Javascript
 /*
         4                               4                                                                                       4
@@ -33,4 +33,15 @@ function invertTree(root) {
    1  3   6  9                     6  9   1  3                 1   3          3   1           6   9           9   6
 */
       
+var invertTree = function(root) {
+    const stack = [root];
+    while(stack.length) {
+        let n = stack.pop();
+        if(n !== null) {
+            [n.left, n.right] = [n.right, n.left];
+            stack.push(n.left, n.right);
+        }
+    }
+    return root;
+};
 ```
