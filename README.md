@@ -36,9 +36,6 @@
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
 [Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)
 #### ⭐⭐
-[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
-[Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
-[Binary Tree Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/22)  
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
@@ -61,7 +58,12 @@
 ### Linked-List
 
 ### Tree
-[Invert Binary Tree]()
+#### ⭐
+[Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
+[Binary Tree Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/22)  
+#### ⭐⭐
+[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
+[Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
 
 
 **<details><summary>Database Basics</summary>**
