@@ -43,7 +43,8 @@
 [Remove Nth Node From End of List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20Nth%20Node%20From%20End%20of%20List.md)  
 
 #### ⭐⭐⭐
-[Trapping Rain Water]
+[Container With Most Water]()  
+[Trapping Rain Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Trapping%20Rain%20Water.md)  
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
 [Merge Intervals](https://github.com/cheatsheet1999/FrontEndCollection/issues/3)   
 [Longest Consecutive Sequence](https://github.com/cheatsheet1999/FrontEndCollection/issues/7)  
