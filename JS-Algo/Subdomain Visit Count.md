@@ -39,7 +39,7 @@ var subdomainVisits = function(cpdomains) {
             //add subdomain to visitCount object, if there is already a subdomain in there (such as 'com'),
             //we just go ahead and add its visitCount. if this is a new subdomain, we add 'visit' as its value
             visitCount[subdomain] = visitCount.hasOwnProperty(subdomain) ?
-                +(visitCount[subdomain]) + +(visit) : visit;
+                +(visitCount[subdomain]) + +(visit) : visit; //+ means Number, otherwise '1' + '0' will become '10' instead of '1'
             subdomains.shift();
         }
     }
