@@ -38,14 +38,22 @@ var nextPermutation = function(nums) {
         if(nums[i] < nums[i + 1]) {
             let large = nextLarge(i);
             swap(i, large);
+            //important, because we want to reverse immediately after swap
+            reverse(i + 1);
             return;
         }
     }
-    
     nums.reverse();
+    
     
     function swap(i, j) {
         [nums[i], nums[j]] = [nums[j], nums[i]];
+    }
+    
+    function nextLarge(index) {
+        for(let i = nums.length - 1; i > index; i--) {
+            if(nums[i] > nums[index]) return i;
+        }
     }
     
     function reverse(index) {
@@ -54,12 +62,6 @@ var nextPermutation = function(nums) {
             swap(start, end);
             start++;
             end--;
-        }
-    }
-    
-    function nextLarge(index) {
-        for(let i = nums.length - 1; i > index; i--) {
-            if(nums[i] > nums[index]) return i;
         }
     }
 };
