@@ -42,6 +42,7 @@
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
 [Intersection of Two Arrays II](https://github.com/cheatsheet1999/FrontEndCollection/issues/36)  
 [Remove Nth Node From End of List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20Nth%20Node%20From%20End%20of%20List.md)  
+[K Closest Points to Origin](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/K%20Closest%20Points%20to%20Origin.md)  
 
 #### ⭐⭐⭐
 [Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Container%20With%20Most%20Water.md)   
@@ -57,7 +58,8 @@
 [Word Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Word%20Search.md)  
 [Subarray Sum Equals K](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subarray%20Sum%20Equals%20K.md)  
 [Subdomain Visit Count](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subdomain%20Visit%20Count.md)  
-[Next Permutation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Next%20Permutation.md)
+[Next Permutation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Next%20Permutation.md)  
+
 ### String
 
 ### Linked-List
