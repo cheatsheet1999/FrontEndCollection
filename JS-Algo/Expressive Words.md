@@ -21,7 +21,11 @@ var expressiveWords = function(s, words) {
             if(word[windex] !== s[sindex]) return false;
             while(word[windex] === word[windex++ + 1]) wCount++;
             while(s[sindex] === s[sindex++ + 1]) sCount++;
-            //countS < 3 means there the string in s does not have 3 consequtive letters, that's why after countS++, the countS < 3
+            /*
+            countS < 3 means there the string in s does not have 3 consequtive letters, that's why after countS++, the countS < 3
+            if they don't want to stetch, sCount and wCount may stay what it was, so that's why we need to check if sCount !== wCount because
+            if they do not stretch, then sCount may smaller than 3 and that is acceptable.
+            */
             if(sCount < wCount || (sCount !== wCount && sCount < 3)) return false;
         }
         return true;
