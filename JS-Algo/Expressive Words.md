@@ -15,6 +15,7 @@ var expressiveWords = function(s, words) {
         let windex = 0;
         let sindex = 0;
         while(windex < word.length || sindex < word.length) {
+        //self is 1, so at least there is 1
             let wCount = 1;
             let sCount = 1;
             if(word[windex] !== s[sindex]) return false;
