@@ -73,9 +73,10 @@
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
 
 
-**<details><summary>Database Basics</summary>**
+**<details><summary>DBMS</summary>**
   - [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)  
-  - [Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)
+  - [Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/35). 
+  - [Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39)
   </details>
 
 ***
