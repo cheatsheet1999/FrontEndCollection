@@ -59,6 +59,7 @@
 [Subarray Sum Equals K](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subarray%20Sum%20Equals%20K.md)  
 [Subdomain Visit Count](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subdomain%20Visit%20Count.md)  
 [Next Permutation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Next%20Permutation.md)  
+[Expressive Words](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Expressive%20Words.md)
 
 ### String
 
