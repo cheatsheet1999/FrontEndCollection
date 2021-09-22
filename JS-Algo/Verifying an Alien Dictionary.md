@@ -14,6 +14,7 @@
 var isAlienSorted = function(words, order) {
     let map = new Map();
     for (let i = 0; i < order.length; i++) {
+    //map stores all letters in 'orders' and its corresponding index
         map.set(order[i], i);
     } 
 
