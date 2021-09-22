@@ -1,54 +1,68 @@
+### please implement curry() which also supports placeholder. Here is an example
+```Javascript
+const  join = (a, b, c) => {
+   return `${a}_${b}_${c}`
+}
+
+const curriedJoin = curry(join)
+const _ = curry.placeholder
+
+curriedJoin(1, 2, 3) // '1_2_3'
+
+curriedJoin(_, 2)(1, 3) // '1_2_3'
+
+curriedJoin(_, _, _)(1)(_, 3)(2) // '1_2_3'
+```
+
+
+
+
 ```Javascript
 
-/**
- * @param { Function } func
- */
-function curry(func) {
-  
-  return function curried(...args) {   // we need to return a function to make it curry-able.
-    
-    // 1. If the arguments are extra then eliminate them
-    // we don't want to pass 6 arguments when the expected is 3.
-    // it will interfere with our placeholder logic
-    const sanitizedArgs = args.slice(0, func.length);
-    
-    // see if placeholder is available in arguments
-    const hasPlaceholder = sanitizedArgs.some(arg => arg == curry.placeholder);
 
-    // if no placeholder and arguements are equal to what expected then it is normal function call
-    if(!hasPlaceholder && sanitizedArgs.length == func.length) {
-      return func.apply(this, sanitizedArgs);
+/**
+ * @param { (...args: any[]) => any } fn
+ * @returns { (...args: any[]) => any }
+ */
+function curry(fn) {
+  // your code here
+  return function curried(...args) {
+    const cleanedArgs = args.slice(0, fn.length);
+    const hasPlaceholder = cleanedArgs.some((arg) => arg === curry.placeholder);
+
+    if(!hasPlaceholder && cleanedArgs.length === fn.length) {
+      return fn.apply(this, cleanedArgs);
     }
-    
-    // else we need to replace placeholders with actual values
-    // we call helper function `mergeArgs` for this
-    // we pass first and next arguments to helper function
-    return function next(...nextArgs) {
-      return curried.apply(this, mergeArgs(sanitizedArgs, nextArgs));
+    else {
+      return function next(...nextArgs) {
+        return curried.apply(this, mergeArgs(cleanedArgs, nextArgs));
+      }
     }
-    
-  } 
+  }
 }
 
 function mergeArgs(args, nextArgs) {
-
   let result = [];
-
   // iterate over args (because we need to replace from it) 
   // in each iteration, if we find element == curry.placeholder
   // then we replace that placeholder with first element from nextArgs
   // else we put current element
-  args.forEach((arg, idx) => {
-    if(arg == curry.placeholder) {
+  args.forEach((arg) => {
+    if(arg === curry.placeholder) {
       result.push(nextArgs.shift());
-    } else {
+    } 
+    else {
       result.push(arg);
     }
-  });
+  })
 
   // we merge both, because there might be chance that args < nextArgs
   return [...result, ...nextArgs];
 }
 
+
 curry.placeholder = Symbol()
+
+
+
 ```
