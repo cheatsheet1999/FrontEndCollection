@@ -56,7 +56,7 @@ function mergeArgs(args, nextArgs) {
     }
   })
 
-  // we merge both, because there might be chance that args < nextArgs
+  // merge result and nextArgs together, and return it
   return [...result, ...nextArgs];
 }
 
