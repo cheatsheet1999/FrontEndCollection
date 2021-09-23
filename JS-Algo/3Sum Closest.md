@@ -18,6 +18,8 @@ var threeSumClosest = function(nums, target) {
     nums.sort((a, b) => a - b);
     let res = Infinity;
     for(let i = 0; i < nums.length - 2; i++) {
+        //low must be i + 1 because low cannot overlap with i.
+        //low and high are two pointers that in between
         let low = i + 1, high = nums.length - 1;
         while(low < high) {
             let currSum = nums[i] + nums[low] + nums[high];
