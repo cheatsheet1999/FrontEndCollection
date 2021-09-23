@@ -64,7 +64,8 @@
 [Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)  
 [Verifying an Alien Dictionary](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Verifying%20an%20Alien%20Dictionary.md)  
 [4Sum(nSum universal solution)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/4Sum.md)  
-[3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)  
+[3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)   
+[Jump Game](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game.md)  
 
 ### String
 
