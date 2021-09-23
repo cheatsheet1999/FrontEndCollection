@@ -61,7 +61,8 @@
 [Subdomain Visit Count](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subdomain%20Visit%20Count.md)  
 [Next Permutation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Next%20Permutation.md)  
 [Expressive Words](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Expressive%20Words.md)  
-[Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)
+[Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)  
+[Verifying an Alien Dictionary](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Verifying%20an%20Alien%20Dictionary.md)
 
 ### String
 
