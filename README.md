@@ -67,7 +67,11 @@
 [3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)   
 [Jump Game](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game.md)  
 
+
 ### String
+#### ⭐⭐⭐
+[Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)  
+
 
 ### Linked-List
 
