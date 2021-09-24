@@ -69,6 +69,9 @@
 
 
 ### String
+#### ⭐⭐
+[Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Parentheses.md)  
+
 #### ⭐⭐⭐
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)  
 
