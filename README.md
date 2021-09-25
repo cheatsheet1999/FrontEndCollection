@@ -77,7 +77,7 @@
 #### ⭐⭐⭐
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)   
 [Letter Combinations of a Phone Number](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Letter%20Combinations%20of%20a%20Phone%20Number.md)  
-[Minimum Remove to Make Valid Parentheses]  
+[Minimum Remove to Make Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.md)   
 
 
 ### Linked-List
