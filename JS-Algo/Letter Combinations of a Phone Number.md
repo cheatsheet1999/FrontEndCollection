@@ -26,7 +26,7 @@ var letterCombinations = function(digits) {
     
     // we need this, otherwise cannot pass "" case,
     // where expected is [], we output [""]
-    if(digits === null || !digits.length) return [];
+    if(!digits.length) return [];
     const res = [];
     
     function dfs(s, i) {
@@ -36,10 +36,10 @@ var letterCombinations = function(digits) {
         }
         // For example, digits is "23"
         // map[digits[i]] = map[digits[0]] = 'abc'
-        // c traverse abc, get a, b, c in each iteration
-        for(let c of map[digits[i]]) {
+        // letter traverse abc, get a, b, c in each iteration
+        for(let letter of map[digits[i]]) {
             // s + current letter, i + 1 move to next digits
-            dfs(s + c, i + 1)
+            dfs(s + letter, i + 1)
         }
     }
     
