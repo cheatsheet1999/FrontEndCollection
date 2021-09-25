@@ -72,7 +72,8 @@
 ### String
 #### ⭐⭐
 [Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Parentheses.md)   
-[Longest Common Prefix]()
+[Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)  
+
 #### ⭐⭐⭐
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)  
 
@@ -83,6 +84,7 @@
 #### ⭐
 [Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
 [Binary Tree Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/22)  
+
 #### ⭐⭐
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
