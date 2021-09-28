@@ -24,6 +24,7 @@
 [2. ModalBox 💬](https://github.com/cheatsheet1999/FrontEndCollection/issues/23)  
 [3. Drum Kit 🥁](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/DrumKit)  
 [4. Mini Clock 🕑](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Mini%20Clock)  
+[5. Playing with Variables]()  
 
 ## Deep Dive in Javascript 
 [_Learn More on BFE.dev_](https://bigfrontend.dev/)  
