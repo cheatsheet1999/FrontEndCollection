@@ -103,13 +103,13 @@
 
 
 ### Fullstack
-**<details><summary>DBMS</summary>**
+#### DBMS
   - [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)   
   - [Unit 3: Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/43)  
   - [Unit 4: Data Indexing](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)  
   - [Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39)  
   - [Unit 6: Concurrency](https://github.com/cheatsheet1999/FrontEndCollection/issues/40)
-  </details>
+ 
 
 ***
 <p><em>🤯 If you find errors in the content of this project, don't hesitate to submit issues or pull requests on GitHub for corrections, I really, really appreciate it</em></p>
