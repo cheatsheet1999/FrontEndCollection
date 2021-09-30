@@ -74,7 +74,8 @@
 ### String
 #### ⭐⭐
 [Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Parentheses.md)   
-[Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)  
+[Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)   
+[Valid Palindrome II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Palindrome%20II.md)  
 
 #### ⭐⭐⭐
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)   
