@@ -83,7 +83,8 @@
 [Minimum Remove to Make Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.md)    
 [Generate Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Generate%20Parentheses.md)   
 [Decode String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Decode%20String.md)   
-[Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Palindromic%20Substring.md)
+[Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Palindromic%20Substring.md)   
+[Time Based Key-Value Store](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Time%20Based%20Key-Value%20Store.md)  
 
 
 ### Linked-List  
