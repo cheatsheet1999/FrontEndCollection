@@ -106,7 +106,8 @@
 
 ### Fullstack
 #### DBMS
-[ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)    
+[Unit 2 Exploring Databases and SQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/45)  
+[ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)     
 [Unit 3: Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/43)    
 [Unit 4: Data Indexing](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)    
 [Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39)     
