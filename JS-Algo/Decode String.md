@@ -20,9 +20,9 @@ Space Complexity: O(m + n)
  */
 var decodeString = function(s) {
     const stack = [];
-    for(let char of s) {
-        if(char !== ']') {
-            stack.push(char);
+    for(let i = 0; i < s.length; i++) {
+        if(s[i] !== ']') {
+            stack.push(s[i]);
             continue;
         }
        
