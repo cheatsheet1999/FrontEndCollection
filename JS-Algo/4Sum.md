@@ -1,4 +1,4 @@
-### Given an array _nums_ of _n_ integers, return an array of all the **unique** quadruplets _[nums[a], nums[b], nums[c], nums[d]]_ such that:s
+### Given an array _nums_ of _n_ integers, return an array of all the **unique** quadruplets _[nums[a], nums[b], nums[c], nums[d]]_ such that:
 - 0 <= a, b, c, d < n
 - a, b, c, and d are distinct.
 - nums[a] + nums[b] + nums[c] + nums[d] == target
