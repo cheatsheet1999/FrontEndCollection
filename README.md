@@ -69,6 +69,7 @@
 [4Sum(nSum universal solution)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/4Sum.md)  
 [3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)   
 [Jump Game](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game.md)  
+[Minimum Size Subarray Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Size%20Subarray%20Sum.md)  
 
 
 ### String
