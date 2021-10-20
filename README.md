@@ -87,6 +87,7 @@
 [Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Palindromic%20Substring.md)   
 [Time Based Key-Value Store](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Time%20Based%20Key-Value%20Store.md)  
 [Roman to Integer](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Roman%20to%20Integer.md)        
+[Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)    
 
 
 ### Linked-List  
