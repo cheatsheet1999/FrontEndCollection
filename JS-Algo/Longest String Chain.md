@@ -23,7 +23,7 @@ finally, return the max length of the array, that one is the longest possible wo
 */
 var longestStrChain = function(words) {
     let memory = {}; 
-    // Must sort 
+    // Must sort based on
     words.sort((a,b) => a.length - b.length)
     for (let word of words){
         let longest = 0; 
