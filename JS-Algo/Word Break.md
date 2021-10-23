@@ -23,24 +23,25 @@ Space complexity : O(n) Queue of at most nn size is needed.
  */
 var wordBreak = function(s, wordDict) {
     const words = new Set(wordDict);
-    // extract length for each word in the wordDict
-    const wordLens = new Set(wordDict.map((word) => word.length))
-    // we need to set inital start length to 0
-    const starts = new Set([0])
-    for (let start of starts) { 
-        // this dynamically increases with every starts.add from the latter for loop
-        // meaning, you could have differing starts, as a result of cutting down the string with the words we matched
-        for (let len of wordLens) { // for every unique length of words
-            // you literally try all of the lengths
+     // extract length for each word in the wordDict
+    const wordLens = new Set(wordDict.map((word) => word.length));
+     // we need to set inital start length to 0
+    const startLens = new Set([0]);
+    
+    for(let startLen of startLens) {
+         // this dynamically increases with every starts.add from the latter for loop
+        // meaning, we could have differing starts, as a result of cutting down the string with the words we matched
+        for(let wordLen of wordLens) { // for every unique length of words
+            // we literally try all of the lengths from that start position
             // so this deals with partial permutations
             // as well as duplicates like aa, aaaaa
-            if (words.has(s.slice(start, start + len))) { // do we have a word in our dictionary matching that length of words?
-                starts.add(start + len) 
-                // if so , add the remaining of the string so u can try starting from there instead
-                // now u can attempt to try starting from this new location
+            if(words.has(s.slice(startLen, startLen + wordLen))) { // do we have a word in our dictionary matching that length of words?
+                // if so , add the remaining of the string so we can try starting from there instead
+                startLens.add(startLen + wordLen);
+                // now we can attempt to try starting from this new location
             }
         }
     }
-    return starts.has(s.length) // so long as the set has your length, it means that you managed to find a perfect match
+    return startLens.has(s.length);
 };
 ``` 
