@@ -4,6 +4,8 @@
 
 #### You can return the answer in any order.
 
+<img width="445" alt="Screen Shot 2021-10-25 at 1 18 24 AM" src="https://user-images.githubusercontent.com/37787994/138659774-8fd1b20d-e798-431d-8771-870584e41d05.png">
+
 
 1. Very straightforward O(n^2) solution
 ```JS
