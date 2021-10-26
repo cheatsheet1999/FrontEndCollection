@@ -92,6 +92,7 @@
 [Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)  
 [Robot Bounded In Circle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Robot%20Bounded%20In%20Circle.md)  
 [Word Break](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Word%20Break.md)    
+[Minimum Number of Steps to Make Two Strings Anagram](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md)    
 
 
 ### Linked-List  
