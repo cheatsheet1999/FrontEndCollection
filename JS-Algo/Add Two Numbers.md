@@ -37,6 +37,6 @@ var addTwoNumbers = function(l1, l2) {
         sum = carry;
         carry = 0;
     }
-    return list.next
+    return list.next;
 };
 ``` 
