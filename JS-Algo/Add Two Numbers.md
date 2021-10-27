@@ -1,3 +1,11 @@
+#### You are given two non-empty linked lists representing two _non-negative_ integers. The digits are stored in _reverse order_, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+#### You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+
+<img width="441" alt="Screen Shot 2021-10-27 at 12 01 24 AM" src="https://user-images.githubusercontent.com/37787994/139016117-51c066ff-3b1c-4858-b19e-1f4ed7eb38f8.png">
+
+
 ```JS
 /**
  * Definition for singly-linked list.
