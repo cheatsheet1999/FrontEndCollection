@@ -20,6 +20,7 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
+    // dummy head
     let list = new ListNode(0);
     let head = list;
     let sum = 0;
@@ -36,12 +37,14 @@ var addTwoNumbers = function(l1, l2) {
         }
         if(sum >= 10) {
             carry = 1;
+            // 12 => 2, 13 => 3
             sum = sum - 10;
         }
         
         head.next = new ListNode(sum);
         head = head.next;
         
+        // sum take the extra 1 from carry
         sum = carry;
         carry = 0;
     }
