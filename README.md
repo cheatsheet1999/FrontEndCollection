@@ -72,7 +72,8 @@
 [Jump Game](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game.md)   
 [Jump Game II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game%20II.md)    
 [Minimum Size Subarray Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Size%20Subarray%20Sum.md)   
-[Matrix Summation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Matrix%20Summation.md)    
+[Matrix Summation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Matrix%20Summation.md)  
+[Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)       
 
 
 ### String
