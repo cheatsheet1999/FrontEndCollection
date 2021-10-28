@@ -12,3 +12,5 @@ function lastLetters(word) {
 
 console.log(lastLetters(testLetters));
 ```
+
+[Tiktok]
