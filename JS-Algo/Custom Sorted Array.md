@@ -16,10 +16,10 @@
 
 #### Example: arr[6,3,4,5]
 #### The following four arrays are valid custom sorted arrays
-     - a = [6,4,3,5]
-     - a = [4,6,3,5]
-     - a = [6,4,5,3]
-     - a = [4,6,5,3]
+- a = [6,4,3,5]
+- a = [4,6,3,5]
+- a = [6,4,5,3]
+- a = [4,6,5,3]
 
 
 
