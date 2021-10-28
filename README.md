@@ -41,13 +41,15 @@
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
 [Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)
+[Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
 #### ⭐⭐
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
 [Intersection of Two Arrays II](https://github.com/cheatsheet1999/FrontEndCollection/issues/36)  
 [Remove Nth Node From End of List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20Nth%20Node%20From%20End%20of%20List.md)  
-[K Closest Points to Origin](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/K%20Closest%20Points%20to%20Origin.md)  
+[K Closest Points to Origin](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/K%20Closest%20Points%20to%20Origin.md) 
+
 
 #### ⭐⭐⭐
 [Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Container%20With%20Most%20Water.md)   
