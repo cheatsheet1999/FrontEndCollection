@@ -71,7 +71,8 @@
 [3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)   
 [Jump Game](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game.md)   
 [Jump Game II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Jump%20Game%20II.md)    
-[Minimum Size Subarray Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Size%20Subarray%20Sum.md)  
+[Minimum Size Subarray Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Size%20Subarray%20Sum.md)   
+[Matrix Summation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Matrix%20Summation.md)    
 
 
 ### String
