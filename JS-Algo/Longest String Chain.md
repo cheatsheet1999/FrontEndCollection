@@ -7,8 +7,10 @@
 
 ***Return the length of the longest possible word chain with words chosen from the given list of words.***
 
+<img width="447" alt="Screen Shot 2021-10-28 at 11 42 04 AM" src="https://user-images.githubusercontent.com/37787994/139316232-21f0b334-ee02-46b8-85af-15cd690453c4.png">
+
 Dynamic Programming
-Time complexity: O(N⋅(logN + L^2)).
+Time complexity: `O(N⋅(logN + L^2))`
 ```JS
 /**
  * @param {string[]} words
