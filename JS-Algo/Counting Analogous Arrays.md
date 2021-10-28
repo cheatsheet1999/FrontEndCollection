@@ -78,3 +78,5 @@ def countAnalogousArrays(consecutiveDifference , lowerBound , upperBound):
     else:
         return 0
 ```
+
+[TikTok]
