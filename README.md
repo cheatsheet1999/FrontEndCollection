@@ -121,7 +121,7 @@
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
 
 #### ⭐⭐⭐⭐
-
+[Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)      
 
 ### Fullstack
 #### DBMS
