@@ -33,6 +33,7 @@ var reformatDate = function (date) {
 
   const [day, month, year] = date.split(" ");
 
+  // put a 0 on the front so it will show 01, 02, 03 etc..
   return year + "-" + m[month] + "-" + (parseInt(day) < 10 ? "0" + parseInt(day) : parseInt(day));
 };
 ```
