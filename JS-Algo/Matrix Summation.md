@@ -18,3 +18,24 @@ public static void beforeMatrix(int[][] afterMatrix) {
 		}		
 	}
 ```
+
+
+```JS
+function beforeMatrix(afterMatrix) {
+    let m = afterMatrix.length;
+    let n = afterMatrix[0].length;
+
+    for(let i = m - 1; i >= 0; i--) {
+        for(let j = n - 1; j >= 0; j--) {
+            let left = j ===0 ? 0 : afterMatrix[i][j-1];
+            let up = i===0 ? 0 : afterMatrix[i-1][j];
+            let corner = i===0 || j === 0 ? 0 : afterMatrix[i-1][j-1];
+            afterMatrix[i][j] -= left + up - corner;
+        }
+    }
+    return afterMatrix;
+}
+
+console.log(beforeMatrix([[1,2],[3,4]]));
+
+```	
