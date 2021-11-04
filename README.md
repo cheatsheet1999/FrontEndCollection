@@ -19,6 +19,9 @@
 [1. What is the difference between display:none and visibility:hidden style?](https://github.com/cheatsheet1999/FrontEndCollection/issues/37)  
 [2. What is BFC(Block Formatting Context)](https://github.com/cheatsheet1999/FrontEndCollection/issues/38)
 
+### JavaScript
+[Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)       
+
 ## Demo
 [1. Accordion 🪗](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
 [2. ModalBox 💬](https://github.com/cheatsheet1999/FrontEndCollection/issues/23)  
