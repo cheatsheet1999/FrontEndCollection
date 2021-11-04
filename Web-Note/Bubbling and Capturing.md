@@ -23,3 +23,6 @@ Event listener wait for a certain event to happen on a certain element, and as s
 
 
 #### By default, events can only be handled in the target, and in the bubbling phase
+- However, we can set up an event listener to events in the **capturing phase** instead
+
+#### Not all types of events have a capturing and bubbling phase, some of them are created right on the target element. But most of event do handling capturing and bubble.
