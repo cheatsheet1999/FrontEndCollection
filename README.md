@@ -40,7 +40,7 @@
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/issues/25)  
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
-[Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)
+[Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)           
 [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)           
 #### ⭐⭐
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
