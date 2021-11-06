@@ -32,4 +32,22 @@ var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, n
 ```
 
 
-#### 
+#### 3. Using [indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+```JS
+function unique(arr) {
+    const res = [];
+    for(let i = 0; i < arr.length; i++) {
+        if(res.indexOf(arr[i]) === -1) {
+            res.push(arr[i]);
+        }
+    }
+    return res
+}
+
+
+var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+console.log(unique(arr))
+   // [1, "true", true, 15, false, undefined, null, NaN, NaN, "NaN", 0, "a", {…}, {…}]  //NaN、{}没有去重
+
+```
+
