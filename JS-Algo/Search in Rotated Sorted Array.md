@@ -34,6 +34,11 @@ var search = function(nums, target) {
         }
         // if middle is bigger than left side, it means left is sorted, then we check if nums[start] < target < nums[mid]
         if(nums[start] <= nums[mid]) {
+        /*
+        If the target is located in the non-rotated subarray:
+            go left: `end = mid - 1`.
+        - Otherwise: go right: `start = mid + 1`.
+        */
             if(nums[start] <= target && target <= nums[mid]) {
                 //if so, it means we need to narrow down
                 end = mid - 1;
