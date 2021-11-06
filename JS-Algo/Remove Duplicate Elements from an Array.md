@@ -51,3 +51,23 @@ console.log(unique(arr))
 
 ```
 
+#### 4. Using sort
+```JS
+function unique(arr) {
+    arr.sort();
+    const res = [arr[0]];
+    // If current num is not same as the previous number, then push it
+    for(let i = 1; i < arr.length; i++) {
+        if(arr[i] !== arr[i - 1]) {
+            res.push(arr[i]);
+        }
+    }
+    return res;
+}
+
+
+var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+        console.log(unique(arr))
+// [0, 1, 15, "NaN", NaN, NaN, {…}, {…}, "a", false, null, true, "true", undefined]      //NaN、{}没有去重
+```
+
