@@ -1,0 +1,41 @@
+#### The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+```
+P   A   H   N
+A P L S I I G
+Y   I   R
+```
+
+#### And then read line by line: "PAHNAPLSIIGYIR"
+
+#### Write the code that will take a string and make this conversion given a number of rows:
+```
+string convert(string s, int numRows);
+```
+
+<img width="477" alt="Screen Shot 2021-11-09 at 21 29 52" src="https://user-images.githubusercontent.com/37787994/141049976-fb0eea55-c191-422c-ac0c-f79fbfa4dede.png">
+<img width="461" alt="Screen Shot 2021-11-09 at 21 30 09" src="https://user-images.githubusercontent.com/37787994/141050008-34720481-9705-431f-8a4b-5b92ac2a61d2.png">
+
+```js
+/**
+ * @param {string} s
+ * @param {number} numRows
+ * @return {string}
+ */
+var convert = function(s, numRows) {
+    let res = [];
+    let row = 0;
+    let up = false;
+    for(let i = 0; i < s.length; i++) {
+        res[row] = (res[row] || '') + s[i];
+        if(up) {
+            row--;
+            if(row === 0) up = false;
+        }
+        else {
+            row++;
+            if(row === numRows - 1) up = true;
+        }
+    }
+    return res.join('')
+};
+```
