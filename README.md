@@ -107,7 +107,8 @@
 [Reorganize String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reorganize%20String.md)    
 [Group Anagrams](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Group%20Anagrams.md)    
 [Shortest Word Distance II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Shortest%20Word%20Distance%20II.md)     
-[Zigzag Conversion](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Zigzag%20Conversion.md)                             
+[Zigzag Conversion](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Zigzag%20Conversion.md)           
+[Simplify Path](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Simplify%20Path.md)           
 
 
 ### Linked-List  
