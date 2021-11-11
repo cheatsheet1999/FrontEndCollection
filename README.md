@@ -120,7 +120,8 @@
 [Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)  
 
 #### ⭐⭐⭐ 
-[Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Add%20Two%20Numbers.md)    
+[Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Add%20Two%20Numbers.md)  
+[Design Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Design%20Linked%20List.md)        
 
 ### Tree
 #### ⭐
