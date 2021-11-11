@@ -1,0 +1,25 @@
+#### Given an array of strings products and a string searchWord. We want to design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with the searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.
+
+#### Return list of lists of the suggested products after each character of searchWord is typed. 
+
+<img width="476" alt="Screen Shot 2021-11-11 at 00 50 10" src="https://user-images.githubusercontent.com/37787994/141259136-7e803b44-d21a-491b-8457-f7cc382ab79f.png">
+<img width="484" alt="Screen Shot 2021-11-11 at 00 50 23" src="https://user-images.githubusercontent.com/37787994/141259178-8abdbecf-06d6-430a-a41e-9b7613084882.png">
+
+```JS
+/**
+ * @param {string[]} products
+ * @param {string} searchWord
+ * @return {string[][]}
+ */
+var suggestedProducts = function(products, searchWord) {
+    let sortedProducts = products.sort();
+    const result = [];
+
+    for (let i = 0; i < searchWord.length; i += 1) {
+        sortedProducts = sortedProducts.filter(product => product[i] === searchWord[i]);
+        result.push(sortedProducts.slice(0, 3));
+    }
+
+    return result;
+};
+```
