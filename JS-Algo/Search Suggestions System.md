@@ -15,7 +15,7 @@ var suggestedProducts = function(products, searchWord) {
     let sortedProducts = products.sort();
     const result = [];
 
-    for (let i = 0; i < searchWord.length; i += 1) {
+    for (let i = 0; i < searchWord.length; i++) {
         sortedProducts = sortedProducts.filter(product => product[i] === searchWord[i]);
         result.push(sortedProducts.slice(0, 3));
     }
