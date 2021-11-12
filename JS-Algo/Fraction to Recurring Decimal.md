@@ -10,41 +10,60 @@ It is guaranteed that the length of the answer string is less than 104 for all t
 <img width="481" alt="Screen Shot 2021-11-12 at 14 12 29" src="https://user-images.githubusercontent.com/37787994/141535051-7931db6e-d3dd-4ef4-bd49-79f3f74b8644.png">
 
 ```JS
+/**
+ * @param {number} numerator
+ * @param {number} denominator
+ * @return {string}
+ */
+/*
+1. if no numerator, return 0 immediately
+2. initalize an empty string
+3. if the sign of denominator and numerator aren't the same, add a - sign in string
+4. take the absolute value of numerator and demoninator
+5. numer / denom to find integer place
+6. use numerator % denominator to find reminder
+7. if no reminder, return the str contained integer, otherwise, add a decimal place
+8. Create a Hashmap, {reminder => str.length}
+9. rem * 10, and new decimal place becames reminder / denominator
+10. get new reminder by using rem %= denom
+11. if map contains the same reminder, that means it is a repeating fraction
+12. use index to locate where is the first repeating part
+13. use str.slice method to add parenthesis for the repeating part
+*/
 var fractionToDecimal = function(numerator, denominator) {
     if(!numerator) return '0';
-    
     let str = '';
+    if(Math.sign(numerator) !== Math.sign(denominator))  
+        str += '-';
     
-    if(Math.sign(numerator) !== Math.sign(denominator)) str += '-';
+    let numer = Math.abs(numerator);
+    let denom = Math.abs(denominator);
     
-    const numer = Math.abs(numerator)
-    const denom = Math.abs(denominator)
-    
-    str += Math.floor(numer/denom);
+    str += Math.floor(numer/denom)
     let rem = numer % denom;
-    if(!rem) return str;
+    if(!rem) 
+        return str;
     str += '.'
     
     const map = new Map();
-    
     while(rem !== 0) {
         map.set(rem, str.length);
-        /*
+         /*
         i.e. 
         numer = 2
         denom = 3
         rem = 2 % 3 = 2
         Map {2 => 2}
         */
-        rem *= 10;
+        rem *= 10
         str += Math.floor(rem/denom);
-        rem %= denom
+        rem %= denom;
         
         if(map.has(rem)) {
-            const idx = map.get(rem);
-            return str.slice(0, idx) + `(${str.slice(idx)})`; 
+            let idx = map.get(rem);
+            return str.slice(0, idx) + `(${str.slice(idx)})`;
         }
     }
-    return str;
+    return str
 };
 ```
