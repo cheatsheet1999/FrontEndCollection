@@ -53,7 +53,7 @@ var fractionToDecimal = function(numerator, denominator) {
         rem %= denom;
     
         if(map.has(rem)) {
-            let index = map.get(rem)
+            let index = map.get(rem) // get the length where starts to repeat
             return str.slice(0, index) + `(${str.slice(index)})`;
         }
     }
