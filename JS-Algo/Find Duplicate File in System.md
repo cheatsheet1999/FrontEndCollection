@@ -15,10 +15,10 @@ var findDuplicate = function(paths) {
     // paths = ["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"]
     let group = {};
     for (let i=0;i<paths.length;i++) {
-        // path = root/a 1.txt(abcd) 2.txt(efgh)
+        // path = root/a            1.txt(abcd)          2.txt(efgh)
         let path = paths[i].split(" "); 
         for (let j=1;j<path.length;j++) {
-            // temp = 1.txt abcd
+            // temp = 1.txt           abcd
             let temp = path[j].split('('); 
             // if current content is null, creat a [];
             if (group[temp[1]] == null) group[temp[1]] = [];
