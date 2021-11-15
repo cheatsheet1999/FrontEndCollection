@@ -40,6 +40,7 @@
 ### Array
 #### ⭐
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
+[Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)       
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)   
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
