@@ -119,7 +119,8 @@
 [Search Suggestions System](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20Suggestions%20System.md)           
 [Remove All Adjacent Duplicates in String II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)      
 [Fraction to Recurring Decimal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fraction%20to%20Recurring%20Decimal.md)     
-[Accounts Merge](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Accounts%20Merge.md)    
+[Accounts Merge](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Accounts%20Merge.md)     
+[Longest Happy String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Happy%20String.md)         
 
 
 
