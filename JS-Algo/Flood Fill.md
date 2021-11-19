@@ -10,7 +10,9 @@ Return the modified image after performing the flood fill.
 
 <img width="477" alt="Screen Shot 2021-11-18 at 18 13 53" src="https://user-images.githubusercontent.com/37787994/142526857-38f469e0-24c3-467b-adf0-256d117f412f.png">
 
-
+#### DFS
+#### Time Complexity. O(N) 
+#### Space Complexity. O(N)
 
 ```JS
 /**
