@@ -21,7 +21,8 @@ Return the modified image after performing the flood fill.
  * @return {number[][]}
  */
 var floodFill = function(image, sr, sc, newColor, firstColor = image[sr][sc]) {
-    if(sr < 0 || sc < 0 || sr >= image.length || sc >= image[sr].length || image[sr][sc] !== firstColor || image[sr][sc] === newColor) {
+    if(sr < 0 || sc < 0 || sr >= image.length || sc >= image[sr].length || image[sr][sc] !== firstColor 
+    || image[sr][sc] === newColor) {
         return image;
     }
     image[sr][sc] = newColor;
