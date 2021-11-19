@@ -84,9 +84,7 @@
 [Matrix Summation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Matrix%20Summation.md)  
 [Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)  
 [Custom Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Custom%20Sorted%20Array.md)         
-[Reformat Date](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reformat%20Date.md)       
-
-
+[Reformat Date](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reformat%20Date.md)  
 
 ### String
 #### ⭐
@@ -146,7 +144,15 @@
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
 
 #### ⭐⭐⭐⭐
-[Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)      
+[Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)    
+
+
+
+
+### BFS & DFS 
+🟢 **EASY**
+[Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)      
+
 
 ### Fullstack
 #### DBMS
