@@ -153,7 +153,7 @@
 🟢     
 [Flood Fill](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Flood%20Fill.md)       
 
-🟡
+🟡       
 [Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)     
 
 ### Fullstack
