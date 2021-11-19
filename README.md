@@ -150,7 +150,7 @@
 
 
 ### BFS & DFS 
-🟢 **EASY**
+🟢 **EASY**      
 [Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)      
 
 
