@@ -21,10 +21,10 @@
 
 ### JavaScript
 
-#### Concept         
+#### 📖       
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md) 
  
-#### Code    
+#### 🖥
 [Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)      
 
 ## Demo
