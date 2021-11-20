@@ -8,6 +8,9 @@ Note: The merging process must start from the root nodes of both trees.
 
 <img width="489" alt="Screen Shot 2021-11-19 at 18 53 53" src="https://user-images.githubusercontent.com/37787994/142710284-cd46b855-2e0a-471f-a4bf-52fd66f7438f.png">
 
+Time complexity: O(m) - a total of m nodes to be traversed
+Spacce complexity: O(m) - The depth of the recursion tree can go upto mm in the case of a skewed tree. In average case, depth will be O(logm).
+
 ```JS
 /**
  * Definition for a binary tree node.
