@@ -20,7 +20,12 @@
 [2. What is BFC(Block Formatting Context)](https://github.com/cheatsheet1999/FrontEndCollection/issues/38)
 
 ### JavaScript
-[Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)       
+
+#### Concept         
+[Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md) 
+ 
+#### Code    
+[Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)      
 
 ## Demo
 [1. Accordion 🪗](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
