@@ -143,6 +143,7 @@
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)  
 
+
 #### ⭐⭐⭐⭐
 [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)    
 
@@ -155,6 +156,7 @@
 
 🟡       
 [Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)     
+[Merge Two Binary Trees](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Merge%20Two%20Binary%20Trees.md)     
 
 ### Fullstack
 #### DBMS
