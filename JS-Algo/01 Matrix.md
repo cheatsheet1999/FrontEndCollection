@@ -6,6 +6,10 @@ The distance between two adjacent cells is 1.
 
 <img width="490" alt="Screen Shot 2021-11-21 at 19 36 13" src="https://user-images.githubusercontent.com/37787994/142792915-c2d35870-1c2b-423d-8385-a8ed7db2d91f.png">
 
+#### BFS Time complexity O(r * c) Since, the new cells are added to the queue only if their current distance is greater than the calculated distance, cells are not likely to be added multiple times.
+
+#### BFS Space complexity O(r * c) is required to maintain the queue
+
 
 ```js
 /**
