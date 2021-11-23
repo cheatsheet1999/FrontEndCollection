@@ -58,3 +58,5 @@ var orangesRotting = function(grid) {
     return fresh === 0 ? minute : -1;
 };
 ```
+
+In example 2, fresh eventualy is 1, so return -1
