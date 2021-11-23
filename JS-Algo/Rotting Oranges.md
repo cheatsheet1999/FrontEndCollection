@@ -10,6 +10,9 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 <img width="485" alt="Screen Shot 2021-11-22 at 21 05 53" src="https://user-images.githubusercontent.com/37787994/142969811-6c007438-4d5f-4d1e-8d55-cd5429a0e111.png">
 
 
+#### Time Complexity O(n)
+#### Space Complexity O(n)
+
 ```js
 var orangesRotting = function(grid) {
     let dirs = [[-1,0],[0,1],[1,0],[0,-1]];
