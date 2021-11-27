@@ -124,7 +124,8 @@
 [Remove All Adjacent Duplicates in String II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)      
 [Fraction to Recurring Decimal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fraction%20to%20Recurring%20Decimal.md)     
 [Accounts Merge](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Accounts%20Merge.md)     
-[Longest Happy String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Happy%20String.md)         
+[Longest Happy String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Happy%20String.md)    
+[Minimum Deletions to Make Character Frequencies Unique](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)         
 
 
 
