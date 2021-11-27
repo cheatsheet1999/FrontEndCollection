@@ -170,6 +170,7 @@
 [Rotting Oranges](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Rotting%20Oranges.md)   
 
 ### Binary Search
+[Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)    
 
 ### Fullstack
 #### DBMS
