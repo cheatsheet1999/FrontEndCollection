@@ -157,22 +157,19 @@
 
 
 ### Recursion & Backtracking    
-
-🟡 
 [Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
 
 
 
 ### BFS & DFS 
-🟢     
 [Flood Fill](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Flood%20Fill.md)       
-
-🟡       
 [Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)     
 [Merge Two Binary Trees](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Merge%20Two%20Binary%20Trees.md)     
 [Populating Next Right Pointers in Each Node](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)         
 [01 Matrix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/01%20Matrix.md)   
-[Rotting Oranges](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Rotting%20Oranges.md)    
+[Rotting Oranges](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Rotting%20Oranges.md)   
+
+### Binary Search
 
 ### Fullstack
 #### DBMS
