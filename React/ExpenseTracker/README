@@ -1,6 +1,6 @@
-                                                                   App.js
-                                                                      |
-                                                                  Expenses.js
+                                                                   App.js           Card.js
+                                                                      |               |
+                                                                  Expenses.js ---------
                                                                       |
                                                               ExpenseItem.js
                                                                 |
