@@ -77,8 +77,7 @@
 [Subarray Sum Equals K](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subarray%20Sum%20Equals%20K.md)  
 [Subdomain Visit Count](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Subdomain%20Visit%20Count.md)  
 [Next Permutation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Next%20Permutation.md)  
-[Expressive Words](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Expressive%20Words.md)  
-[Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)  
+[Expressive Words](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Expressive%20Words.md)   
 [Verifying an Alien Dictionary](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Verifying%20an%20Alien%20Dictionary.md)  
 [4Sum(nSum universal solution)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/4Sum.md)  
 [3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/3Sum%20Closest.md)   
@@ -171,6 +170,7 @@
 ### Binary Search
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)    
 [Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)     
+[Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)   
 
 
 ### Fullstack
