@@ -20,37 +20,30 @@ You must write an algorithm with **O(log n)** runtime complexity.
  * @return {number}
  */
 var search = function(nums, target) {
-    let start = 0, end = nums.length - 1;
+    let start = 0;
+    let end = nums.length - 1;
     while(start <= end) {
         let mid = Math.floor((start + end) / 2);
-        if(target === nums[mid]) {
+        if(nums[mid] === target) {
             return mid;
         }
-        // if middle is bigger than left side, it means left is sorted, then we check if nums[start] < target < nums[mid]
         if(nums[start] <= nums[mid]) {
-        /*
-        If the target is located in the non-rotated subarray:
-            go left: `end = mid - 1`.
-        - Otherwise: go right: `start = mid + 1`.
-        */
-            if(nums[start] <= target && target <= nums[mid]) {
-                //if so, it means we need to narrow down
+            if(nums[start] <= target && target < nums[mid]) {
                 end = mid - 1;
-            } else {
-                //else, we enlarge the range
-                start = mid + 1;
             }
-             // if middle is less than right side, it means right is sorted, we can then check if nums[mid] < target < nums[end]
-        } else {
-            if(target > nums[mid] && target <= nums[end]) {
-                //larger that mid, so increase the start number
+            else {
+                start = mid + 1
+            }
+        }
+        else {
+            if(target >= nums[mid] && target <= nums[end]) {
                 start = mid + 1;
-            } else {
-                //otherwise narrowing down
+            } 
+            else {
                 end = mid - 1;
             }
         }
     }
-    return -1;
+    return -1
 };
 ```
