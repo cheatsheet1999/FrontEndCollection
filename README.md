@@ -45,8 +45,7 @@
 ### Array
 #### ⭐
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
-[Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)       
-[Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)   
+[Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)   
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
 [Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)           
@@ -170,7 +169,9 @@
 [Rotting Oranges](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Rotting%20Oranges.md)   
 
 ### Binary Search
-[Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)    
+[Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)    
+[Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)     
+
 
 ### Fullstack
 #### DBMS
