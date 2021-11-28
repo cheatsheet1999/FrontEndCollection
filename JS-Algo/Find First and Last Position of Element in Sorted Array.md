@@ -18,7 +18,7 @@ var searchRange = function(nums, target) {
     // Search firstPosition
     while(start<=end){
         let mid = Math.floor((start+end)/2);
-        if(nums[mid] >= target) end = mid-1;
+        if(target <= nums[mid]) end = mid-1;
         else start=mid+1;
     }
     
@@ -32,8 +32,8 @@ var searchRange = function(nums, target) {
     // Search lastPosition
     while(start<=end){
         let mid =  Math.floor((start+end)/2);
-        if(nums[mid] > target) end = mid-1;
-        else start=mid+1;
+        if(target >= nums[mid]) start = mid + 1;
+        else end=mid-1;
     }
     let r=end;
     
