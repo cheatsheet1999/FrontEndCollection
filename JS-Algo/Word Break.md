@@ -22,26 +22,16 @@ Space complexity : O(n) Queue of at most nn size is needed.
  * @return {boolean}
  */
 var wordBreak = function(s, wordDict) {
-    const words = new Set(wordDict);
-     // extract length for each word in the wordDict
-    const wordLens = new Set(wordDict.map((word) => word.length));
-     // we need to set inital start length to 0
-    const startLens = new Set([0]);
-    
-    for(let startLen of startLens) {
-         // this dynamically increases with every starts.add from the latter for loop
-        // meaning, we could have differing starts, as a result of cutting down the string with the words we matched
-        for(let wordLen of wordLens) { // for every unique length of words
-            // we literally try all of the lengths from that start position
-            // so this deals with partial permutations
-            // as well as duplicates like aa, aaaaa
-            if(words.has(s.slice(startLen, startLen + wordLen))) { // do we have a word in our dictionary matching that length of words?
-                // if so , add the remaining of the string so we can try starting from there instead
-                startLens.add(startLen + wordLen);
-                // now we can attempt to try starting from this new location
+    let word = new Set(wordDict);
+    let length = new Set(wordDict.map((word) => word.length));
+    let start = new Set([0]);
+    for(let i of start) {
+        for(let j of length) {
+            if(word.has(s.slice(i, i + j))) {
+                start.add(i + j);
             }
         }
     }
-    return startLens.has(s.length);
+    return start.has(s.length)
 };
 ``` 
