@@ -1,7 +1,7 @@
 # FrontEndCollection (Keep updating, hopefully...)
 
 ## Web Development Basics
-### HTML
+### HTML 📖
 [1. What happens when you type in a URL](https://github.com/cheatsheet1999/FrontEndCollection/issues/2)  
 [2. GET vs POST](https://github.com/cheatsheet1999/FrontEndCollection/issues/4)  
 <a href="https://github.com/cheatsheet1999/FrontEndCollection/issues/5">3. What can we do to improve a website's performance?</a>  
@@ -15,18 +15,17 @@
 [11. A brief introduction of Call, Apply, Bind](https://github.com/cheatsheet1999/FrontEndCollection/issues/30)  
 [12. Time and space complexity for common sorting algorithm](https://github.com/cheatsheet1999/FrontEndCollection/issues/9)  
 
-### CSS
+### CSS 💎
 [1. What is the difference between display:none and visibility:hidden style?](https://github.com/cheatsheet1999/FrontEndCollection/issues/37)  
 [2. What is BFC(Block Formatting Context)](https://github.com/cheatsheet1999/FrontEndCollection/issues/38)
 
-### JavaScript Concepts 
-<i class="fab fa-js"></i>        
+### JavaScript Concepts 📦
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
 
-### JavaScript Demos    
+### JavaScript Demos 🖥
 [Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)     
 
-### React Concepts    
+### React Concepts 💡   
 [Controlled Components](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/Web-Note/Controlled%20Components)     
 
   
