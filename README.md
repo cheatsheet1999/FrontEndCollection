@@ -21,6 +21,10 @@
 
 ### JavaScript
 
+
+### React Concepts    
+[Controlled Components](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/Web-Note/Controlled%20Components)     
+
 #### 📖       
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md) 
  
