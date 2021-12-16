@@ -19,19 +19,17 @@
 [1. What is the difference between display:none and visibility:hidden style?](https://github.com/cheatsheet1999/FrontEndCollection/issues/37)  
 [2. What is BFC(Block Formatting Context)](https://github.com/cheatsheet1999/FrontEndCollection/issues/38)
 
-### JavaScript
+### JavaScript Concepts        
+[Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
 
+### JavaScript Demos    
+[Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)     
 
 ### React Concepts    
 [Controlled Components](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/Web-Note/Controlled%20Components)     
 
-#### 📖       
-[Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md) 
- 
-#### 🖥
-[Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)      
-
-## Demo
+  
+## Projects
 [1. Accordion 🪗](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
 [2. ModalBox 💬](https://github.com/cheatsheet1999/FrontEndCollection/issues/23)  
 [3. Drum Kit 🥁](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/DrumKit)  
