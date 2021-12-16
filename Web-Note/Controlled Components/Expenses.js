@@ -14,6 +14,7 @@ const Expenses = (props) => {
     return (
         <Card className={'expenses'}>
             <ExpensesFilter onSaveFilterHandler={filterChangeHandler}
+                            // parent to child
                             selected={filteredYear}
             />
             <ExpenseItem title={props.items[0].title}
