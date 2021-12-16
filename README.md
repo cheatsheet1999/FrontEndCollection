@@ -19,7 +19,8 @@
 [1. What is the difference between display:none and visibility:hidden style?](https://github.com/cheatsheet1999/FrontEndCollection/issues/37)  
 [2. What is BFC(Block Formatting Context)](https://github.com/cheatsheet1999/FrontEndCollection/issues/38)
 
-### JavaScript Concepts        
+### JavaScript Concepts 
+<i class="fab fa-js"></i>        
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
 
 ### JavaScript Demos    
@@ -30,11 +31,11 @@
 
   
 ## Projects
-[1. Accordion 🪗](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
-[2. ModalBox 💬](https://github.com/cheatsheet1999/FrontEndCollection/issues/23)  
-[3. Drum Kit 🥁](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/DrumKit)  
-[4. Mini Clock 🕑](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Mini%20Clock)  
-[5. Playing with Variables 🎩](https://github.com/siyuan25/FrontEndCollection/tree/main/JS-Day/Playing%20with%20Variables)  
+[1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
+[2. ModalBox](https://github.com/cheatsheet1999/FrontEndCollection/issues/23)  
+[3. Drum Kit](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/DrumKit)  
+[4. Mini Clock](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Mini%20Clock)  
+[5. Playing with Variables](https://github.com/siyuan25/FrontEndCollection/tree/main/JS-Day/Playing%20with%20Variables)  
 
 ## Deep Dive in Javascript 
 [_Learn More on BFE.dev_](https://bigfrontend.dev/)  
