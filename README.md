@@ -199,6 +199,7 @@
   [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md)     
   [Count Binary Substrings](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Binary%20Substrings.md)    
   [Anagram Difference](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Anagram%20Difference.md)    
+  [Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)    
   
 </details>
 
