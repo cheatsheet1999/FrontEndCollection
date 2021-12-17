@@ -2,9 +2,8 @@
 
 * For example, if our array is a = [17, 4, 8], we can swap a[0] = 17 and a[2] = 8 to get a =
 
-* [8, 4, 17] in a single move. We want to custom sort an array such that all of the even elements
-
-* are at the beginning of the array and all of the odd elements are at the end of the array.
+* [8, 4, 17] in a single move. 
+### We want to custom sort an array such that all of the even elements are at the beginning of the array and all of the odd elements are at the end of the array.
 
 * Note : the order of elements within even or odd doesn't matter. *
 
