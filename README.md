@@ -192,7 +192,8 @@
   [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)  
   [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)  
   [Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)  
-  [Fizz Buzz](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fizz%20Buzz.md)    
+  [Fizz Buzz](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fizz%20Buzz.md)   
+  [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
   
 </details>
 
