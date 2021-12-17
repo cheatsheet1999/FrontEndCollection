@@ -201,6 +201,7 @@
   [Anagram Difference](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Anagram%20Difference.md)    
   [Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)  
   [Reformat Date](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reformat%20Date.md)    
+  [Alaaddin Carpet](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Alaaddin%20Carpet.md)    
   
 </details>
 
