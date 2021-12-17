@@ -176,6 +176,12 @@
 [Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)   
 [Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)        
 
+<details>
+<summary>TikTok 🎶</summary>
+<br>
+[Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
+</details>
+
 ### TikTok 🎶
 [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
 
