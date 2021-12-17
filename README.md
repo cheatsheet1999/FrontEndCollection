@@ -195,6 +195,7 @@
   [Fizz Buzz](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fizz%20Buzz.md)   
   [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
   [Custom Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Custom%20Sorted%20Array.md)      
+  [Gas Station](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
   
 </details>
 
