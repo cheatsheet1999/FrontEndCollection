@@ -194,6 +194,7 @@
   [Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)  
   [Fizz Buzz](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fizz%20Buzz.md)   
   [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
+  [Custom Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Custom%20Sorted%20Array.md)      
   
 </details>
 
