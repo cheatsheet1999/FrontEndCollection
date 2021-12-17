@@ -177,13 +177,12 @@
 [Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)        
 
 <details>
-<summary>TikTok 🎶</summary>
+  <summary><strong>TikTok 🎶</strong></summary>
 <br>
-[Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
+Count Analogous Array(https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
 </details>
 
-### TikTok 🎶
-[Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
+
 
 ### Fullstack
 #### DBMS
