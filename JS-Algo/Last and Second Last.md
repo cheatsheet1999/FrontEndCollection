@@ -14,3 +14,11 @@ console.log(lastLetters(testLetters));
 ```
 
 [Tiktok]
+
+
+```js
+let word = 'bat';
+
+console.log(word.split('').reverse().join(' ').slice(0, 3))
+
+```
