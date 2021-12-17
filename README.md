@@ -153,13 +153,8 @@
 [Recover Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Recover%20Binary%20Search%20Tree.md)      
 
 
-#### ⭐⭐⭐⭐
-[Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)    
-
-
 ### Recursion & Backtracking    
 [Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
-
 
 
 ### BFS & DFS 
@@ -178,22 +173,34 @@
 
 <details>
   <summary><strong>TikTok 🎶</strong></summary>
-<br>
-Count Analogous Array(https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
+  
+  [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
+  
+  [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)    
+  
+  
+  
 </details>
 
 
+<details>
+<summary><strong>DBMS</strong></summary>
+  
+[Unit 2 Exploring Databases and SQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/45)   
 
-### Fullstack
-#### DBMS
-[Unit 2 Exploring Databases and SQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/45)  
 [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)     
-[Unit 3: Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/43)    
-[Unit 4: Data Indexing](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)    
-[Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39)     
+
+[Unit 3: Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/43)     
+
+[Unit 4: Data Indexing](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)     
+
+[Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39) 
+
 [Unit 6: Concurrency](https://github.com/cheatsheet1999/FrontEndCollection/issues/40)   
-[Unit 1 - 6 Practice Questions Solutions](https://github.com/cheatsheet1999/FrontEndCollection/issues/47)    
- 
+
+[Unit 1 - 6 Practice Questions Solutions](https://github.com/cheatsheet1999/FrontEndCollection/issues/47) 
+
+</details>
 
 ***
 <p><em>🤯 If you find errors in the content of this project, don't hesitate to submit issues or pull requests on GitHub for corrections, I really, really appreciate it</em></p>
