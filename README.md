@@ -196,6 +196,7 @@
   [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
   [Custom Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Custom%20Sorted%20Array.md)      
   [Gas Station](https://github.com/cheatsheet1999/FrontEndCollection/issues/15)  
+  [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md)     
   
 </details>
 
