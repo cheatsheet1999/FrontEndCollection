@@ -169,38 +169,31 @@
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)    
 [Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)     
 [Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)   
-[Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)        
-
-<details>
-  <summary><strong>TikTok 🎶</strong></summary>
-  
-  [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)
-  
-  [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)    
-  
-  
-  
-</details>
+[Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)       
 
 
 <details>
 <summary><strong>DBMS</strong></summary>
   
 [Unit 2 Exploring Databases and SQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/45)   
-
 [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)     
-
 [Unit 3: Data Storage](https://github.com/cheatsheet1999/FrontEndCollection/issues/43)     
-
 [Unit 4: Data Indexing](https://github.com/cheatsheet1999/FrontEndCollection/issues/35)     
-
 [Unit 5: Transactions and Recovery](https://github.com/cheatsheet1999/FrontEndCollection/issues/39) 
-
 [Unit 6: Concurrency](https://github.com/cheatsheet1999/FrontEndCollection/issues/40)   
-
 [Unit 1 - 6 Practice Questions Solutions](https://github.com/cheatsheet1999/FrontEndCollection/issues/47) 
 
 </details>
+
+
+<details>
+  <summary><strong>TikTok 🎶</strong></summary>
+  
+  [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)  
+  [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md) 
+  
+</details>
+
 
 ***
 <p><em>🤯 If you find errors in the content of this project, don't hesitate to submit issues or pull requests on GitHub for corrections, I really, really appreciate it</em></p>
