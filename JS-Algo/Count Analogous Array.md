@@ -1,7 +1,7 @@
-An array is said to be analogous to the secret array if all of the following conditions are true:
-• The length of the array is equal to the length of the secret array.
-• Each integer in the array lies in the interval [lowerBound, upperBound].
-• The difference between each pair of consecutive integers of the array must be equal to the difference between the respective pair of consecutive integers in the secret array. In other words, let the secret array be [s[0], s[1],..., s[n-1]] and let the analogous array be [a[0], a[1],..., a[n-1]], then (a[i-1] - a[i]) must be equal to (s[i-1] - s[i]) for each i from 1 to n -1.
+An array is said to be analogous to the secret array if all of the following conditions are true:    
+• The length of the array is equal to the length of the secret array.   
+• Each integer in the array lies in the interval [lowerBound, upperBound].      
+• The difference between each pair of consecutive integers of the array must be equal to the difference between the respective pair of consecutive integers in the secret array. In other words, let the secret array be [s[0], s[1],..., s[n-1]] and let the analogous array be [a[0], a[1],..., a[n-1]], then (a[i-1] - a[i]) must be equal to (s[i-1] - s[i]) for each i from 1 to n -1.    
 
 Given the value of integers lowerBound and upperBound, inclusive, and the array of differences between each pair of consecutive integers of the secret array, find the number of arrays that are analogous to the secret array. If there is no array analogous to the secret array, return 0.
 
