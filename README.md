@@ -190,7 +190,8 @@
   <summary><strong>TikTok 🎶</strong></summary>
   
   [Count Analogous Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Analogous%20Array.md)  
-  [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md) 
+  [Is this a tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Is%20this%20a%20tree.md)  
+  [Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)   
   
 </details>
 
