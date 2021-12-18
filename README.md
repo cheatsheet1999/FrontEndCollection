@@ -90,7 +90,8 @@
 [Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)  
 [Custom Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Custom%20Sorted%20Array.md)         
 [Reformat Date](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reformat%20Date.md)          
-[Game of Life](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Game%20of%20Life.md)               
+[Game of Life](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Game%20of%20Life.md)        
+[Search a 2D Matrix II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20a%202D%20Matrix%20II.md)      
 
 ### String
 #### ⭐
