@@ -26,7 +26,7 @@ public class Solution {
 		// Store the frequencies of characters of first string.
 		for (int i = 0; i < n; i++) {
 			freq[str1.charAt(i) - 'a']++;
-            freq[str2.charAt(i) - 'a']--;
+           		freq[str2.charAt(i) - 'a']--;
 		}
 
 
@@ -36,9 +36,9 @@ public class Solution {
 
 		// Iterating for all alphabets to cacluclate the total absolute frequencies difference.
 		for (int i = 0; i < 26; i++) {
-            if(freq[i] > 0) {
-                freqDiff += freq[i];
-            }	
+            		if(freq[i] > 0) {
+                	freqDiff += freq[i];
+            		}	
 		}
 
 		// Return minimum manipulations required to make string anagram.
