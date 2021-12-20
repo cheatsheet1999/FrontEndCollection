@@ -21,6 +21,7 @@
 
 ### JavaScript Concepts 📦
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
+[Execution Context](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Execution%20Context.md)   
 
 ### JavaScript Demos 🖥
 [Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)     
