@@ -4,6 +4,7 @@
 
 As we know, inputNumber is **parameter**, and 3 is ***argument***
 
+![IMG_0907](https://user-images.githubusercontent.com/37787994/146833714-f6f466ba-45a7-4d3c-8ce2-8de3ea0f468a.jpg)
 
 
 We only have **One** threads of execution, that means we only do **One** thing at a time
@@ -15,3 +16,4 @@ We only have **One** threads of execution, that means we only do **One** thing a
 As soon as we hit return, current callstack poped out.
 
 **There is always a global() function on the bottom of the callstack**
+![IMG_0908](https://user-images.githubusercontent.com/37787994/146833726-4ba757a4-bf8d-409d-b877-f30f20dba154.jpg)
