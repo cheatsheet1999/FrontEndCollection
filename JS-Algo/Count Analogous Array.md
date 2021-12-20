@@ -22,7 +22,7 @@ function countAnalogousArrays(consecutiveDifference, lowerBound, upperBound) {
     let minDiff = Infinity;
     let runningSum = 0;
 
-    consecutiveDifference.forEach((diff, i) => {
+    consecutiveDifference.forEach((diff) => {
         runningSum += diff;
 
         if(runningSum > maxDiff) {
