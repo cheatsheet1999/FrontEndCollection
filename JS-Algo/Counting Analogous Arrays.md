@@ -19,6 +19,9 @@ Note that none of the values is out of the bound. All possible analogous arrays 
 Tha answer is 3.
 ***
 
+<img width="794" alt="Screen Shot 2021-12-22 at 18 43 58" src="https://user-images.githubusercontent.com/37787994/147174925-87a06372-dc87-4f90-9ae4-c8f682f6384f.png">
+
+
 
 ```JS
 function countAnalogousArrays(consecutiveDifference, lowerBound, upperBound) {
@@ -79,4 +82,33 @@ def countAnalogousArrays(consecutiveDifference , lowerBound , upperBound):
         return 0
 ```
 
+
+```py
+def countAnalogousArrays(consecutiveDifference , lowerBound , upperBound):
+
+    maxdiff = float('-inf')
+    mindiff = float('inf')
+    runningsum = 0
+    if len(consecutiveDifference) == 0:
+        return 0
+
+    if upperBound < lowerBound :
+        return 0
+
+    for diff in consecutiveDifference:
+        runningsum+=diff
+        if runningsum > maxdiff:
+            maxdiff = runningsum
+
+        if runningsum < mindiff:
+            mindiff = runningsum
+
+    maxvalidupperbound = upperBound + mindiff if upperBound+mindiff < upperBound else upperBound
+    minvalidlowerbound = lowerBound + maxdiff if lowerBound + maxdiff > lowerBound else lowerBound
+
+    if maxvalidupperbound >= minvalidlowerbound:
+        return maxvalidupperbound - minvalidlowerbound + 1
+    else:
+        return 0
+```
 [TikTok]
