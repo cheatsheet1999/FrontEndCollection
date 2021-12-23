@@ -38,7 +38,7 @@ public class Solution {
 		for (int i = 0; i < 26; i++) {
             		if(freq[i] > 0) {
                 	freqDiff += freq[i];
-            		}	
+            	     }	
 		}
 
 		// Return minimum manipulations required to make string anagram.
