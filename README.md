@@ -155,6 +155,8 @@
 [Lowest Common Ancestor of a Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)        
 [Recover Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Recover%20Binary%20Search%20Tree.md)      
 
+#### ⭐⭐⭐
+[LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)     
 
 ### Recursion & Backtracking    
 [Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
