@@ -11,6 +11,19 @@ The functions get and put must each run in O(1) average time complexity.
 
 <img width="567" alt="Screen Shot 2021-12-28 at 19 34 07" src="https://user-images.githubusercontent.com/37787994/147621962-e32b2b18-ef60-4c87-9637-98d8edaeb2d5.png">
 
+
+### We want to keep the most recent used node, and delete the least recent used node
+
+
+LRU     MRU
+
+1, 1 => 2, 2
+(get 1)
+
+2, 2 => 1, 1
+
+
+
 ```js
 /**
  * @param {number} capacity
