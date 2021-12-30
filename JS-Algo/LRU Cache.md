@@ -11,31 +11,7 @@ The functions get and put must each run in O(1) average time complexity.
 
 <img width="567" alt="Screen Shot 2021-12-28 at 19 34 07" src="https://user-images.githubusercontent.com/37787994/147621962-e32b2b18-ef60-4c87-9637-98d8edaeb2d5.png">
 
-
-### We want to keep the most recent used node, and delete the least recent used node
-
-```
-"LRUCache", "put", "put",  "get", "put", "get", "put", "get", "get", "get"   
-[2],       [1, 1], [2, 2], [1],  [3, 3],  [2], [4, 4],  [1],   [3],  [4]    
-null,      null,   null,    1,    null,   -1,   null,   -1,     3,    4    
-```
-
-The following program will insert node on head, which means **most recent used** node is in the front, **least recent used** node is behind, and we wanted to delete LRU when exceed capacity   
-
-Steps are:  
-```
-2,2 -> 1, 1
-get 1
-
-1, 1 -> 2, 2
-
-put 3, 3
-3, 3 -> 1, 1
-
-put 4, 4
-4, 4 -> 3, 3
-```
-
+## Newer data structrue (NOT recommended)  
 ```js
 /**
  * @param {number} capacity
@@ -76,6 +52,32 @@ LRUCache.prototype.put = function(key, value) {
  * obj.put(key,value)
  */
 ```
+
+### We want to keep the most recent used node, and delete the least recent used node
+
+```
+"LRUCache", "put", "put",  "get", "put", "get", "put", "get", "get", "get"   
+[2],       [1, 1], [2, 2], [1],  [3, 3],  [2], [4, 4],  [1],   [3],  [4]    
+null,      null,   null,    1,    null,   -1,   null,   -1,     3,    4    
+```
+
+The following program will insert node on head, which means **most recent used** node is in the front, **least recent used** node is behind, and we wanted to delete LRU when exceed capacity   
+
+Steps are:  
+```
+2,2 -> 1, 1
+get 1
+
+1, 1 -> 2, 2
+
+put 3, 3
+3, 3 -> 1, 1
+
+put 4, 4
+4, 4 -> 3, 3
+```
+
+
 
 ## Real LRU solution
 ```js
