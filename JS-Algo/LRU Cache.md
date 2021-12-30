@@ -65,17 +65,18 @@ The following program will insert node on head, which means **most recent used**
 
 Steps are:  
 ```
-2,2 -> 1, 1
+1，1 -> 2, 2
 get 1
 
-1, 1 -> 2, 2
+2, 2 -> 1, 1
 
 put 3, 3
-3, 3 -> 1, 1
+1,1 -> 3, 3
 
 put 4, 4
-4, 4 -> 3, 3
+3,3 -> 4, 4
 ```
+
 
 
 
