@@ -15,12 +15,12 @@ The functions get and put must each run in O(1) average time complexity.
 ### We want to keep the most recent used node, and delete the least recent used node
 
 
-LRU     MRU
+LRU     MRU  
 
-1, 1 => 2, 2
-(get 1)
+1, 1 => 2, 2  
+(get 1)  
 
-2, 2 => 1, 1
+2, 2 => 1, 1  
 
 
 
