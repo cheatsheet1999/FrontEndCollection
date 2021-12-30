@@ -20,6 +20,21 @@ The functions get and put must each run in O(1) average time complexity.
 null,      null,   null,    1,    null,   -1,   null,   -1,     3,    4    
 ```
 
+The following program will insert node on head, which means **most recent used** node is in the front, **least recent used** node is behind, and we wanted to delete LRU when exceed capacity   
+
+Steps are:  
+```
+2,2 -> 1, 1
+get 1
+
+1, 1 -> 2, 2
+
+put 3, 3
+3, 3 -> 1, 1
+
+put 4, 4
+4, 4 -> 3, 3
+```
 
 ```js
 /**
