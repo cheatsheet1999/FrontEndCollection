@@ -10,3 +10,5 @@ Node.js is using JavaScript, and JS is a single-thread language, how node.js han
 
 
 Internally, node.js track of its open event listeners, and basically has a counter **refs**, which increments by 1 for every new callback that is registered, and reduce the counter by 1 for every event listenr that it doesn't need anymore.
+
+<img width="944" alt="Screen Shot 2022-01-07 at 22 39 48" src="https://user-images.githubusercontent.com/37787994/148633036-dfa29cd9-cc95-4ba6-9d57-2e24adb28c71.png">
