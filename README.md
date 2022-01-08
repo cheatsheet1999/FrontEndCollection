@@ -22,7 +22,7 @@
 ### JavaScript Concepts 📦
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
 [Execution Context](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Execution%20Context.md)   
-[Single Thread, Event Loop & Blocking Code](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Single%20Thread,%20Event%20Loop%20&%20Blocking%20Code.md)      
+[Event Loop](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Single%20Thread,%20Event%20Loop%20&%20Blocking%20Code.md)      
 
 ### JavaScript Demos 🖥
 [Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)     
