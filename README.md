@@ -31,7 +31,7 @@
 [Controlled Components](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/Web-Note/Controlled%20Components)     
 
 ### Node.js Demos 🟢
-
+[Receive input](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Day/Receive%20input/preview.md)     
   
 ## Projects
 [1. Accordion](https://github.com/cheatsheet1999/FrontEndCollection/issues/17)   
