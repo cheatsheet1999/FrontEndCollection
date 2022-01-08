@@ -1,4 +1,4 @@
-Node.js is using JavaScript, and JS is a single-thread language, how node.js handle multiple tasks?
+**Node.js is using JavaScript, and JS is a single-thread language, how node.js handle multiple tasks?**
 
 ## Event Loop
 **Event loop will be started as long as we start to program. It handles event callbacks in order, and loop them through**   
