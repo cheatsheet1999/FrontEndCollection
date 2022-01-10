@@ -191,7 +191,7 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
 
 
 <details>
-<summary><strong>DBMS</strong></summary>
+<summary><strong>Database Management</strong></summary>
   
 [Unit 2 Exploring Databases and SQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/45)   
 [ER diagram, Relational Algebra, SQL / NOSQL](https://github.com/cheatsheet1999/FrontEndCollection/issues/14)     
