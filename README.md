@@ -183,7 +183,7 @@
 ## Foundations of Algorithms   
 _This is probably the hardest section in this repository, and totally optional, but why I am writting this....?_
 
-This section is based on CSE 551 (Foundations of Algorithms) from Arizona State University. I believe it will be good learning materials for frontend software engineers who did not receive a system CS education. 
+This section is based on CSE 551 (Foundations of Algorithms) from Arizona State University. I believe it will be good learning materials for frontend software engineers who did not receive a systematic CS education. 
 
 This section will **NOT** teach you about Frontend enginnering, but will cover the core about **Computer Science** and **Algorithms**.....
 
