@@ -187,7 +187,7 @@ This section is based on CSE 551 (Foundations of Algorithms) from Arizona State 
 
 This section will **NOT** teach you about Frontend enginnering, but will cover the core about **Computer Science** and **Algorithms**.....
 
-
+[Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Basics%20of%20%20Algorithm%20Analysis.md)    
 
 
 <details>
