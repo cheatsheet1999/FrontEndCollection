@@ -190,6 +190,7 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
 
 [Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Basics%20of%20%20Algorithm%20Analysis.md)    
 [Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Graphs.md)     
+[Divide and Conquer - Merge Sort](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Divide%20and%20Conquer%20-%20Merge%20Sort.md)     
 
 <details>
 <summary><strong>Database Management</strong></summary>
