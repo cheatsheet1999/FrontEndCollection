@@ -28,8 +28,8 @@ When the input size doubles, the algorithm should only slow down by some constan
 - In practice, the poly-time algorithms that people develop almost always **have low constants and low exponents.**
 
 ## Asymptotic Order of Growth
-<img width="1003" alt="Screen Shot 2022-01-10 at 21 25 47" src="https://user-images.githubusercontent.com/37787994/148880963-cfea9c71-45e6-4e18-81ec-7a2c452a166c.png">
-<img width="906" alt="Screen Shot 2022-01-10 at 21 26 53" src="https://user-images.githubusercontent.com/37787994/148881064-0464744c-83bb-4883-9eba-9160f54e70d4.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 21 25 47" src="https://user-images.githubusercontent.com/37787994/148880963-cfea9c71-45e6-4e18-81ec-7a2c452a166c.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 21 26 53" src="https://user-images.githubusercontent.com/37787994/148881064-0464744c-83bb-4883-9eba-9160f54e70d4.png">
 
 ## Big O complexity chart
 ![image](https://user-images.githubusercontent.com/37787994/148881194-f39a8b62-eabd-426e-8730-123b882eaa52.png)
@@ -39,25 +39,25 @@ When the input size doubles, the algorithm should only slow down by some constan
 ### Linear Time:  O(n)
 
 **Linear time.  Running time is at most a constant factor times the size of the input**  
-<img width="905" alt="Screen Shot 2022-01-10 at 21 46 54" src="https://user-images.githubusercontent.com/37787994/148882803-802f7540-399d-491c-b07d-dfff73ca475a.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 21 46 54" src="https://user-images.githubusercontent.com/37787994/148882803-802f7540-399d-491c-b07d-dfff73ca475a.png">
 
-<img width="942" alt="Screen Shot 2022-01-10 at 22 06 28" src="https://user-images.githubusercontent.com/37787994/148884546-06409246-5a61-40ba-9372-5701827a50de.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 22 06 28" src="https://user-images.githubusercontent.com/37787994/148884546-06409246-5a61-40ba-9372-5701827a50de.png">
 
 
 ### O(n log n) Time
-<img width="907" alt="Screen Shot 2022-01-10 at 22 07 57" src="https://user-images.githubusercontent.com/37787994/148884686-366f23f9-0147-4d30-905f-db345a0f053e.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 22 07 57" src="https://user-images.githubusercontent.com/37787994/148884686-366f23f9-0147-4d30-905f-db345a0f053e.png">
 
 ### Quadratic Time:  O(n2)
-<img width="923" alt="Screen Shot 2022-01-10 at 22 08 24" src="https://user-images.githubusercontent.com/37787994/148884728-185bbd19-06dc-48d8-82cb-2d70d910bb4c.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 22 08 24" src="https://user-images.githubusercontent.com/37787994/148884728-185bbd19-06dc-48d8-82cb-2d70d910bb4c.png">
 
 ### Cubic Time:  O(n3)
-<img width="925" alt="Screen Shot 2022-01-10 at 22 09 03" src="https://user-images.githubusercontent.com/37787994/148884762-d457b1c9-1a4a-4252-aed5-e9ea2e260cf5.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 22 09 03" src="https://user-images.githubusercontent.com/37787994/148884762-d457b1c9-1a4a-4252-aed5-e9ea2e260cf5.png">
 
 ### Polynomial Time:  O(nk) Time
 <img width="965" alt="Screen Shot 2022-01-10 at 22 09 35" src="https://user-images.githubusercontent.com/37787994/148884820-79e58eb1-6139-417f-bb12-40fef447f1f0.png">
 
 ### Exponential Time
-<img width="894" alt="Screen Shot 2022-01-10 at 22 10 04" src="https://user-images.githubusercontent.com/37787994/148884864-b7ee1578-08ec-4ee2-86a3-a695d63ca1ef.png">
+<img width="965" alt="Screen Shot 2022-01-10 at 22 10 04" src="https://user-images.githubusercontent.com/37787994/148884864-b7ee1578-08ec-4ee2-86a3-a695d63ca1ef.png">
 
 
 
