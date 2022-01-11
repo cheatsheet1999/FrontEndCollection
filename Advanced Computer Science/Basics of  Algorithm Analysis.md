@@ -18,8 +18,16 @@ When the input size doubles, the algorithm should only slow down by some constan
 - Generally captures efficiency in practice.
 - Draconian view, but hard to find effective alternative. 
 
-### Average case running time。 Obtain bound on running time of algorithm on **random** input as a function of input size N.
-- Hard (or impossible) to accurately model real instances by random 
-distributions.
-- Algorithm tuned for a certain distribution may perform poorly on 
-other inputs.
+### Average case running time. Obtain bound on running time of algorithm on **random** input as a function of input size N.
+- Hard (or impossible) to accurately model real instances by random distributions.
+- Algorithm tuned for a certain distribution may perform poorly on other inputs.
+
+### Worst-Case Polynomial-Time  
+#### An algorithm is **_efficient_** if its running time is polynomial.
+- Although 6.02 * 10^23 * N^20 is technically poly-time, it would be useless in practice.
+- In practice, the poly-time algorithms that people develop almost always **have low constants and low exponents.**
+
+## Asymptotic Order of Growth
+<img width="1003" alt="Screen Shot 2022-01-10 at 21 25 47" src="https://user-images.githubusercontent.com/37787994/148880963-cfea9c71-45e6-4e18-81ec-7a2c452a166c.png">
+<img width="906" alt="Screen Shot 2022-01-10 at 21 26 53" src="https://user-images.githubusercontent.com/37787994/148881064-0464744c-83bb-4883-9eba-9160f54e70d4.png">
+
