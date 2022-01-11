@@ -44,5 +44,28 @@ When the input size doubles, the algorithm should only slow down by some constan
 <img width="942" alt="Screen Shot 2022-01-10 at 22 06 28" src="https://user-images.githubusercontent.com/37787994/148884546-06409246-5a61-40ba-9372-5701827a50de.png">
 
 
+### O(n log n) Time
+<img width="907" alt="Screen Shot 2022-01-10 at 22 07 57" src="https://user-images.githubusercontent.com/37787994/148884686-366f23f9-0147-4d30-905f-db345a0f053e.png">
+
+### Quadratic Time:  O(n2)
+<img width="923" alt="Screen Shot 2022-01-10 at 22 08 24" src="https://user-images.githubusercontent.com/37787994/148884728-185bbd19-06dc-48d8-82cb-2d70d910bb4c.png">
+
+### Cubic Time:  O(n3)
+<img width="925" alt="Screen Shot 2022-01-10 at 22 09 03" src="https://user-images.githubusercontent.com/37787994/148884762-d457b1c9-1a4a-4252-aed5-e9ea2e260cf5.png">
+
+### Polynomial Time:  O(nk) Time
+<img width="965" alt="Screen Shot 2022-01-10 at 22 09 35" src="https://user-images.githubusercontent.com/37787994/148884820-79e58eb1-6139-417f-bb12-40fef447f1f0.png">
+
+### Exponential Time
+<img width="894" alt="Screen Shot 2022-01-10 at 22 10 04" src="https://user-images.githubusercontent.com/37787994/148884864-b7ee1578-08ec-4ee2-86a3-a695d63ca1ef.png">
+
+
+
+
+
+
+
+
+
 
 
