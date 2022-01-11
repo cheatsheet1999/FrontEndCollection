@@ -173,6 +173,7 @@
 [Populating Next Right Pointers in Each Node](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)         
 [01 Matrix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/01%20Matrix.md)   
 [Rotting Oranges](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Rotting%20Oranges.md)   
+[Number of Islands](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Number%20of%20Islands.md)   
 
 ### Binary Search
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)    
