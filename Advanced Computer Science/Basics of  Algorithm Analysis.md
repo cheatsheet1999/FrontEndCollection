@@ -34,3 +34,9 @@ When the input size doubles, the algorithm should only slow down by some constan
 ## Big O complexity chart
 ![image](https://user-images.githubusercontent.com/37787994/148881194-f39a8b62-eabd-426e-8730-123b882eaa52.png)
 
+## A Survey of Common Running Times
+
+### Linear Time:  O(n)
+
+**Linear time.  Running time is at most a constant factor times the size of the input**  
+<img width="905" alt="Screen Shot 2022-01-10 at 21 46 54" src="https://user-images.githubusercontent.com/37787994/148882803-802f7540-399d-491c-b07d-dfff73ca475a.png">
