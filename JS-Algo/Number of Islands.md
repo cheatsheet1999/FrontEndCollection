@@ -6,7 +6,7 @@
 
 
 
-
+### DFS solution 
 ```js
 /**
  * @param {character[][]} grid
