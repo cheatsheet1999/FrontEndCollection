@@ -188,9 +188,9 @@ This section is based on CSE 551 (Foundations of Algorithms) from Arizona State 
 
 This section will **NOT** teach you about Frontend enginnering, but will cover the core about **Computer Science** and **Algorithms**.....
 
-[Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Basics%20of%20%20Algorithm%20Analysis.md)    
-[Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Graphs.md)     
-[Divide and Conquer - Merge Sort](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Advanced%20Computer%20Science/Divide%20and%20Conquer%20-%20Merge%20Sort.md)     
+[Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Basics%20of%20Algorithm%20Analysis.md)   
+[Divide and Conquer - Merge Sort](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Divide%20and%20Conquer%20-%20Merge%20Sort.md)    
+[Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Graphs.md)    
 
 <details>
 <summary><strong>Database Management</strong></summary>
