@@ -27,5 +27,23 @@
 <img width="1045" alt="Screen Shot 2022-01-12 at 00 10 56" src="https://user-images.githubusercontent.com/37787994/149080607-449ad5e4-b75a-414b-9147-4e735903d2e7.png">
 <img width="1045" alt="Screen Shot 2022-01-12 at 00 17 53" src="https://user-images.githubusercontent.com/37787994/149081482-abc1d669-0d6c-4ba4-aaa7-b365648f1482.png">
 
+## More than 1 stable matching could occur
+<img width="1045" alt="Screen Shot 2022-01-12 at 20 40 19" src="https://user-images.githubusercontent.com/37787994/149261814-268ba9dd-831b-475a-a332-f48ca04f9291.png">
 
+## Man-optimal Assignment
+Proof:   
+- Suppose: A man match a women, the women is not the favorite match
+- Man propose descendingly based on their favorite
+  - Which means some guy will be dumped in GS algorithm
+- Yancey is the man, and Amy is the women who rejected him
+- A-Y is stable matching
+- When Amy reject Yancey, Amy match with Zeus
+  - So, Amy likes Zeus more than Yancey
+- Assume Zeus matched Bertha
+- When Amy reject Yancey, Zeus is not rejected by any women, (because we assume Yance -> Amy is the first dumped relationship)   
+- We know Amy and Zeus are matched
+- If Zeus already proposed Bertha before propose to Amy, then that means Zeus has already be rejected by Bertha, but it contradicts to above...
+- Thus, before Zeus propose to Amy, he hasn't propose Bertha
+  - which means Zeus likes Amy more than Bertha
+- Amy-Zeus is unstable, because Amy is the top one for Zeus  
 
