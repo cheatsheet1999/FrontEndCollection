@@ -22,6 +22,7 @@
 
 **We have a stable matching here. Although Amy likes Zeus more, Zeus likes his matched one more than Amy. Same for Diane, she likes Victor more, but Victor likes his matched one more than Dianee. Turns out, there is no way to unstablize the match**  
 
+**Running Time is O(n^2)**
 ### We will always get stable matching by using the above algorithm
 <img width="1045" alt="Screen Shot 2022-01-12 at 00 10 56" src="https://user-images.githubusercontent.com/37787994/149080607-449ad5e4-b75a-414b-9147-4e735903d2e7.png">
 <img width="1045" alt="Screen Shot 2022-01-12 at 00 17 53" src="https://user-images.githubusercontent.com/37787994/149081482-abc1d669-0d6c-4ba4-aaa7-b365648f1482.png">
