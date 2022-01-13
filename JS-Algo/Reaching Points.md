@@ -8,6 +8,14 @@
  * @param {number} ty
  * @return {boolean}
  */
+
+/*
+sx  sy  tx  ty
+1   1   3   5
+1   1   3   2
+1   1   1   2
+
+*/
 var reachingPoints = function(sx, sy, tx, ty) {
     while (tx >= sx && ty >= sy) {
         if (tx === sx && ty === sy) {
