@@ -191,7 +191,8 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
 
 [Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Basics%20of%20Algorithm%20Analysis.md)   
 [Divide and Conquer - Merge Sort](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Divide%20and%20Conquer%20-%20Merge%20Sort.md)    
-[Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Graphs.md)    
+[Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Graphs.md)  
+[Knowledge Check: Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Knowledge%20Check:%20Introduction%20to%20Stable%20Matching.md)    
 
 <details>
 <summary><strong>Database Management</strong></summary>
