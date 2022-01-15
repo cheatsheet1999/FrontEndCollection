@@ -4,7 +4,7 @@
 
 ```js
 var minKnightMoves = function(x, y) {    
-    let dir = [[1, 2], [2, 1], [2, -1], [1, -2], [-1, -2], [-2, -1], [-2, 1], [-1, 2]]; 
+    let dirs = [[1, 2], [2, 1], [2, -1], [1, -2], [-1, -2], [-2, -1], [-2, 1], [-1, 2]]; 
     
     let queue = [[0, 0]];
     let level = 0, visited = new Set();
@@ -13,8 +13,8 @@ var minKnightMoves = function(x, y) {
         while(queue.length != 0) {
             let cur = queue.pop();
             if (cur[0] == x && cur[1] == y) return level;
-            for (let d of dir) {
-                let nextX = cur[0]+d[0], nextY = cur[1]+d[1];
+            for (let dir of dirs) {
+                let nextX = cur[0]+dir[0], nextY = cur[1]+dir[1];
                 if (!visited.has(nextX+","+nextY)) {
                     next.push([nextX, nextY]);
                     visited.add(nextX+","+nextY);
@@ -25,6 +25,7 @@ var minKnightMoves = function(x, y) {
         level++;
     }    
 };
+
 
 ```
 
