@@ -149,6 +149,7 @@
 #### ⭐⭐⭐ 
 [Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Add%20Two%20Numbers.md)  
 [Design Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Design%20Linked%20List.md)        
+[LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)         
 
 ### Tree
 #### ⭐
@@ -162,7 +163,7 @@
 [Recover Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Recover%20Binary%20Search%20Tree.md)      
 
 #### ⭐⭐⭐
-[LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)     
+[Range Sum of BST](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Range%20Sum%20of%20BST.md)
 
 ### Recursion & Backtracking    
 [Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
