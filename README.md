@@ -22,6 +22,7 @@
 ### JavaScript Concepts 📦
 [Bubbling and Capturing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Bubbling%20and%20Capturing.md)   
 [Execution Context](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Execution%20Context.md)   
+[Higher Order Function](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Functions%20%26%20Callbacks.md)      
 [Event Loop](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Single%20Thread,%20Event%20Loop%20&%20Blocking%20Code.md)      
 
 ### JavaScript Demos 🖥
