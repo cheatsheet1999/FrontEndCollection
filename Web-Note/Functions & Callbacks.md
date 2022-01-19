@@ -44,6 +44,7 @@ squareNum(5);
 ### We could generalize our function, so we pass in our specific instruction only when we run `copyArrayAndManipulate`
 
 ```js
+// This is our higher-order function
 function copyArrayAndManipulate(array, instructions) {
   const output = [];
   for(let i = 0; i < array.length; i++) {
@@ -52,6 +53,7 @@ function copyArrayAndManipulate(array, instructions) {
   return output;
 }
 
+// This is callback function
 function multiplyBy2(input) {
   return input * 2;
 }
