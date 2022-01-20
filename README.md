@@ -1,4 +1,4 @@
-# FrontEndCollection (Keep updating, hopefully...)
+# FrontEndCollection (Keep updating everyday, hopefully...)
 
 ## Web Development Basics
 ### HTML 📖
