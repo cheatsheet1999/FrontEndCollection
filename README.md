@@ -200,6 +200,7 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
 [Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Introduction%20to%20Stable%20Matching.md)   
 [Knowledge Check: Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Knowledge%20Check:%20Introduction%20to%20Stable%20Matching.md)  
 [Five Representative Problems](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Five%20Representative%20Problems.md)    
+[Interval Scheduling and Interval Partitioning](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Interval%20Scheduling%20and%20Interval%20Partitioning.md)    
 
 <details>
 <summary><strong>Database Management</strong></summary>
