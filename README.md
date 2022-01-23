@@ -100,7 +100,8 @@
 [Kth Largest Element in an Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Kth%20Largest%20Element%20in%20an%20Array.md)     
 [Insert Delete GetRandom O(1)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Insert%20Delete%20GetRandom%20O(1).md)     
 [Reaching Points](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reaching%20Points.md)     
-[Pow(x, n)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Pow(x%2C%20n).md)   
+[Pow(x, n)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Pow(x%2C%20n).md)    
+[Buildings With an Ocean View](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Buildings%20With%20an%20Ocean%20View.md)    
 
 ### String
 #### ⭐
