@@ -14,3 +14,5 @@
 ## Interval Partitioning
  <img width="1127" alt="Screen Shot 2022-01-23 at 18 48 11" src="https://user-images.githubusercontent.com/37787994/150709282-72a9fa52-8ac8-4571-8722-ee96d65bcde9.png">
 <img width="1127" alt="Screen Shot 2022-01-23 at 18 49 07" src="https://user-images.githubusercontent.com/37787994/150709341-3dfc03e4-83ea-4296-a8cb-a1b82d68a504.png">
+
+<img width="1127" alt="Screen Shot 2022-01-23 at 19 16 11" src="https://user-images.githubusercontent.com/37787994/150711467-79da6e6e-35e1-4293-882b-60ed7ecdded6.png">
