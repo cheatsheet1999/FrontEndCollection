@@ -66,7 +66,8 @@
 [K Closest Points to Origin](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/K%20Closest%20Points%20to%20Origin.md) 
 [Maximum Subarray](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Maximum%20Subarray.md)        
 [Best Time to Buy and Sell Stock](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)  
-[First Bad Version](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/First%20Bad%20Version.md)   
+[First Bad Version](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/First%20Bad%20Version.md)    
+[Meeting Rooms](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms.md)   
 
 #### ⭐⭐⭐
 [Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Container%20With%20Most%20Water.md)   
