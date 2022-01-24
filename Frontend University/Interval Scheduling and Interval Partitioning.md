@@ -16,3 +16,17 @@
 <img width="1127" alt="Screen Shot 2022-01-23 at 18 49 07" src="https://user-images.githubusercontent.com/37787994/150709341-3dfc03e4-83ea-4296-a8cb-a1b82d68a504.png">
 
 <img width="1127" alt="Screen Shot 2022-01-23 at 19 16 11" src="https://user-images.githubusercontent.com/37787994/150711467-79da6e6e-35e1-4293-882b-60ed7ecdded6.png">
+
+## Scheduling to Minimize Lateness
+<img width="1127" alt="Screen Shot 2022-01-23 at 22 26 13" src="https://user-images.githubusercontent.com/37787994/150726839-868d92be-51ec-4e1a-986e-214139277d52.png">
+
+**Earliest deadline first is the optimal solution**
+<img width="1127" alt="Screen Shot 2022-01-23 at 22 26 48" src="https://user-images.githubusercontent.com/37787994/150726893-2568aa3e-1109-4317-a81a-e0f5ab30aa55.png">
+**The greedy algorithm has no idle time**
+<img width="1127" alt="Screen Shot 2022-01-23 at 22 31 00" src="https://user-images.githubusercontent.com/37787994/150727252-e747ad9f-5277-4357-8a53-1f74e24c0f72.png">
+
+<img width="1127" alt="Screen Shot 2022-01-23 at 22 44 11" src="https://user-images.githubusercontent.com/37787994/150728422-884cd144-9923-4dfa-acab-27c5b64a6b1c.png">
+
+<img width="1127" alt="Screen Shot 2022-01-23 at 22 52 09" src="https://user-images.githubusercontent.com/37787994/150729110-ae2337cd-c2a7-49d9-82aa-650fa09c82c5.png">
+
+
