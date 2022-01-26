@@ -29,4 +29,10 @@
 
 <img width="1127" alt="Screen Shot 2022-01-23 at 22 52 09" src="https://user-images.githubusercontent.com/37787994/150729110-ae2337cd-c2a7-49d9-82aa-650fa09c82c5.png">
 
+## Optimal Offline Caching
+<img width="1127" alt="Screen Shot 2022-01-26 at 12 53 11" src="https://user-images.githubusercontent.com/37787994/151236681-ac03b420-5ab8-4576-9387-6295ee0e900a.png">
+
+<img width="1127" alt="Screen Shot 2022-01-26 at 13 01 36" src="https://user-images.githubusercontent.com/37787994/151237989-e5905c5f-4dd3-4aa8-a8b5-fe111324a6dc.png">
+
+
 
