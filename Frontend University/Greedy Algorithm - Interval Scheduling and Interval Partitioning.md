@@ -34,5 +34,19 @@
 
 <img width="1127" alt="Screen Shot 2022-01-26 at 13 01 36" src="https://user-images.githubusercontent.com/37787994/151237989-e5905c5f-4dd3-4aa8-a8b5-fe111324a6dc.png">
 
+<img width="1127" alt="Screen Shot 2022-01-26 at 15 35 38" src="https://user-images.githubusercontent.com/37787994/151258572-a41d1bfa-e9bc-4805-886a-328d669c0928.png">
+
+## OPTIMAL CACHING – FARTHEST-IN-
+<img width="1127" alt="Screen Shot 2022-01-26 at 16 56 30" src="https://user-images.githubusercontent.com/37787994/151266697-90f81b4d-de84-485f-990d-72624dbdd9a5.png">
+<img width="1127" alt="Screen Shot 2022-01-26 at 16 56 47" src="https://user-images.githubusercontent.com/37787994/151266719-42362d8b-6a62-4fc3-9d7d-c1ba0cb4f611.png">
+<img width="1127" alt="Screen Shot 2022-01-26 at 16 57 21" src="https://user-images.githubusercontent.com/37787994/151266754-963dd40e-6880-4e60-b76b-f13d9fc8402c.png">
+<img width="1127" alt="Screen Shot 2022-01-26 at 16 57 40" src="https://user-images.githubusercontent.com/37787994/151266783-ebf1f5e1-f4ba-4b82-9803-57ee51eb8e83.png">
+
+
+
+
+
+
+
 
 
