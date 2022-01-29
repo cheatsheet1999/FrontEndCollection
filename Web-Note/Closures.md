@@ -5,3 +5,23 @@
 Simpler, the closure is a function that remembers the variables from the place where it is defined, regardless of where it is executed later.
 
 A rule of thumb to identify a closure: if inside a function you see an alien variable (not defined inside that function), most likely that function is a closure because the alien variable is captured.
+
+
+```js
+function outer() {
+  let counter = 0;
+  function incrementCounter() {
+    counter++;
+  }
+  return incrementCounter;
+}
+
+let myNewFunction = outer();
+myNewFunction();
+```
+
+## Backpack
+
+- Closed over 'Variable environment' (C.O.V.E)
+- Persistant Lexical Scope Referenced Data (P.L.S.R.D)
+The backpack (or closure) of live data is attached incrementCounter(then to myNewFunction) through a hiddent property known as [[scope]] which persists when the inner function is returned out.
