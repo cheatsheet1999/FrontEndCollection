@@ -25,7 +25,8 @@
 [Higher Order Function](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Functions%20%26%20Callbacks.md)      
 [Event Loop](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Single%20Thread,%20Event%20Loop%20&%20Blocking%20Code.md)      
 [Closures](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Closures.md)   
-[Throttling and Debouncing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Throttling%20and%20Debouncing.md)      
+[Throttling and Debouncing](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Throttling%20and%20Debouncing.md)   
+[Promises](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/Promises.md)    
 
 ### JavaScript Demos 🖥
 [Consuming Promises](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Day/Consuming%20Promises)     
