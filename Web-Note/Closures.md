@@ -25,3 +25,14 @@ myNewFunction();
 - Closed over 'Variable environment' (C.O.V.E)
 - Persistant Lexical Scope Referenced Data (P.L.S.R.D)
 The backpack (or closure) of live data is attached incrementCounter(then to myNewFunction) through a hiddent property known as [[scope]] which persists when the inner function is returned out.
+
+### Another example
+<img width="802" alt="Screen Shot 2022-01-29 at 20 57 26" src="https://user-images.githubusercontent.com/37787994/151686055-e094031d-ae05-4975-999a-950e4cdf9edf.png">
+
+**The output will be  
+1 2 1 2**
+
+Because myNewFunction and anotherFunction have two different backpacks
+
+However, if initialize 0 inside incrementCounter, result will be 1 1 1 1   
+because as long as the scope find the identifier, it will not go any further   
