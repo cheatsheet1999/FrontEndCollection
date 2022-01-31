@@ -1,6 +1,7 @@
 <img width="1000" alt="Screen Shot 2022-01-29 at 12 54 20" src="https://user-images.githubusercontent.com/37787994/151675604-19cdd410-2e6b-4b2f-9a50-da691db22e8e.png">
 
-### The closure is a function that accesses its lexical scope even executed outside of its lexical scope， closure are functions that have access to the outer (enclosing) function's variables—scope chain even after the outer function has returned.
+### The closure is a function that accesses its lexical scope even executed outside of its lexical scope
+The closure is a function that have access to the outer (enclosing) function's variables—scope chain even after the outer function has returned.
 
 Simpler, the closure is a function that remembers the variables from the place where it is defined, regardless of where it is executed later.
 
