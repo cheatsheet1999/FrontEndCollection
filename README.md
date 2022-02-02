@@ -209,6 +209,7 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
 [Knowledge Check: Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Knowledge%20Check:%20Introduction%20to%20Stable%20Matching.md)  
 [Five Representative Problems](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Five%20Representative%20Problems.md)    
 [Greedy Algorithm - Interval Scheduling and Interval Partitioning](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Greedy%20Algorithm%20-%20Interval%20Scheduling%20and%20Interval%20Partitioning.md)          
+[Amortized Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Amortized%20Analysis.md)       
 
 <details>
 <summary><strong>Database Management</strong></summary>
