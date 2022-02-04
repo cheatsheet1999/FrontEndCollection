@@ -54,14 +54,14 @@
 
 ## Data Structures & Algorithms in JavaScript
 ### Array
-#### ⭐
+#### Easy
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
 [Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)   
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
 [Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)           
 [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)           
-#### ⭐⭐
+#### Easy - Medium
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
@@ -73,7 +73,7 @@
 [First Bad Version](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/First%20Bad%20Version.md)    
 [Meeting Rooms](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms.md)   
 
-#### ⭐⭐⭐
+#### Medium
 [Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Container%20With%20Most%20Water.md)   
 [Trapping Rain Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Trapping%20Rain%20Water.md)  
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
@@ -106,6 +106,7 @@
 [Insert Delete GetRandom O(1)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Insert%20Delete%20GetRandom%20O(1).md)     
 [Reaching Points](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reaching%20Points.md)     
 [Pow(x, n)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Pow(x%2C%20n).md)    
+[Sum of Square Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Sum%20of%20Square%20Numbers.md)     
  
 
 ### String
