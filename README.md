@@ -175,6 +175,8 @@
 #### ⭐⭐⭐
 [Range Sum of BST](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Range%20Sum%20of%20BST.md)    
 [Binary Tree Vertical Order Traversal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Vertical%20Order%20Traversal.md)   
+[Validate Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Validate%20Binary%20Search%20Tree.md)     
+
 
 ### Recursion & Backtracking    
 [Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
