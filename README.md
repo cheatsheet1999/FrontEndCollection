@@ -241,7 +241,8 @@ This section will **NOT** teach you about Frontend enginnering, but will cover t
   [Counting Analogous Arrays](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Counting%20Analogous%20Arrays.md)  
   [Reformat Date](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reformat%20Date.md)    
   [Alaaddin Carpet](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Alaaddin%20Carpet.md)    
-  [Reaching Points](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reaching%20Points.md)     
+  [Reaching Points](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reaching%20Points.md)   
+  [OA with not answers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/OA%20with%20not%20answers.md)   
   
 </details>
 
