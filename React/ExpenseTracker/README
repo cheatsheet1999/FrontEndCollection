@@ -1,7 +1,0 @@
-                                                                   App.js           Card.js
-                                                                      |               |
-                                                                  Expenses.js ---------                 NewExpense.js
-                                                                      |                                       |
-                                                              ExpenseItem.js                           ExpenseForm.js
-                                                                |
-                                                      ExpenseDate.js                      
