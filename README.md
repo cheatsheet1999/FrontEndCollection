@@ -180,6 +180,7 @@
 [Binary Tree Vertical Order Traversal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Vertical%20Order%20Traversal.md)   
 [Validate Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Validate%20Binary%20Search%20Tree.md)     
 [Sum Root to Leaf Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Sum%20Root%20to%20Leaf%20Numbers.md)       
+[Binary Tree Right Side View](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Right%20Side%20View.md)          
 
 
 ### Recursion & Backtracking    
