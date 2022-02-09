@@ -3,24 +3,34 @@
 ## BFS
 
 ```js
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
 var rightSideView = function(root) {
-    const result = [];
-    const queue = [];
-    
-    if (root === null) return result;
+    if(!root) return [];
+    let queue = [];
+    let res = [];
     
     queue.push(root);
     while(queue.length !== 0) {
         let size = queue.length;
-        for (let i = 0; i < size; i++) {
-            let n = queue.shift();
-            if (i === size - 1) result.push(n.val);
-            if (n.left !== null) queue.push(n.left);
-            if (n.right !== null) queue.push(n.right);
+        for(let i = 0; i < size; i++) {
+            let node = queue.shift();
+            if(i === size - 1) res.push(node.val);
+            if(node.left !== null) queue.push(node.left);
+            if(node.right !== null) queue.push(node.right);
         }
     }
-    
-    return result;
+    return res
 };
 ```
 
