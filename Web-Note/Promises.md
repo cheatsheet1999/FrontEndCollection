@@ -11,3 +11,83 @@
 - A pending promise may transition into a fulfilled or rejected state.
 - A fulfilled or rejected promise is settled, and must not transition into any other state.
 - Once a promise is settled, it must have a value (which may be undefined). That value must not change.
+
+## Basic promise
+```js
+const p1 = new Promise((resolve, reject) => {
+  console.log('create a promise');
+  resolve('Successed');
+})
+
+console.log("after new promise");
+
+const p2 = p1.then(data => {
+  console.log(data)
+  throw new Error('Failed')
+})
+
+const p3 = p2.then(data => {
+  console.log('success', data)
+}, err => {
+  console.log('faild', err)
+})
+
+```
+
+
+## Syncronous Promise
+```js
+// Three status：PENDING、FULFILLED、REJECTED
+const PENDING = 'PENDING';
+const FULFILLED = 'FULFILLED';
+const REJECTED = 'REJECTED';
+
+class Promise {
+  constructor(executor) {
+    //Default status: PENDING
+    this.status = PENDING;
+    // Placeholder for success: undefined
+    this.value = undefined;
+    // Placeholder for failure undefined
+    this.reason = undefined;
+
+    // success when calling this function
+    let resolve = (value) => {
+       // The status can only be updated when the status is PENDING, preventing the resovle/reject method from being called twice in the executor
+      if(this.status ===  PENDING) {
+        this.status = FULFILLED;
+        this.value = value;
+      }
+    } 
+
+    // faila when calling this function
+    let reject = (reason) => {
+     // The status can only be updated when the status is PENDING, preventing the resovle/reject method from being called twice in the executor
+      if(this.status ===  PENDING) {
+        this.status = REJECTED;
+        this.reason = reason;
+      }
+    }
+
+    try {
+      // Execute immediately, passing the resolve and reject functions to the consumer
+      executor(resolve,reject)
+    } catch (error) {
+      // executing failure reason
+      reject(error)
+    }
+  }
+
+  // Contains a then method and receives two arguments, onFilled, onRejected
+  then(onFulfilled, onRejected) {
+    if (this.status === FULFILLED) {
+      onFulfilled(this.value)
+    }
+
+    if (this.status === REJECTED) {
+      onRejected(this.reason)
+    }
+  }
+}
+
+```
