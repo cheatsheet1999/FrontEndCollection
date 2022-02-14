@@ -91,3 +91,72 @@ class Promise {
 }
 
 ```
+
+## Promise
+
+```js
+const PENDING = 'PENDING';
+const FULFILLED = 'FULFILLED';
+const REJECTED = 'REJECTED';
+
+class Promise {
+  constructor(executor) {
+    this.status = PENDING;
+    this.value = undefined;
+    this.reason = undefined;
+    // store callbacks when success
+    this.onResolvedCallbacks = [];
+    // store callbacks when fail
+    this.onRejectedCallbacks= [];
+
+    let resolve = (value) => {
+      if(this.status ===  PENDING) {
+        this.status = FULFILLED;
+        this.value = value;
+        // executing corresponding function
+        this.onResolvedCallbacks.forEach(fn=>fn());
+      }
+    } 
+
+    let reject = (reason) => {
+      if(this.status ===  PENDING) {
+        this.status = REJECTED;
+        this.reason = reason;
+        // executing corresponding function
+        this.onRejectedCallbacks.forEach(fn=>fn());
+      }
+    }
+
+    try {
+      executor(resolve,reject)
+    } catch (error) {
+      reject(error)
+    }
+  }
+
+  then(onFulfilled, onRejected) {
+    if (this.status === FULFILLED) {
+      onFulfilled(this.value)
+    }
+
+    if (this.status === REJECTED) {
+      onRejected(this.reason)
+    }
+
+    if (this.status === PENDING) {
+      // If the state of the promise is pending, we need to store the onFulfilled and onRejected functions, wait for the status to be determined, and then execute the corresponding functions in turn
+
+      this.onResolvedCallbacks.push(() => {
+        onFulfilled(this.value)
+      });
+
+      // If the state of the promise is pending, you need to store the onFulfilled and onRejected functions, wait for the status to be determined, and then execute the corresponding functions in turn
+
+      this.onRejectedCallbacks.push(()=> {
+        onRejected(this.reason);
+      })
+    }
+  }
+}
+
+```
