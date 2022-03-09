@@ -113,6 +113,7 @@
 [Minimum Moves to Equal Array Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Moves%20to%20Equal%20Array%20Elements.md)
 [Buying Show Tickets](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Buying%20Show%20Tickets.md)     
 [Count Duplicate Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Duplicate%20Elements.md)   
+[Password Creation](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Algo)      
  
 
 ### String
