@@ -110,7 +110,8 @@
 [Reaching Points](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reaching%20Points.md)     
 [Pow(x, n)](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Pow(x%2C%20n).md)    
 [Sum of Square Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Sum%20of%20Square%20Numbers.md)     
-[Minimum Moves to Equal Array Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Moves%20to%20Equal%20Array%20Elements.md)      
+[Minimum Moves to Equal Array Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Moves%20to%20Equal%20Array%20Elements.md)
+[Buying Show Tickets](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Buying%20Show%20Tickets.md)     
  
 
 ### String
