@@ -1,17 +1,36 @@
 JS is the only language that supports 3 paradigms
-  - functional
+  - Functional
   - object-oriented
   - async
 
-a place for variable becomes valid
-memory is relased outside of the variable 
+### What is scope
+- When and where variables, constants, and arguments are considered to be defined/visible/available
+- Internally, when their memory is allocated, used, and released 
+  - Memory release is through a process called garbage collection
+
+```js
+function f(x) {
+  return x + 3;
+}
+f(5); // 8 
+console.log(x); // x is not defined
+```
 
 ### Four types of scoping
-- global scope 
-  - valid inside the whole file, intialize a variable outside every function 
+- Global Scope – ES5 
+  - Objects declared (with var, let, and const) _outside of any function are global_
+  - Visible everywhere in a JavaScript program (or an HTML document in Browser)
+  - **use it without declaring** – not allowed under ‘strict’ mode
+
 - Function Scope (ES5)
+  - Objects declared inside a function (yes, anywhere!) are visible only to code that appears **inside that function** (and its embedded functions) 
+  - Keyword ‘var’
 - Block Scope
+  - Objects declared inside a block are visible only to code that appears **inside that block** (and its embedded block) 
+  - Keywords ‘let’ and ‘const’
 - Module Scope
+  - When module system is used, no global variables. They become module variables
+  - Later in Module System
 
 var is a function scope, and let is block scope
 
@@ -32,3 +51,66 @@ strict mode
 Deep copy: value is the same, but two memory blocks, simple type always deep copy
 
 Shallow copy, only copy the refereence
+
+It's just that when a primitive is passed you get a copy of the primitive and when an object is passed you get a copy of the memory location of the object.
+
+
+
+
+### Exercise 
+
+1.
+```js
+function f() {
+    var a = 10;
+    if (a > 5) {
+        a = 7;
+    }
+    console.log(a);
+}
+
+// When executed, what value will be logged?
+```
+
+```
+Ans: 7
+Explain: Inside the if condition, 10 > 5, so a has been re-initialized to 7.
+```
+2.
+```js
+function f() {
+    if(true) {
+        var a = 5;
+    }
+    console.log(a);
+}
+f();
+```
+
+```
+Ans: 5
+Explain: the above program will always go inside the if condition, where a was initialized. a is in a function scope defined by using var, so it still can be accessed inside the function
+```
+
+3.
+```js
+function f() {
+	a = 3;
+}
+f();
+console.log(a);
+
+4.
+var a = 5;
+function first() {
+    a = 6;
+}
+
+
+function second() {
+    console.log(a);
+}
+first();
+second();
+
+```
