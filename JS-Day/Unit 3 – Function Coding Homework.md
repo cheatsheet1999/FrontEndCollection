@@ -50,7 +50,7 @@ Third Printout
 
 ### Homework 6 - Some issues
 
-```
+```js
 
 let convertStringToNumber = (str) => {
     let base = 'a'.charCodeAt() - 1;
