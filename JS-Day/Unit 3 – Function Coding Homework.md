@@ -47,3 +47,42 @@ Third Printout
 10 Of Hearts 6 Of Diamonds 12 Of Diamonds 5 Of Diamonds 1 Of Hearts 2 Of Spades 13 Of Diamonds 1 Of Diamonds 9 Of Diamonds 4 Of Hearts 5 Of Hearts 7 Of Spades 5 Of Hearts 4 Of Spades 3 Of Hearts 13 Of Spades 8 Of Diamonds 4 Of Hearts 4 Of Spades 1 Of Spades 13 Of Diamonds 8 Of Spades 12 Of Diamonds 4 Of Hearts 3 Of Hearts 2 Of Spades 7 Of Hearts 10 Of Hearts 1 Of Hearts 4 Of Spades 1 Of Spades 6 Of Spades 6 Of Diamonds 3 Of Hearts 12 Of Diamonds 5 Of Diamonds 7 Of Hearts 13 Of Spades 9 Of Diamonds
 
 ```
+
+### Homework 6 - Some issues
+
+```
+
+let convertStringToNumber = (str) => {
+    let base = 'a'.charCodeAt() - 1;
+    let newRes = str.split(' ');
+
+    let sum = 0;
+    let strObj = {};
+
+    for(let i = 0; i < newRes.length; i++) {
+        sum = 0;
+        for(let j = 0; j < newRes[i].length; j++) {
+            sum += newRes[i][j].charCodeAt() - base
+        }
+        strObj[sum] = [newRes[i]]
+
+        console.log('\n')
+    }
+
+    console.log(strObj)
+}
+
+convertStringToNumber('abc cde adb dfb def ee abcd cc')
+
+```
+
+```
+{
+  '6': [ 'cc' ],
+  '7': [ 'adb' ],
+  '10': [ 'abcd' ],
+  '12': [ 'dfb' ],
+  '15': [ 'def' ]
+}
+
+```
