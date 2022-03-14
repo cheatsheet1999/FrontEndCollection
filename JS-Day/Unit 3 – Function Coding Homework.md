@@ -85,4 +85,5 @@ convertStringToNumber('abc cde adb dfb def ee abcd cc')
   '15': [ 'def' ]
 }
 
+Looks like we can't push element inside an `object`, so bug will appear when there are two string with same value. Only one would show.
 ```
