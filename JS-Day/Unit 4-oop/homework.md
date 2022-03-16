@@ -85,3 +85,62 @@ let copyWriter = SingletonWriter.getInstance('HW4', 'Emma', ['q1,q2,q3']);
 console.log(originalWriter)
 console.log(copyWriter)
 ```
+
+
+### Homework5
+```js
+class TwoSum {
+    constructor(arr) {
+        this.arr = [];
+    }
+
+    add(num) {
+        this.arr.push(num);
+    }
+
+    find(value) {
+        this.arr.sort((a, b) => a - b);
+        let left = 0
+        let right = this.arr.length -1
+
+        // two pointers
+        while(left < right){
+            let twoSum = this.arr[left] + this.arr[right]
+            if(twoSum < value){
+                left += 1
+            }else if(twoSum > value){
+                right -= 1
+            }else if(twoSum === value){
+                return true
+            }
+        }
+        return false
+    }
+
+    remove(value) {
+        let index = this.arr.indexOf(value);
+        let count = 0;
+        this.arr.forEach(() => {
+            if (index > -1) {
+                this.arr.splice(index, 1); // 2nd parameter means remove one item only
+                count++;
+            }
+        })
+        return `${count} item(s) have been removed`
+    }
+}
+
+let t1 = new TwoSum()
+t1.add(1);
+t1.add(3);
+t1.add(3);
+
+t1.add(5);
+
+console.log(t1.arr)
+console.log(t1.find(4))
+console.log(t1.find(7))
+console.log(t1.remove(3));
+console.log(t1.arr)
+
+```
