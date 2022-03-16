@@ -60,3 +60,28 @@ console.log("two.toString1() = " + two.toString1());
 // access method in subclass - never happen
 console.log("two.getArea() = " + two.getArea());
 ```
+
+### Homework4
+```js
+class SingletonWriter {
+    constructor(unit, name, questions) {
+        this.unit = unit;
+        this.name = name;
+        this.questioms = questions;
+    }
+
+    static getInstance(unit, name, questions) {
+        if(!this.instance) {
+            this.instance = new SingletonWriter(unit, name, questions);
+        }
+        return this.instance;
+    }
+}
+
+let originalWriter = SingletonWriter.getInstance('HW4', 'Alan', ['q1,q2,q3']);
+let copyWriter = SingletonWriter.getInstance('HW4', 'Emma', ['q1,q2,q3']);
+
+// the class should either return the same previously instantiated object
+console.log(originalWriter)
+console.log(copyWriter)
+```
