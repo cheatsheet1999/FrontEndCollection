@@ -26,6 +26,14 @@ console.log(filterValues([23, '', 'homework', true, null, false, 0]));
 
 console.log(('9119').split('').map((val) => { return val * val}).join(''))
 
+// Question 4
+
+let str = "How can mirrors be real if our eyes aren't real"
+
+console.log(str.split(" ").map((word) => {
+    return word[0].toUpperCase() + word.substring(1);
+}).join(" "));
+
 ```
 
 ### Homework 6
