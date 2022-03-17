@@ -1,4 +1,4 @@
-
+### Homwork 1
 ```js
 // 1. Write a JavaScript function to get the sum of an array without using any loop statement.
 
@@ -21,6 +21,10 @@ function filterValues(arr) {
 }
 
 console.log(filterValues([23, '', 'homework', true, null, false, 0]));
+
+// Question 3
+
+console.log(('9119').split('').map((val) => { return val * val}).join(''))
 
 ```
 
