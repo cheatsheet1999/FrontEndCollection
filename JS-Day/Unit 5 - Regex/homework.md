@@ -1,5 +1,28 @@
 
+```js
+// 1. Write a JavaScript function to get the sum of an array without using any loop statement.
 
+let arr = [1, 3, 2, 4];
+let sum = arr.reduce((prev, accu) => prev + accu, 0);
+console.log(sum)
+
+
+// 2. Write a JavaScript function to filter false, null, 0 and blank values from an array without using any loop statement.
+function filterValues(arr) {
+    arr = arr.filter(Boolean)
+    return arr;
+}
+
+console.log(filterValues([23, '', 'homework', true, null, false, 0]));
+
+// 2nd way of doing it
+function filterValues(arr) {
+    return arr.filter(x => x);
+}
+
+console.log(filterValues([23, '', 'homework', true, null, false, 0]));
+
+```
 
 ### Homework 6
 ```js
