@@ -3,7 +3,7 @@
 // 1. Write a JavaScript function to get the sum of an array without using any loop statement.
 
 let arr = [1, 3, 2, 4];
-let sum = arr.reduce((prev, accu) => prev + accu, 0);
+let sum = arr.reduce((acc, cur) => acc + cur, 0);
 console.log(sum)
 
 
@@ -92,7 +92,15 @@ const sortByDistance = (coordinatesArr, point) => {
 sortByDistance(coordinatesArr, {x: 71, y: 8});
 console.log(coordinatesArr);
 ```
+### Homework 3
 
+```js
+let sqrt = (x) => {
+    return Math.sqrt(x);
+}
+
+console.log(sqrt(5))
+```
 
 
 ### Homework 6
