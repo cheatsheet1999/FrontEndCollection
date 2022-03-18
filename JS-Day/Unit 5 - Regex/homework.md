@@ -100,6 +100,43 @@ let sqrt = (x) => {
 }
 
 console.log(sqrt(5))
+
+
+
+// Question 2
+let longestContinues = function(nums) {
+    let counter = 0;
+    return nums.reduce((acc, cur) => {
+        counter = cur ? counter + 1 : 0;
+        return Math.max(acc, counter);
+    }, 0);
+};
+
+
+console.log(longestContinues([1,1,1,1,0,0,1,1]))
+
+
+// Question 3
+
+let longestCommonPrefix = function(strs) {
+    if(!strs.length) return "";
+    for(let i = 0; i < strs[0].length; i++) {
+        for(let str of strs) {
+            if(str[i] !== strs[0][i]) return str.slice(0, i);
+        }
+    }
+    return strs[0];
+};
+
+console.log(longestCommonPrefix(["flower","flow","flight"]))
+
+
+// Question 4
+let fizzBuzz = function(n) {
+    return new Array(n).fill(0).map((a, i) => (++i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || '' + i);
+};
+
+console.log(fizzBuzz(15));
 ```
 
 
