@@ -82,6 +82,62 @@ Mutable variable is accessible from closure
 
 ```
 
+### Homework 2
+```js
+Consider the following code. What will the output be, and why?
+(function () {
+    try {
+        throw new Error();
+    } catch (x) {
+        var x = 1, y = 2;
+        console.log(x); // 1
+    }
+    console.log(x); // undefiend - scope issue?
+    console.log(y); // 2
+})();
+
+/*
+1
+undefiend
+2
+
+*/
+```
+
+
+
+### Homework 3
+```js
+var reverse = function(x) {
+    const number = Math.abs(x).toString().split('').reverse().join('');
+
+    if (number > Math.pow(2, 31) - 1) {
+        return 0
+    }
+
+    return x < 0 ? -number : number;
+};
+```
+
+
+### Homework 4
+
+```js
+The following recursive code will cause a stack overflow if the array list is too large. How can you fix this and still retain the recursive pattern?
+
+var list = readHugeList();
+
+var nextListItem = function() {
+    var item = list.pop();
+
+    if (item) {
+        // process the list item...
+        // nextListItem();
+        setTimeout( nextListItem, 0 );
+    }
+};
+
+```
 
 
 ### Homework 5
