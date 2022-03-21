@@ -81,3 +81,13 @@ Index: 4, element: undefined
 Mutable variable is accessible from closure
 
 ```
+
+
+
+### Homework 5
+
+```js
+let reverseWords = function(s) {
+     return s.split(" ").reverse().filter(w => w !== "").join(" ");
+};
+```
