@@ -206,23 +206,7 @@
 [Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)     
 [Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)   
 [Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)       
-
-## Foundations of Algorithms   
-_This is probably the hardest section in this repository, and totally optional, but why I am writting this....?_
-
-This section is based on CSE 551 (Foundations of Algorithms) from Arizona State University. I believe it will be good learning materials for frontend software engineers who did not receive a systematic CS education. 
-
-This section will **NOT** teach you about Frontend enginnering, but will cover the core about **Computer Science** and **Algorithms**.....
-
-[Basics of Algorithm Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Basics%20of%20Algorithm%20Analysis.md)   
-[Divide and Conquer - Merge Sort](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Divide%20and%20Conquer%20-%20Merge%20Sort.md)    
-[Graphs](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Graphs.md)  
-[Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Introduction%20to%20Stable%20Matching.md)   
-[Knowledge Check: Introduction to Stable Matching](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Knowledge%20Check:%20Introduction%20to%20Stable%20Matching.md)  
-[Five Representative Problems](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Five%20Representative%20Problems.md)    
-[Greedy Algorithm - Interval Scheduling and Interval Partitioning](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Greedy%20Algorithm%20-%20Interval%20Scheduling%20and%20Interval%20Partitioning.md)          
-[Amortized Analysis](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Frontend%20University/Amortized%20Analysis.md)       
-
+     
 <details>
 <summary><strong>Database Management</strong></summary>
   
