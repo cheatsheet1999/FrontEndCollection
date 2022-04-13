@@ -56,6 +56,11 @@
 [3. Implement curry() with placeholder support](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Core/implement%20curry()%20with%20placeholder%20support.md)  
 
 ## Data Structures & Algorithms in JavaScript
+
+### Solve the questions on [Codewar](https://www.codewars.com/) if you are a beginner
+[Beginners](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Algo/Beginners)   
+
+
 ### Array
 #### Easy
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
