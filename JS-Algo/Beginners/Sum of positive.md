@@ -1,0 +1,14 @@
+
+
+
+
+
+<img width="618" alt="Screen Shot 2022-04-13 at 14 43 41" src="https://user-images.githubusercontent.com/37787994/163275442-c473b80b-f78c-4c4c-b82c-27ee2cf0ad9b.png">
+
+
+
+```js
+function positiveSum(arr) {
+   return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
+}
+```
