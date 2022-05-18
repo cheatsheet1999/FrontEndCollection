@@ -1,0 +1,66 @@
+{
+  "name": "@asu-design-system/components-core",
+  "version": "1.0.0",
+  "description": "Core UDS Preact UI components required by other higher-order Preact packages",
+  "author": "Nathan Rollins <nathan.rollins@asu.edu>",
+  "homepage": "https://github.com/ASU/asu-unity-stack#readme",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASU/asu-unity-stack.git"
+  },
+  "scripts": {
+    "lint": "eslint --fix 'src/**/*.{js,jsx}' --ignore-path ../../.eslintignore",
+    "test": "jest --config=./jest.config.js",
+    "start:dev": "webpack-dashboard -- webpack serve -c webpack/webpack.dev.js",
+    "build": "webpack -c webpack/webpack.prod.js",
+    "build:stats": "webpack -c webpack/webpack.prod.js --profile --json=compilation-stats.json",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/ASU/asu-unity-stack/issues"
+  },
+  "devDependencies": {
+    "@asu-design-system/bootstrap4-theme": "latest",
+    "@babel/core": "^7.13.14",
+    "@storybook/addon-actions": "^6.2.3",
+    "@storybook/addon-docs": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.3",
+    "@storybook/addon-links": "^6.2.3",
+    "@storybook/react": "^6.2.3",
+    "@testing-library/react": "^11.2.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "jest-image-snapshot": "^4.4.1",
+    "jest-transform-css": "^2.1.0",
+    "jest-transform-file": "^1.1.1",
+    "jsdom-screenshot": "^4.0.0",
+    "postcss": "^7.0.2",
+    "semantic-release": "^17.4.2",
+    "semantic-release-monorepo": "^7.0.4",
+    "storybook-css-modules-preset": "^1.0.7",
+    "style-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.19.0",
+    "dompurify": "^2.2.7",
+    "phone-fns": "^3.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-share": "^4.4.0",
+    "reactstrap": "^8.9.0"
+  }
+}
