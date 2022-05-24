@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Hive Multiple Selection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <!--    Responsive Section-->
+    <link rel="stylesheet" type="text/css" href="hiveCheckbox.css" media="screen and (min-width:720px)"/>
+    <link rel="stylesheet" type="text/css" href="hiveCheckboxMobile.css" media="screen and (max-width:720px)"/>
+</head>
+
+<body>
+<div id="container">
+    <div class="demo-zone" id="demo-multiple">
+        <label for="MultiOpts">Please select one / more options </label>
+        <br>
+        <select id="MultiOpts" multiple></select>
+        <div>
+            <button class="demo" onClick="selectAll()">Select All</button>
+            <button class="demo" onClick="deselectAll()">Deselect All</button>
+        </div>
+    </div>
+</div>
+
+<script src="hiveCheckbox.js"></script>
+
+<script>
+    let check_options = ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5",
+        "Option 6", "Option 7", "Option 8", "Option 9", "Option 10",
+        "Option 11", "Option 12", "Option 13", "Option 14", "Option 15",
+        "Option 16", "Option 17", "Option 18", "Option 19", "Option 20",];
+    let select = document.querySelector("#MultiOpts");
+
+    for (let i = 0; i < check_options.length; i++) {
+        let option = document.createElement("option");
+        option.text = check_options[i];
+        select.appendChild(option);
+    }
+
+    selectBox = new HiveCheckbox("#MultiOpts");
+
+    //Select all ## Deselect all function
+    function selectAll() {
+        if(selectBox!=null) {
+            selectBox.selectAll();
+        }
+    }
+
+    function deselectAll() {
+        if(selectBox!=null) {
+            selectBox.deselectAll();
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+	background-color: #374954;
+	display: flex;
+	/* Center the whole box */
+	justify-content: center;
+}
+
+.demo-zone {
+	color: wheat;
+	font-size: 30px;
+}
+
+/*Button for `Select All` and `Deselect All`*/
+.demo {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	background-color: #6BBE92;
+	border: 0;
+	padding: 10px;
+	margin: 5px 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	width: 380px;
+	cursor: pointer;
+}
+
+.dropdown-menu{
+	cursor:pointer;
+	/*Make sure it always on top*/
+	z-index:1000;
+	display:none;
+	position:fixed;
+	border:1px solid #B2B2B2;
+	background-color: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 6px 12px rgba(0,0,0,.775);
+	border-radius:4px;
+	font-size : 11px;
+	opacity: 0.9;
+}
+
+.main_checkbox{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dropdown-menu  li:hover {
+	background: linear-gradient(#f5f5f5, #e8e8e8);
+}
+
+.dropdown-menu ul{
+	user-select:none;
+	list-style:none;
+	white-space: nowrap;
+	margin: 4px 0 0;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:3px;
+	color: #333;
+	cursor:pointer;
+	overflow-y:auto;
+}
+
+.main_checkbox button{
+	min-width: 380px;
+	border-radius: 0;
+	text-align: justify;
+	z-index: 1;
+	color: white;
+	background: #4F6877 !important;
+	border: 1px solid #999;
+	line-height:20px;
+	font-size: 18px;
+	padding:6px 12px;
+	width: 50px;
+	cursor: pointer;
+	box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+
+.main_checkbox .title {
+	margin-right: 6px;
+	user-select:none;
+	font: normal 18px/100% "Andale Mono", AndaleMono;
+}
+
+.main_checkbox ul{
+	white-space: nowrap;
+}
+
+
+.dropdown-menu .multi li {
+	font-size: 15px;
+	background-color: #fff;
+	min-height:1.4em;
+	padding: 0.2em 1em 0.2em 26px;
+}
+
+.dropdown-menu .multi li::before{
+	content: "";
+	display: inline-block;
+	font-size: inherit;
+	float:left;
+	font-weight:bold;
+	margin-left:-22px;
+	margin-right:2px;
+	border : 1px solid;
+	border-radius : 3px;
+	padding : 7px;
+	margin-top:0;
+	color:black;
+}
+
+
+.dropdown-menu .multi li.active::after {
+	content: "";
+	display: inline-block;
+	font-size: inherit;
+	color: #333;
+	float:left;
+	margin-left:-18px;
+	/*Right mark*/
+	transform: rotate(45deg);
+	margin-top:2px;
+	height: 8px;
+	width:  4px;
+	border-bottom: 3px solid black;
+	border-right:  3px solid black;
+}
+
