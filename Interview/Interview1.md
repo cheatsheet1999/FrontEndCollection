@@ -6,6 +6,7 @@ _Example_
 ```js
 let x = function() {
     if(true) {
+     console.log(v); // Undefined
         var v = 2;
         let l = 1;
     }
@@ -14,6 +15,30 @@ let x = function() {
 }
 
 x();
+```
+
+## 2. What is the difference between == and === ?
+1. They both are **comparison operator**, but "==" compares **value only**
+
+## 3. What is the difference between "let" and "const" keywords?
+1. After first assigned a value, we CANNOT reassign the value.  
+_Example_
+
+```js
+let l = 1;
+l = 2;
+console.log(l); // 2
+
+const c = 1;
+c = 2;
+console.log(c) // Error: Assign to a const value
+
+const x;
+x = 1; // Error, because x has already been defined to undefined
+
+const d = [1, 2];
+d.push(3)
+console.log(d); // [1, 2, 3]
 ```
 
 ---
