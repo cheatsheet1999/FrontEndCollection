@@ -1,4 +1,9 @@
-1. hoisting
+## 1. What is difference between "var" and "let" keywords?  
+1. **var has been in JavaScript syntax since the beginning, and let was introduced in ES6.**
+2. **"let" has block scope**, which mean a variable defined with the "let" keyword will die at the end of the block, a.k.a Garbage collection. **"var" has function scope**, so the variable will die at the end of the **function block**
+3. The variable defiened with "var" gets **Hoisted** at the top of the function
+
+---
 2. scope in javascript
 3. new feature introduced in ES6
 4. arrow function difference
