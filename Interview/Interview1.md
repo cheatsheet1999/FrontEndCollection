@@ -2,7 +2,7 @@
 1. **var has been in JavaScript syntax since the beginning, and let was introduced in ES6.**
 2. **"let" has block scope**, which mean a variable defined with the "let" keyword will die at the end of the block, a.k.a Garbage collection. **"var" has function scope**, so the variable will die at the end of the **function block**
 3. The variable defiened with "var" gets **Hoisted** at the top of the function
-_Example_
+
 ```js
 let x = function() {
     if(true) {
@@ -18,11 +18,10 @@ x();
 ```
 
 ## 2. What is the difference between == and === ?
-1. They both are **comparison operator**, but "==" compares **value only**
+- They both are **comparison operator**, but "==" compares **value only**
 
 ## 3. What is the difference between "let" and "const" keywords?
-1. After first assigned a value, we CANNOT reassign the value.  
-_Example_
+- After first assigned a value, we CANNOT reassign the value.  
 
 ```js
 let l = 1;
@@ -41,6 +40,49 @@ d.push(3)
 console.log(d); // [1, 2, 3]
 ```
 
+## 4. What is the difference between null and undefined?
+1. undefined is more like a placeholder, when we did not assign a value to a variable, it will automatically be assigned as undefined.
+2. typeof(undefined) => undefined, typeof(null) => object
+
+
+## 4. What is the difference about arrow function?
+1. Arrow function will bind `this` keyword to the context enviornment
+
+```js
+const profile = {
+    firstName: '',
+    lastName: '',
+    setName: function(name) {
+        let splitName = function(n) {
+            let nameArray = n.split(' ');
+            this.firstName = nameArray[0];
+            this.lastName = nameArray[1];
+        }
+        splitName(name);
+    }
+}
+
+profile.setName('john doe');
+console.log(profile.firstName) // print nothing
+console.log(window.firstName) // john
+```
+```js
+const profile = {
+    firstName: '',
+    lastName: '',
+    setName: function(name) {
+        let splitName = (n) => {
+            let nameArray = n.split(' ');
+            this.firstName = nameArray[0];
+            this.lastName = nameArray[1];
+        }
+        splitName(name);
+    }
+}
+
+profile.setName('john doe');
+console.log(profile.firstName) // john
+```
 ---
 2. scope in javascript
 3. new feature introduced in ES6
