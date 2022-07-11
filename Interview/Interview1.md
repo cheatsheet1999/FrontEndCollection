@@ -2,6 +2,19 @@
 1. **var has been in JavaScript syntax since the beginning, and let was introduced in ES6.**
 2. **"let" has block scope**, which mean a variable defined with the "let" keyword will die at the end of the block, a.k.a Garbage collection. **"var" has function scope**, so the variable will die at the end of the **function block**
 3. The variable defiened with "var" gets **Hoisted** at the top of the function
+_Example_
+```js
+let x = function() {
+    if(true) {
+        var v = 2;
+        let l = 1;
+    }
+    console.log(v); // 2
+    console.log(l); //Uncaught Reference Error 
+}
+
+x();
+```
 
 ---
 2. scope in javascript
