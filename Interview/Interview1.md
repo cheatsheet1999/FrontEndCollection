@@ -45,7 +45,7 @@ console.log(d); // [1, 2, 3]
 2. typeof(undefined) => undefined, typeof(null) => object
 
 
-## 4. What is the difference about arrow function?
+## 5. What is the difference about arrow function?
 1. Arrow function will bind `this` keyword to the context enviornment
 
 ```js
@@ -83,6 +83,46 @@ const profile = {
 profile.setName('john doe');
 console.log(profile.firstName) // john
 ```
+
+
+## 6. What is prototypal inheritance?
+- Every object has a property called **prototype**, where we can add methods and properties to it. When we create a new object, the newly created object will inherit property from the parent object. **But** its not including in its own property but instead, it uses from it's parent. When we call a particular method on an object, it firstly looks at it's own properties to see if it's there. If not, it will look at it's parent object. By doing this, the object is much lighter and doesn't carry all this methods with it. For example, if we carried a thousand objects, we don't have to include all of those methods. It's automatically available to us. 
+
+```js
+
+let car = function(model) {
+    this.model = model;
+}
+
+// create a method on prototype
+car.prototype.getModel = function() {
+    return this.model;
+}
+
+let audi = new car('audi');
+console.log(audi.getModel()); // audi
+
+let tesla = new car('tesla');
+console.log(tesla.getModel()); // tesla
+```
+
+
+## 7. What is the difference between function declaration and function expression?
+1. function declaration is an anonymous function, function expression has a varaible name, so it behaves like a variable, and has variable scope as well.
+2. When we want to pass a function to another function, we cannot pass a function declaration to another function, we have to use a function expression because it's like a variable, and we can pass a variable to another function.  
+```js
+console.log(funcD()); // function declaration
+console.log(funcE()); // Error
+
+function funcD() {
+    console.log("function declaration");
+}
+
+function funcE() {
+    console.log("function expression");
+}
+```
+
 ---
 2. scope in javascript
 3. new feature introduced in ES6
