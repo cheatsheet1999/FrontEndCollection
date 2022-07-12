@@ -150,8 +150,8 @@ It will print out b, c, a because when we do `setTimeout`, it becomes an asynchr
 1. Data Encapsulation is one of the most important reason because clouse helps to prevent leaking or exposing data where it's not needed.
 
 <img width="1550" alt="Screen Shot 2022-07-12 at 00 58 23" src="https://user-images.githubusercontent.com/37787994/178439707-049bd3bb-424a-42b2-bebf-ff41350dd86f.png">
-- The data contained in `inner` function will not leak out to the surrounding environment. The `inner` function has access to the data defined in the `outer` function scope. But the outer function does not have access to the `inner` function
-
+The data contained in `inner` function will not leak out to the surrounding environment. The `inner` function has access to the data defined in the `outer` function scope. But the outer function does not have access to the `inner` function
+   
 2. We can use clousures to create a **function factory** that takes an argument then returns a brand new function which can then be passed along to other functions that expect a callback.
 
 ```js
@@ -178,7 +178,7 @@ for(var i = 0; i < 3; i++) {
     setTimeout(log, 100);
 }
 ```
-## 10. What is `this` keyword?
+## 11. What is `this` keyword?
 There's no simple explanation for this; it is one of the most confusing concepts in JavaScript. A hand-wavey explanation is that the value of this depends on how the function is called. The following rules are applied:
 
 1. If the new keyword is used when calling the function, this inside the function is a brand new object.
