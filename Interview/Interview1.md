@@ -123,10 +123,69 @@ function funcE() {
 }
 ```
 
+## 8. What is promise
+1. When we want to make an **async call**, we have to wait for something to happen and then once it comes back, we exit with a callback function. And, within the callback function, we might do another ajax call, which can wait for another result and we would have another callback function on success or failure and it could become kind of nested callback function hell. Therefore, we need to simplify this thing so we use primises.
+
+
+## 9. setTimeout
+
+```js
+setTimeout(function() {
+    console.log('a');
+}, 0)
+
+console.log('b')
+console.log('c')
+```
+It will print out b, c, a because when we do `setTimeout`, it becomes an asynchronous, it will come into the event loop after executing 'b' and 'c'.
+
+## 10. What is a closure and how do you use it?
+- A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, define a function inside another function and expose it. To expose a function, return it or pass it to another function. The inner function will have access to the variables in the outer function scope, even after the outer function has returned.
+
+**This is an easy example of closure**
+<img width="1550" alt="Screen Shot 2022-07-12 at 00 49 04" src="https://user-images.githubusercontent.com/37787994/178437763-d6100781-b944-4ef9-a8a3-fc0b690daaf4.png">
+**Unlike calltack, variable in Heap memory can be kept indefinitely then decide when you get rid of it later with the garbage collector**
+
+### why use closure if it requires more memory and procecssing power than a pure function?
+1. Data Encapsulation is one of the most important reason because clouse helps to prevent leaking or exposing data where it's not needed.
+
+<img width="1550" alt="Screen Shot 2022-07-12 at 00 58 23" src="https://user-images.githubusercontent.com/37787994/178439707-049bd3bb-424a-42b2-bebf-ff41350dd86f.png">
+- The data contained in `inner` function will not leak out to the surrounding environment. The `inner` function has access to the data defined in the `outer` function scope. But the outer function does not have access to the `inner` function
+
+2. We can use clousures to create a **function factory** that takes an argument then returns a brand new function which can then be passed along to other functions that expect a callback.
+
+```js
+function alertFun(message) {
+    
+    return () => {
+        alert(`${message}`);
+    }
+}
+
+let alertMom = alertFun('hi mom')
+
+alertMom();
+
+```
+
+3. The following program logs `3, 3, 3` because when var is used, it's capturing the reference to the global variable. The reason it log `3,3,3` is because the _**timeout**_ doesn't run until 100 milliseconds later. After that, the for loop has completed and iterated up to three.
+
+```js
+for(var i = 0; i < 3; i++) {
+    let log = () => {
+        console.log(i);
+    }
+    setTimeout(log, 100);
+}
+```
+
+
 ---
 2. scope in javascript
 3. new feature introduced in ES6
 4. arrow function difference
+
+
 
 
 5. what is closure
