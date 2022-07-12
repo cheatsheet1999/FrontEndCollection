@@ -320,3 +320,8 @@ componentDidUpdate()
 
 **unmount phases**
 componentWillUnmount()
+
+13: usecase of middleware
+14: contextAPI
+15: usecase of custom hooks
+16: object functions, values and keys in JS
