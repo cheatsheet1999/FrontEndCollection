@@ -23,32 +23,26 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 <img width="548" alt="Screen Shot 2021-10-07 at 10 18 09 PM" src="https://user-images.githubusercontent.com/37787994/136502316-25a37f22-594b-4917-88f2-54f7eda2af91.png">
 
 ```JS
-/**
- * @param {string} s
- * @return {number}
- */
-symbols = {
-        "I": 1,
-        "V": 5,
-        "X": 10,
-        "L": 50,
-        "C": 100,
-        "D": 500,
-        "M": 1000
-    };
-
-// Input: s = "MCMXCIV"
 var romanToInt = function(s) {
-    // Remember that, the Roman letter on the front should larger than the later one
-    // otherwise, the number is the later letter - earlier letter
-    let value = 0;
-    for(let i = 0; i < s.length; i++) {
-        // 1st: s[i] = M   s[i + 1] = C
-        // symbols[s[i]] = M: (1000), symbols[s[i + 1]]: (100)  
-        // => value += symbols[s[i]]
-        // else value -= symbols[s[i]]
-        symbols[s[i]] < symbols[s[i + 1]] ? value -= symbols[s[i]] : value += symbols[s[i]]
+    let map = {
+        I: 1,
+        V: 5,
+        X: 10,
+        L: 50,
+        C: 100,
+        D: 500,
+        M: 1000
     }
-    return value;
+    let sum = 0;
+    for (let i = 0; i < s.length; i++) {
+        let curr = map[s[i]];
+        let next = map[s[i + 1]];
+        if (curr < next) {
+            sum -= curr;
+        } else {
+            sum += curr;
+        }
+    }
+    return sum;
 };
 ```
