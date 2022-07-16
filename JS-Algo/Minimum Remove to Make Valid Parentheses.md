@@ -21,6 +21,17 @@ Formally, a parentheses string is valid if and only if:
 
 **Space complexity : O(n), We are using a stack, and so require up to O(n) space.**
 
+## Steps
+1. Split string s into multiple parts
+2. Create a stack to store parenthesis' index
+3. Traverse the `s` array
+   - if we find `(`, then push to stack
+   - else if we find `)`
+     - if stack is not empty, we pop
+     - else we make the corresponding letter become empty
+4. Empty the stack,  make the corresponding letter become empty
+5. Join the string
+
 
 ```JS
 /**
