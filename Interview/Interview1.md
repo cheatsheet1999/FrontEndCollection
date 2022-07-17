@@ -19,6 +19,7 @@ x();
 
 ## 2. What is the difference between == and === ?
 - They both are **comparison operator**, but "==" compares **value only**
+- Primitives like strings and numbers are compared by their value, while objects like arrays, dates, and plain objects are compared by their reference. That comparison by reference basically checks to see if the objects given refer to the same location in memory
 
 ## 3. What is the difference between "let" and "const" keywords?
 - After first assigned a value, we CANNOT reassign the value.  
