@@ -6,6 +6,7 @@ Given a string `s`, return `true` if the `s` can be palindrome after deleting **
 **Time complexity: O(n)**  
 **Space complexity: O(1)**  
 
+
 ```JS
 /**
  * @param {string} s
@@ -23,6 +24,7 @@ var validPalindrome = function(s) {
     let low = 0, high = s.length - 1;
     while(low < high) {
         if(s[low] !== s[high]) {
+        // findPalin(s, low + 1, high) is NESSECARRY because otherwise cannot pass the case of 'deeee'
             return findPalin(s, low + 1, high) || findPalin(s, low, high - 1);
         }
         low++;
