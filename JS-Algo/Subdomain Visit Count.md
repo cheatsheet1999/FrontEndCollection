@@ -47,3 +47,23 @@ var subdomainVisits = function(cpdomains) {
     return Object.keys(visitCount).map((key) => `${visitCount[key]} ${key}`);
 }
 ```
+
+## Updated
+```js
+/**
+ * @param {string[]} cpdomains
+ * @return {string[]}
+ */
+var subdomainVisits = function(cpdomains) {
+    let map = new Map();
+    for(let i = 0; i < cpdomains.length; i++) {
+        let [visits, domain] = cpdomains[i].split(" ");
+        let subdomains = domain.split(".");
+        for(let j = 0; j < subdomains.length; j++) {
+            let subdomain = subdomains.slice(j).join(".");
+            map[subdomain] ? map[subdomain] += +visits : map[subdomain] = +visits;
+        }
+    }
+    return Object.keys(map).map(key => `${map[key]} ${key}`)
+};
+```
