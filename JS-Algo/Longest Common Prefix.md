@@ -12,11 +12,8 @@ If there is no common prefix, return an empty string "".
  * @return {string}
  */
 var longestCommonPrefix = function(strs) {
-    //按照第一个单词的长度遍历每个字母
-    //Traverse the string array based on the length of the first `strs[0]`
     for(let i = 0; i < strs[0].length; i++) {
-        //traverse every single word
-        for(let str of strs) { 
+        for(let str of strs) {
             if(str[i] !== strs[0][i]) return str.slice(0, i);
         }
     }
