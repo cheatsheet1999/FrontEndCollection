@@ -1,6 +1,7 @@
 ## 1. The differnece between React.Fragment and div
 - The main difference between React.Fragment vs div is that using a React.Fragment will not add any additional elements into the DOM tree, whereas, using a div will add a div to the DOM tree.
 
+### With div
 ```jsx
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
   );
 }
 ```
-### Result
+
 ```html
 <div>
   <p>Hello</p>
@@ -19,7 +20,7 @@ export default function App() {
 </div>
 ```
 
-
+### With React.Fragment
 ```jsx
 export default function App() {
   return (
@@ -30,7 +31,6 @@ export default function App() {
   );
 }
 ```
-### Result
 ```html
 <p>Hello</p>
 <p>World</p>
