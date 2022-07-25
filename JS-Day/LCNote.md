@@ -41,6 +41,6 @@
 (560) **map.set(0, 1);**      
 (121) **min = Math.min(min, prices[i] max = Math.max(max, max - prices[i]))**     
 (2) **let head = new ListNode(0) let res = head**       
-(811) **let [visits, domain] = cpdomains[i].split(" "); let subdomains = domain.split(".");**
-(14) **if(str[i] !== strs[0][i]) {return str.slice(0, i);}**
+(811) **let [visits, domain] = cpdomains[i].split(" "); let subdomains = domain.split(".");**        
+(14) **if(str[i] !== strs[0][i]) {return str.slice(0, i);}**            
      
