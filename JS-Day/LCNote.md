@@ -42,5 +42,10 @@
 (121) **min = Math.min(min, prices[i] max = Math.max(max, max - prices[i]))**     
 (2) **let head = new ListNode(0) let res = head**       
 (811) **let [visits, domain] = cpdomains[i].split(" "); let subdomains = domain.split(".");**        
-(14) **if(str[i] !== strs[0][i]) {return str.slice(0, i);}**            
+(14) **if(str[i] !== strs[0][i]) {return str.slice(0, i);}**    
+
+## 07-25
+(1762) **while(res.length && heights[i] >= heights(res[res.length - 1]))**          
+(15) **nSum(arr.slice(i + 1), [...result, arr[i]], target - arr[i], n - 1);**       
+(253) **let starts = intervals.map(a => a[0]).sort((a, b) => a - b); let ends = intervals.map(a => a[1]).sort((a, b) => a - b);**          
      
