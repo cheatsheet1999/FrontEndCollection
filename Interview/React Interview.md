@@ -111,4 +111,57 @@ export default function App() {
 }
 
 ```
+## 12. What is props.children?
+1. The content between the opening and closing tags of a component is passed as the children attribute of props: props.children
+2. props.children can be string literals, HTML syntax, JS expressions, and JS functions
+
+## 13. Talk to me about handling events in React.  
+1. React events are named using camelCase, rather than lowercase.
+2. With JSX you pass a function as the event handler, rather than a string.
+
+## 14. What are the common approaches to reusing code in React
+### Higher-Order Component
+-	Higher-order component: A function that takes a React component and transforms it into another component by enriching it with reusable functionality
+-	Common in third-party libraries, a prevalent example is React Redux’s connect
+-	Easily compose a component by chaining multiple HoC’s
+-	Disadvantage: Poor readability when chaining many HoC’s resulting in Wrapper Hell
+-	Disadvantage: Wrapper hell can result in a nested tree and difficulty debugging
+
+### Render Props
+-	Render Props: A pattern where a component uses a prop (a function) that dictates its render logic rather than implementing its own.
+-	Prevalent example is React-Router
+-	Disadvantage: Can potentially be verbose as render logic needs to be passed into JSX
+-	Disadvantage: Incorrect implementation can lead to memory issues
+
+### Custom Hooks
+-	In most cases, custom hooks are sufficient in replacing render props and HoCs and reduce the amount of nesting needed
+-	A custom hook is a Javascript function whose name starts with ‘use’ and calls other hooks
+-	Part of React 16.8 hook update, and allows you to reuse stateful logic without restructuring your component hierarchy
+-	Allow you to avoid wrapper hell/multiple layers of abstraction that can come with Render Props and HoCs
+-	Disadvantage: Hooks cannot be used inside classes. 
+
+
+## 15. What are React Hooks?
+-	New feature in React 16.8, allows function components to use state and other previous class-only features and	backwards compatible.
+- Hooks allow for simply reuse of stateful logic without layering abstractions like HoCs and Render Props.
+-	Hooks allow us to avoid Class components which introduce unnecessary complications.
+
+## 16. What is useState?
+- useState is a Hook that allows us to have state variables in functional components
+- we  pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value
+
+## 17. What is the useEffect hook
+- The useEffect Hook allows us to perform side effects in our components.
+- useEffect is triggered after a render.
+- useEffect is like the combination of componentDidMount, componentDidUpdate and componentWillUnmount.
+- useEffect accepts two arguments. The first one is function to be called and the second argument is optional, but it is an array for React to check for changes in order to render.
+
+## 18. 
+-	useReducer is an alternative to useState that is used when there is complex state logic that that involves multiple sub-values or when the next state depends on the previous one.
+-	3 Arguments: Reducer function, initial State Object, and a function to initialize the state.
+-	Reducer function takes the current state and action variable and returns the next state.
+-	Returns: a pair containing the current state, and a dispatch function for dispatching an action.
+-	Works similarly to Redux.
+
+
 
