@@ -67,3 +67,6 @@ export default function App() {
 1. React.PureComponent is similar to React.Component. The difference between them is that React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it with a shallow prop and state comparison.
 2. React.Memo: Higher-order component that works like React.PureComponent but used for function components
 
+## 9. What is useRef hooks?
+- useRef(initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref). A reference is an object having a special property current
+
