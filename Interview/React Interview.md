@@ -70,3 +70,45 @@ export default function App() {
 ## 9. What is useRef hooks?
 - useRef(initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref). A reference is an object having a special property current
 
+## 10. When rendering lists, what are keys and why do you need them?
+1. Keys are constant strings values that uniquely identifies a list item among its siblings
+2. Keys help React identify which items have changed, are added, or are removed.
+3. Keys are necessary because reconciling list elements differences without them is highly inefficient
+
+## 11. What are Controlled and Uncontrolled components in React?
+1. Both are ways to implement form controls in React
+2. Controlled: form data is handled by a React component
+3. Uncontrolled: form data is handled by the DOM itself
+4. Controlled components are the recommended way to implement forms
+
+Controlled component
+```jsx
+import React, { useState } from "react";
+import "./styles.css";
+
+function MyControlledInput() {
+  const [value, setValue] = useState("");
+
+  const onChange = (event) => {
+    setValue(event.target.value);
+  };
+
+  return (
+    <>
+      <div>Input value: {value}</div>
+      <input placeholder="Type a value" value={value} onChange={onChange} />
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <div className="App">
+      <h2>Controlled Component Demo</h2>
+      <MyControlledInput />
+    </div>
+  );
+}
+
+```
+
