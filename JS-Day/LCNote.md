@@ -51,4 +51,4 @@
 
 ## 07-26
 (215) **return quickSelect(nums, 0, nums.length - 1, k);**      
-(5) **while(i >= 0 && j < s.length && s[i] === s[j])  **    
+(5) **while(i >= 0 && j < s.length && s[i] === s[j])**    
