@@ -47,5 +47,8 @@
 ## 07-25
 (1762) **while(res.length && heights[i] >= heights(res[res.length - 1]))**          
 (15) **nSum(arr.slice(i + 1), [...result, arr[i]], target - arr[i], n - 1);**       
-(253) **let starts = intervals.map(a => a[0]).sort((a, b) => a - b); let ends = intervals.map(a => a[1]).sort((a, b) => a - b);**          
-     
+(253) **let starts = intervals.map(a => a[0]).sort((a, b) => a - b); let ends = intervals.map(a => a[1]).sort((a, b) => a - b);**   
+
+## 07-26
+(215) **return quickSelect(nums, 0, nums.length - 1, k);**      
+(5) **while(i >= 0 && j < s.length && s[i] === s[j])  **    
