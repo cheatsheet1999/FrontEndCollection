@@ -51,3 +51,42 @@ var exist = function(board, word) {
     return false;
 };
 ```
+
+
+## Similar to 200 (counting number of island)
+
+```js
+/**
+ * @param {character[][]} board
+ * @param {string} word
+ * @return {boolean}
+ */
+var exist = function(board, word) {
+    let h = board.length;
+    let v = board[0].length;
+    
+    for(let i = 0; i < h; i++) {
+        for(let j = 0; j < v; j++) {
+            if(explore(board, word, 0, i, j)) return true;
+        }
+    }
+    return false;
+    
+    function explore(board, word, k, x, y) {
+        if(x < 0 || x === h || y < 0 || y === v || board[x][y] !== word[k]) {
+            return false;
+        }
+        if(k === word.length - 1) return true;
+        
+        board[x][y] = '*';
+        
+        let found = explore(board, word, k + 1, x + 1, y) || 
+                    explore(board, word, k + 1, x - 1, y) ||
+                    explore(board, word, k + 1, x, y + 1) ||
+                    explore(board, word, k + 1, x, y - 1);
+
+        board[x][y] = word[k];
+        return found;
+    }
+};
+```
