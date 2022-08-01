@@ -156,7 +156,7 @@ export default function App() {
 - useEffect is like the combination of componentDidMount, componentDidUpdate and componentWillUnmount.
 - useEffect accepts two arguments. The first one is function to be called and the second argument is optional, but it is an array for React to check for changes in order to render.
 
-## 18. 
+## 18. What is the useReducer hook
 -	useReducer is an alternative to useState that is used when there is complex state logic that that involves multiple sub-values or when the next state depends on the previous one.
 -	3 Arguments: Reducer function, initial State Object, and a function to initialize the state.
 -	Reducer function takes the current state and action variable and returns the next state.
