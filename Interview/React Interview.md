@@ -163,5 +163,9 @@ export default function App() {
 -	Returns: a pair containing the current state, and a dispatch function for dispatching an action.
 -	Works similarly to Redux.
 
+## 19. What is Redux?
+1. Redux is a library for managing application state.
+2. Redux is a solution for global state management, allowing us to pass data without the need to pass props through every level (aka props drilling)
+
 
 
