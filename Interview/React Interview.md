@@ -168,4 +168,18 @@ export default function App() {
 2. Redux is a solution for global state management, allowing us to pass data without the need to pass props through every level (aka props drilling)
 
 
+## 20. What are main parts of Redux?
+### Actions
+- Actions are plain Javascript objects with type property to indicate what type of action is being performed.
+- Actions are dispatched to the central store using store.dispatch()
+- Actions are usually created by Action Creator functions, which given some input generates the corresponding action.
+
+### Reducers
+- Reducers are functions that take an Action and a current state and returns the resulting state.
+- Reducers must be pure functions and have no side effects.
+
+### Store
+- The Store is the central object that maintains and updates the application state.
+- The Store also handles the registration and unregistering of listeners.
+
 
