@@ -10,23 +10,17 @@
  * @return {string[][]}
  */
 var groupAnagrams = function(strs) {
-    let res = {};
-    let base = 'a'.charCodeAt();
-    // get each str from given strs array
+    let map = {};
+    
     for(let str of strs) {
-        let count = new Array(26).fill(0);
-        // get each letter of the word
-        for(let char of str) {
-            count[char.charCodeAt() - base]++;
+        let sorted = str.split("").sort().join("");
+        if(!map[sorted]) {
+            map[sorted] = [str];
+        } else {
+            map[sorted].push(str);
         }
-        let key = count.join(' ');
-        // if res already have the charCode key, then push the same str based on the same key, otherwise, create a new one
-        // i.e. 
-        // res: {'1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0': ['eat']}
-        // res: {'1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0': ['eat', 'tea'], '1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0': ['tan']}
-        res[key] ? res[key].push(str) : res[key] = [str];
     }
-    return Object.values(res)
+    return Object.values(map);
 };
 
 
