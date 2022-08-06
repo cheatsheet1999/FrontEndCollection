@@ -19,6 +19,11 @@
 2. props is immutable by the receiving Component
 3. state is the JavaScript object, managed within the Component, that holds its internal state.
 
+### The differnece between state and props
+The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.
+![image](https://user-images.githubusercontent.com/37787994/183268706-0f8c73df-6c3b-4922-887a-acd3853b8f66.png)
+
+
 ## 6. The differnece between React.Fragment and div
 - The main difference between React.Fragment vs div is that using a React.Fragment will not add any additional elements into the DOM tree, whereas, using a div will add a div to the DOM tree.
 
