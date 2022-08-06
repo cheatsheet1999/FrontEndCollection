@@ -9,46 +9,45 @@ Any dead cell with exactly three live neighbors becomes a live cell, as if by re
 The next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously. Given the current state of the m x n grid board, return the next state.
 
 ```JS
-/** 
- * rules:
- * live -> die = -1
- * die -> live = 2 
+/**
+ * @param {number[][]} board
+ * @return {void} Do not return anything, modify board in-place instead.
  */
 var gameOfLife = function(board) {
-    for (let i=0;i<board.length;i++) {
-        for (let j=0;j<board[0].length;j++) {
-            let cell = board[i][j];
-            let neighbors = getNeighbors(i,j,board);
-            if (cell == 0 && neighbors == 3) {
-                board[i][j] = 2
-            }
-            if (cell == 1 && (neighbors < 2 || neighbors > 3)) {
-                board[i][j] = -1;
-            }
+    let new_board = board.map(arr => ([...arr]));
+    
+    for(let i = 0; i < board.length; i++) {
+        for(let j = 0; j < board[0].length; j++) {
+            liveOrDie(i, j);
         }
     }
-    for (let i=0;i<board.length;i++) {
-        for (let j=0;j<board[0].length;j++) {
-            if (board[i][j] == -1) board[i][j] = 0;
-            if (board[i][j] == 2) board[i][j] = 1;
+    
+    function get(row, col) {
+        if(typeof new_board[row] === "undefined" || typeof new_board[row][col] === "undefined") {
+            return 0;
+        } else {
+            return new_board[row][col];
+        }
+    }
+    
+    function liveOrDie(row, col) {
+        let neighbors = 
+            get(row - 1, col - 1) +
+            get(row - 1, col) +
+            get(row - 1, col + 1) +
+            get(row, col - 1) +
+            get(row, col + 1) +
+            get(row + 1, col - 1) +
+            get(row + 1, col) +
+            get(row + 1, col + 1);
+        
+        if(new_board[row][col] && (neighbors < 2 || neighbors > 3)) {
+            board[row][col] = 0;
+        } else {
+            if(neighbors === 3) {
+                board[row][col] = 1;
+            }
         }
     }
 };
-
-
-var getNeighbors = function(r, c, board) {
-    let dirs = [[-1, -1], [0, -1], [1, -1], [-1, 0], [1, 0], [-1, 1], [0, 1], [1, 1]];
-    let count = 0;
-    dirs.forEach(function(d) {
-        let next = [r + d[0], c + d[1]];
-        if(next[0] >= 0 && next[0] < board.length && next[1] >= 0 && next[1] < board[0].length) {
-             if (Math.abs(board[next[0]][next[1]]) == 1) {
-                 count += 1; 
-             }
-        }
-    })
-     
-
-    return count;
-}
 ```
