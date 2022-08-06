@@ -182,4 +182,28 @@ export default function App() {
 - The Store is the central object that maintains and updates the application state.
 - The Store also handles the registration and unregistering of listeners.
 
+## 21. How does Redux work?
+- First: an Action is dispatched to the store via store.dispatch(action)
+- Second: Redux determine the resultant state by calling a Reducer function.
+- Third: The root reducer combines the output of multiple reducers into a single state tree.
+- Fourth: The Store saves the new state tree and notifies listeners that are registered
 
+## 22. What are Redux Selectors?
+- A Selector is a function that takes in the Redux store state and returns the derived data from that state.
+- Selectors allow the Redux store state to be as minimal as possible by computing data off of the state
+
+## 23. What is Context API?
+- Like Redux, Context API is a solution for state management
+
+### Context has 3 main parts:
+-	A Context object is created using React.createContext(defaultValue)
+-	A Provider is a component that triggers all descendant consumers of itself to rerender when there is a change to its value
+-	A Consumer is a component that subscribes to context changes
+
+## 24. How do I solve global state management with Hooks?
+- By passing the useContext hook a context object, function components can hook onto changes to the nearest corresponding Provider and will rerender when there is an update
+
+## 25. How does Context API compare to Redux and when would you use one over the other?
+- Set up for Redux requires more additional work than Context as Context is built into React.
+- For most smaller use cases simpler use cases, Context should be sufficient
+- Redux allows access to middleware, which triggers a function after an action is dispatched.
