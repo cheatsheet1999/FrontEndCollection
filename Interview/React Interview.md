@@ -21,7 +21,7 @@
 
 ### The differnece between state and props
 The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.
-![image](https://user-images.githubusercontent.com/37787994/183268706-0f8c73df-6c3b-4922-887a-acd3853b8f66.png)
+<img width="1156" alt="Screen Shot 2022-08-06 at 16 15 54" src="https://user-images.githubusercontent.com/37787994/183268737-1395cee5-84bf-41d1-a363-a190b16bdc95.png">
 
 
 ## 6. The differnece between React.Fragment and div
