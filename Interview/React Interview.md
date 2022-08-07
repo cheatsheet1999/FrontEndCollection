@@ -227,4 +227,6 @@ export default function App() {
 1. No constructor needed
 2. No render() needed
 3. Functional component can use React hooks
+4. No lifecycle
+5. No need to extend from React.component
 <img width="1001" alt="Screen Shot 2022-06-09 at 14 49 46" src="https://user-images.githubusercontent.com/37787994/172951209-af85c2c3-94ee-4ffd-9d58-4e1441f12833.png">
