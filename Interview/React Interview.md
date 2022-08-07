@@ -9,6 +9,12 @@
 ## 3. What is Virtual Dom?
 - React makes a virtual representation of the actual DOM in memory because manipulating the actual DOM is expensive in terms of performance. So, the updated virtual DOM is compared with its previous version using React’s ‘diffing’ algorithm to determine how to best update the real DOM when we made changes to the code.
 
+- DOM Manipulation: The real DOM is expensive when it comes to DOM manipulation. The virtual DOM, on the contrary, is inexpensive.
+- Element Update: The real DOM creates a new DOM when an element updates. Virtual DOM does not and instead updates the JSX.
+- Memory Wastage: The real DOM causes a lot of memory wastage while there is no memory wastage in the case of the virtual DOM.
+- Update Speed: The real DOM updates slowly but the virtual DOM updates faster.
+- Updating HTML: The real DOM can directly update HTML, while the virtual DOM can’t update HTML directly.
+
 ## 4. What is a Component in React and what are the two main ways to define them?
 1. Each component is an independent reusable piece of the UI.
 2. Class Component: Component implemented using ES6 Classes extending React.Component
