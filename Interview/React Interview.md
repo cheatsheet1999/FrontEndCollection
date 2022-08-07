@@ -212,3 +212,7 @@ export default function App() {
 - Set up for Redux requires more additional work than Context as Context is built into React.
 - For most smaller use cases simpler use cases, Context should be sufficient
 - Redux allows access to middleware, which triggers a function after an action is dispatched.
+
+## 25. Why do the Component names in JSX start with capital letter?
+- This is how React knows to render a Component, and not a HTML Element.
+
