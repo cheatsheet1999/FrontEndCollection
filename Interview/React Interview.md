@@ -174,6 +174,10 @@ export default function App() {
 
 
 ## 20. What are main parts of Redux?
+1. A store that holds the state of the application
+2. An action that describes the changes in the state of the application
+3. A reducer which actucally carries out the state transition depending on the action
+
 ### Actions
 - Actions are plain Javascript objects with type property to indicate what type of action is being performed.
 - Actions are dispatched to the central store using store.dispatch()
@@ -218,3 +222,9 @@ export default function App() {
 
 ## 26. When will react component re-render?
 - React components automatically re-render whenever there is a change in their state or props.
+
+## 27. Difference between Class component and Function component
+1. No constructor needed
+2. No render() needed
+3. Functional component can use React hooks
+<img width="1001" alt="Screen Shot 2022-06-09 at 14 49 46" src="https://user-images.githubusercontent.com/37787994/172951209-af85c2c3-94ee-4ffd-9d58-4e1441f12833.png">
