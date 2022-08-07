@@ -111,6 +111,8 @@ console.log(tesla.getModel()); // tesla
 ## 7. What is the difference between function declaration and function expression?
 1. function declaration is an anonymous function, function expression has a varaible name, so it behaves like a variable, and has variable scope as well.
 2. When we want to pass a function to another function, we cannot pass a function declaration to another function, we have to use a function expression because it's like a variable, and we can pass a variable to another function.  
+
+
 ```js
 console.log(funcD()); // function declaration
 console.log(funcE()); // Error
@@ -323,30 +325,6 @@ class ClassComponent extends React.Component{
 export default ClassComponent;
 ```
 
-<img width="1001" alt="Screen Shot 2022-06-09 at 14 49 46" src="https://user-images.githubusercontent.com/37787994/172951209-af85c2c3-94ee-4ffd-9d58-4e1441f12833.png">
 
 
-12. react lifecycle phases
 
-mount => update => unmount
-
-**Mount phases**
-constructor()
-getDerivedStateFromProps()
-render()
-componentDidMount()
-
-**update**
-getDerivedStateFromProps()
-shouldComponentUpdate()
-render()
-getSnapshotBeforeUpdate()
-componentDidUpdate()
-
-**unmount phases**
-componentWillUnmount()
-
-13: usecase of middleware
-14: contextAPI
-15: usecase of custom hooks
-16: object functions, values and keys in JS
