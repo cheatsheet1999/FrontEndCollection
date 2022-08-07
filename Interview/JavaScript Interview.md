@@ -205,12 +205,17 @@ There's no simple explanation for this; it is one of the most confusing concepts
 
 [Overview](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/Web-Note/%60this%60%20keyword.md)  
 
-
-## 12. Three core concepts in Redux
-1. A store that holds the state of the application
-2. An action that describes the changes in the state of the application
-3. A reducer which actucally carries out the state transition depending on the action
-
+## New features in ES6
+- let and const Keywords
+- Arrow Functions
+- Multi-line Strings
+- Default Parameters
+- Template Literals
+- Destructuring Assignment
+- Enhanced Object Literals
+- Promises
+- Classes
+- Modules
 
 
 
