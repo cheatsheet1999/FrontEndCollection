@@ -74,6 +74,14 @@ export default function App() {
 -	Updating: render → DOM update → componentDidUpdate
 -	Unmounting: componentWillUnmount
 
+componentDidMount(): Executes on the client-side after the first render.
+componentDidUpdate(): Called immediately after rendering takes place in the DOM.
+componentWillMount(): Executes immediately before rendering starts on both the client-side and the server-side.
+componentWillReceiveProps(): Invoked when props are received from the parent class and before another render is called.
+componentWillUnmount(): Used to clear up the memory space. Called right after the component is unmounted from the DOM.
+componentWillUpdate(): Called immediately before rendering takes place in the DOM.
+shouldComponentUpdate(): Returns either true or false. Though false by default, needs to be set to return true if the component needs to be updated.
+
 ## 8. How can I prevent unnecessary re-rendering?
 1. React.PureComponent is similar to React.Component. The difference between them is that React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it with a shallow prop and state comparison.
 2. React.Memo: Higher-order component that works like React.PureComponent but used for function components
