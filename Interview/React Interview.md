@@ -216,3 +216,5 @@ export default function App() {
 ## 25. Why do the Component names in JSX start with capital letter?
 - This is how React knows to render a Component, and not a HTML Element.
 
+## 26. When will react component re-render?
+- React components automatically re-render whenever there is a change in their state or props.
