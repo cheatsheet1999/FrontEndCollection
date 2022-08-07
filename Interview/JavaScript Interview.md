@@ -144,7 +144,21 @@ It will print out b, c, a because when we do `setTimeout`, it becomes an asynchr
 - A closure is the combination of a function enclosed with references to its surrounding state, which is the lexical environment. In other words, a closure gives us access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, we first define a function inside another function and return it or pass it to another function. The inner function then will have access to the variables in the outer function scope, even after the outer function has returned.
 
 **This is an easy example of closure**
-<img width="1550" alt="Screen Shot 2022-07-12 at 00 49 04" src="https://user-images.githubusercontent.com/37787994/178437763-d6100781-b944-4ef9-a8a3-fc0b690daaf4.png">
+```js
+function outer() {
+    let a = 3;
+
+    function inner() {
+        let b = 4;
+        console.log(a + b);
+    }
+
+    inner();
+}
+
+outer()
+```
+
 **Unlike calltack, variable in Heap memory can be kept indefinitely then decide when you get rid of it later with the garbage collector**
 
 ### why use closure if it requires more memory and procecssing power than a pure function?
