@@ -60,16 +60,27 @@
 ### Solve the questions on [Codewar](https://www.codewars.com/) if you are a beginner
 [Beginners](https://github.com/cheatsheet1999/FrontEndCollection/tree/main/JS-Algo/Beginners)   
 
+<details>
+<summary><strong>Array</strong></summary>
 
-### Array
-#### Easy
+<ul>
+<details>
+  <summary> Easy </summary>
+
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
 [Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)   
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)  
 [Move Zeros](https://github.com/cheatsheet1999/FrontEndCollection/issues/34)           
-[Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)           
-#### Easy - Medium
+[Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
+
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> Easy - Medium </summary>
+  
 [Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
@@ -81,7 +92,13 @@
 [First Bad Version](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/First%20Bad%20Version.md)    
 [Meeting Rooms](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms.md)   
 
-#### Medium
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> Medium </summary>
+  
 [Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Container%20With%20Most%20Water.md)   
 [Trapping Rain Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Trapping%20Rain%20Water.md)  
 [Product of Array Except Self](https://github.com/cheatsheet1999/FrontEndCollection/issues/1)  
@@ -118,19 +135,40 @@
 [Minimum Moves to Equal Array Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Moves%20to%20Equal%20Array%20Elements.md)
 [Buying Show Tickets](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Buying%20Show%20Tickets.md)     
 [Count Duplicate Elements](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Count%20Duplicate%20Elements.md)   
-[Password Creation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Password%20Creation.md)        
+[Password Creation](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Password%20Creation.md)  
+
+</details>
+</ul>
  
+</details>
+ 
+<details>
+<summary><strong>String</strong></summary>
 
-### String
-#### ⭐
+<ul>
+<details>
+  <summary> ⭐ </summary>
+
 [Reverse String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20String.md)    
-[Reverse Words in a String III](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20Words%20in%20a%20String%20III.md)        
+[Reverse Words in a String III](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20Words%20in%20a%20String%20III.md)      
 
-#### ⭐⭐
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐ </summary>
+  
 [Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)   
-[Valid Palindrome II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Palindrome%20II.md)     
+[Valid Palindrome II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Palindrome%20II.md)    
 
-#### ⭐⭐⭐
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐⭐ </summary>
+  
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)   
 [Letter Combinations of a Phone Number](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Letter%20Combinations%20of%20a%20Phone%20Number.md)   
 [Generate Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Generate%20Parentheses.md)   
@@ -152,51 +190,108 @@
 [Fraction to Recurring Decimal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fraction%20to%20Recurring%20Decimal.md)     
 [Accounts Merge](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Accounts%20Merge.md)     
 [Longest Happy String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Happy%20String.md)    
-[Minimum Deletions to Make Character Frequencies Unique](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)         
+[Minimum Deletions to Make Character Frequencies Unique](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)    
 
+</details>
+</ul>
 
-### Stack  
+</details>
+
+<details>
+<summary><strong>Stack</strong></summary>
+
 [Buildings With an Ocean View](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Buildings%20With%20an%20Ocean%20View.md)    
 [Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Parentheses.md)    
-[Minimum Remove to Make Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.md)     
+[Minimum Remove to Make Valid Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.md)  
 
-### Linked-List  
-#### ⭐  
+</details>
+
+<details>
+<summary><strong>Linked-List </strong></summary>
+
+<ul>
+<details>
+  <summary> ⭐ </summary>
+
 [Linked List Cycle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle.md)   
-[Middle of the Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Middle%20of%20the%20Linked%20List.md)        
+[Middle of the Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Middle%20of%20the%20Linked%20List.md)    
 
-#### ⭐⭐  
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐ </summary> 
+  
 [Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)  
 
-#### ⭐⭐⭐ 
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐⭐ </summary> 
+  
 [Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Add%20Two%20Numbers.md)  
 [Design Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Design%20Linked%20List.md)        
-[LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)         
+[LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)   
 
-### Tree
-#### ⭐
+</details>
+</ul>
+
+</details>
+
+<details>
+<summary><strong>Tree</strong></summary>
+
+<ul>
+<details>
+  <summary> ⭐ </summary>
+
 [Binary Tree Preorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/21)  
 [Binary Tree Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/22)  
 
-#### ⭐⭐
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐ </summary>
+  
 [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/cheatsheet1999/FrontEndCollection/issues/8)  
 [Invert Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Invert%20Binary%20Tree.md)     
 [Lowest Common Ancestor of a Binary Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)        
-[Recover Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Recover%20Binary%20Search%20Tree.md)      
+[Recover Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Recover%20Binary%20Search%20Tree.md)    
 
-#### ⭐⭐⭐
+</details>
+</ul>
+
+<ul>
+<details>
+  <summary> ⭐⭐⭐ </summary>
+  
 [Range Sum of BST](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Range%20Sum%20of%20BST.md)    
 [Binary Tree Vertical Order Traversal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Vertical%20Order%20Traversal.md)   
 [Validate Binary Search Tree](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Validate%20Binary%20Search%20Tree.md)     
 [Sum Root to Leaf Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Sum%20Root%20to%20Leaf%20Numbers.md)       
-[Binary Tree Right Side View](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Right%20Side%20View.md)          
+[Binary Tree Right Side View](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Tree%20Right%20Side%20View.md)  
+
+</details>
+</ul>
+
+</details>
+
+<details>
+<summary><strong>Recursion & Backtracking</strong></summary>
+
+[Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)   
+
+</details>
 
 
-### Recursion & Backtracking    
-[Combinations](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Combinations.md)     
+<details>
+<summary><strong>BFS & DFS</strong></summary>
 
-
-### BFS & DFS 
 [Flood Fill](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Flood%20Fill.md)       
 [Max Area of Island](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Max%20Area%20of%20Island.md)     
 [Merge Two Binary Trees](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Merge%20Two%20Binary%20Trees.md)     
@@ -206,12 +301,18 @@
 [Number of Islands](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Number%20of%20Islands.md)    
 [Minimum Knight Moves](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Knight%20Moves.md)     
 
-### Binary Search
+</details>
+
+<details>
+<summary><strong>Binary Search</strong></summary>
+
 [Binary Search](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Binary%20Search.md)    
 [Find First and Last Position of Element in Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)     
 [Search in Rotated Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20in%20Rotated%20Sorted%20Array.md)   
-[Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)       
-     
+[Find Peak Element](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Find%20Peak%20Element.md)
+
+</details>
+
 <details>
 <summary><strong>Database Management</strong></summary>
   
