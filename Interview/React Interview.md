@@ -273,4 +273,4 @@ Normally, there are onChange = {{} => ()} and value={} attached with it
 
 ## 33. What are uncontrolled components?
 
-The **Uncontrolled Components** store their own state internally,
+The **Uncontrolled Components** store their own state internally
