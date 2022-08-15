@@ -259,3 +259,18 @@ Note: It is recommended to use lifecycle method rather than this callback functi
 ```js
 setState({ name: 'John' }, () => console.log('The name has updated and component re-rendered'))
 ```
+
+## 31. What is "key" prop and what is the benefit of using it in arrays of elements?
+
+A `key` is a special string attribute we **should** include when creating arrays of elements. *Key* prop helps React identify which items have changed, are added, or are removed.
+
+
+## 32. What are controlled components?
+
+A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
+
+Normally, there are onChange = {{} => ()} and value={} attached with it
+
+## 33. What are uncontrolled components?
+
+The **Uncontrolled Components** store their own state internally,
