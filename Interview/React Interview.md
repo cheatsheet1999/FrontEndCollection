@@ -247,3 +247,7 @@ export default function App() {
 
 ## 28. When a React component re-renders?
 - A component re-renders whenever it's state updates or whenever it's props changes.
+
+## 29. What is the difference between Element and Component?
+- An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components
+- Whereas a component can be declared in several different ways. It can be a class with a render() method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output.  
