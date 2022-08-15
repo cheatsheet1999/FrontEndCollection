@@ -251,3 +251,11 @@ export default function App() {
 ## 29. What is the difference between Element and Component?
 - An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components
 - Whereas a component can be declared in several different ways. It can be a class with a render() method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output.  
+
+## 30. What is the purpose of callback function as an argument of setState()?
+The callback function is invoked when setState finished and the component gets rendered. Since setState() is asynchronous the callback function is used for any post action.
+
+Note: It is recommended to use lifecycle method rather than this callback function.
+```js
+setState({ name: 'John' }, () => console.log('The name has updated and component re-rendered'))
+```
