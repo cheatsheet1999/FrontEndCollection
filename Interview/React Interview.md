@@ -69,18 +69,18 @@ export default function App() {
 ```
 
 ## 7. Walk me through the main phases of the React Lifecycle.
-1. 3 phases: Mounting, Updating, Unmounting.
--	Mounting: constructor → render → DOM update → componentDidMount
--	Updating: render → DOM update → componentDidUpdate
--	Unmounting: componentWillUnmount
+1. **Mounting:** The component is ready to mount in the browser DOM. This phase covers initialization from `constructor()`, `getDerivedStateFromProps()`, `render()`, and `componentDidMount()` lifecycle methods.
+2. **Updating:** In this phase, the component gets updated in two ways, sending the new props and updating the state either from `setState()` or `forceUpdate()`. This phase covers `getDerivedStateFromProps()`, `shouldComponentUpdate()`, `render()`, `getSnapshotBeforeUpdate()` and `componentDidUpdate()` lifecycle methods.
+3. **Unmounting:** In this last phase, the component is not needed and gets unmounted from the browser DOM. This phase includes `componentWillUnmount()` lifecycle method.
 
-componentDidMount(): Executes on the client-side after the first render.      
-componentDidUpdate(): Called immediately after rendering takes place in the DOM.             
-componentWillMount(): Executes immediately before rendering starts on both the client-side and the server-side.            
-componentWillReceiveProps(): Invoked when props are received from the parent class and before another render is called.           
-componentWillUnmount(): Used to clear up the memory space. Called right after the component is unmounted from the DOM.           
-componentWillUpdate(): Called immediately before rendering takes place in the DOM.      
-shouldComponentUpdate(): Returns either true or false. Though false by default, needs to be set to return true if the component needs to be updated.     
+
+- **componentWillMount:** Executed before rendering and is used for App level configuration in your root component.
+- **componentDidMount:** Executed after first rendering and here all AJAX requests, DOM or state updates, and set up event listeners should occur.
+- **componentWillReceiveProps:** Executed when particular prop updates to trigger state transitions.
+- **shouldComponentUpdate:** Determines if the component will be updated or not. By default it returns `true`. If you are sure that the component doesn't need to render after state or props are updated, you can return false value. It is a great place to improve performance as it allows you to prevent a re-render if component receives new prop.
+- **componentWillUpdate:** Executed before re-rendering the component when there are props & state changes confirmed by `shouldComponentUpdate()` which returns true.
+- **componentDidUpdate:** Mostly it is used to update the DOM in response to prop or state changes.
+- **componentWillUnmount:** It will be used to cancel any outgoing network requests, or remove all event listeners associated with the component. 
 
 ## 8. How can I prevent unnecessary re-rendering?
 1. React.PureComponent is similar to React.Component. The difference between them is that React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it with a shallow prop and state comparison.
@@ -262,7 +262,7 @@ setState({ name: 'John' }, () => console.log('The name has updated and component
 
 ## 31. What is "key" prop and what is the benefit of using it in arrays of elements?
 
-A `key` is a special string attribute we **should** include when creating arrays of elements. *Key* prop helps React identify which items have changed, are added, or are removed.
+A `key` is a special string attribute we **should** include when creating arrays of elements. *Key* helps React identify which items have changed, are added, or are removed.
 
 
 ## 32. What are controlled components?
@@ -274,3 +274,16 @@ Normally, there are onChange = {{} => ()} and value={} attached with it
 ## 33. What are uncontrolled components?
 
 The **Uncontrolled Components** store their own state internally
+
+### 34. What is Lifting State Up in React?
+
+When several components need to share the same changing data then it is recommended to *lift the shared state up* to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
+
+
+### 35. What are Higher-Order Components?
+
+A *higher-order component* (*HOC*) is a function that takes a component and returns a new component.
+
+We call them **pure components** because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.
+
+
