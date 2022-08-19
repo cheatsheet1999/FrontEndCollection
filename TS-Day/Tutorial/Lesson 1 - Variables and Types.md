@@ -517,4 +517,76 @@ console.log(new Boolean("not false")); // True
 [Boolean: true]
 [Boolean: true]
 ```
+# Avoiding `any` at Any Time Possible
+
+We must avoid (as much as possible) the type `any`, principally because it can hold any value and therefore doesn’t enforce any protections. If you are integrating an existing JavaScript project with TypeScript, every variable will be, by default, set to `any` until they are defined.
+
+The following code has a response of type `any` on **line 8**. Unfortunately, the response can be a string or a JSON object of any form. It is possible to mitigate this issue with *casting*, which you will see later to not propagate the `any` further in the code.
+
+```tsx
+function get(url: string) {
+    return new Promise(function(resolve, reject) {
+        var req = new XMLHttpRequest();
+        req.open("GET", url);
+
+        req.onload = function() {
+            if (req.status == 200) {
+                resolve(req.response);
+            } else {
+                reject(Error(req.statusText));
+            }
+        };
+    });
+}
+```
+
+
+
+```tsx
+let myAnyString: any = 123;
+console.log(myAnyString.length);
+```
+
+```
+undefined
+```
+
+The danger is that the function may not be available. For example, say you set a variable with a number value that calls for an array of the function `.length`. This will transpile, but raise a runtime exception because a number doesn’t have a length function in the browser, and return `undefined` when running under Node js.
+
+## Understanding and using the void type
+
+The `void` type can’t hold any data; it can only be `undefined` or `null` if the `strictNullChecks` compiler option is off.
+
+The code below shows the TypeScript compiler not happy with a variable of type `void` set to a `string` value:
+
+```tsx
+let whatCanIHold: void;
+whatCanIHold = undefined;
+whatCanIHold = "something";
+```
+
+
+
+## When to use the `void` type
+
+`void` is only really useful for function return types, to show there is nothing we want to return
+
+```tsx
+function logMessage(message: string): void {
+  console.log(message);
+}
+```
+
+> ERROR!
+
+```tsx
+function logMessage(message: string): void {
+  return message
+}
+```
+
+```
+index.ts(2,3): error TS2322: Type 'string' is not assignable to type 'void'.
+```
+
 
