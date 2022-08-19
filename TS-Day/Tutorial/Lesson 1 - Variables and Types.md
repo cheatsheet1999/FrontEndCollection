@@ -344,4 +344,47 @@ test
 test2
 ```
 
+# The Multiple Methods of Declaring a String
+
+## Strings on a single line
+
+A string is made of characters. It can be assigned a single quote or a double quote. A string’s content can be a number but will behave as characters if between quotes. Both single and double quotes are accepted. However, the guideline of the TypeScript project uses a double quote.
+
+```js
+let w = "Value1";
+let x = "this is a string with the value " + w;
+let y = 'this is a string with the value ' + w;
+let z = `this is a string ${w}`;
+console.log(w,x,y,z)
+```
+
+```
+Value1 this is a string with the value Value1 this is a string with the value Value1 this is a string Value1
+```
+
+TypeScript can write strings on multiple lines without requiring the use of the backslash *n* `\n` that is required by JavaScript.
+
+```tsx
+let multiline1 = "Line1\n" + "Line2\n" + "Line3\n";
+
+let multiline2 = `Line1 
+Line2 
+Line3`;
+
+console.log(multiline1);
+console.log(multiline2);
+```
+
+```
+Line1
+Line2
+Line3
+
+Line1 
+Line2 
+Line3
+```
+
+Inside the backquote, every changed line will be considered as if you were explicitly using the `\n`. The result of the string interpolation produces multiple strings with backslash *n*.
+
 
