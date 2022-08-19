@@ -288,4 +288,60 @@ myFunction();
 
 The code above has two commented lines of code. Uncommenting the code will result in two errors.
 
+## Switch Scope
+
+Not adding the keyword `break` will fall through the `case` underneath. A quick modification of the previous example shows that the value `1` will now print `test2` twice because the value `1` gets into the `case 2`.
+
+```tsx
+function switchFunction(a: number): void {
+    switch (a) {
+        case 1:
+            let variableInCase1 = "test";
+            console.log(variableInCase1);
+        case 2:
+            let variableInCase2 = "test2";
+            console.log(variableInCase2);
+            break;
+        default:
+          console.log("Default");    
+    }
+}
+switchFunction(1);
+switchFunction(2);
+switchFunction(3);
+```
+
+```
+test
+test2
+test2
+Default
+```
+
+To avoid stumbling into a situation where variables are shared across cases, it is suggested to use curly braces for each case
+
+```tsx
+function switchFunction(a: number): void {
+    switch (a) {
+        case 1: {
+            let variableInCase1 = "test";
+            console.log(variableInCase1);
+            break;
+        }
+        case 2: {
+            let variableInCase1 = "test2";
+            console.log(variableInCase1);
+            break;
+        }
+    }
+}
+switchFunction(1);
+switchFunction(2); 
+```
+
+```
+test
+test2
+```
+
 
