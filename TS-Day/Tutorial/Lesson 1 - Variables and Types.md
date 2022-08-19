@@ -462,3 +462,59 @@ NaN
 
 
 
+# Booleans, Functions, and Objects
+
+## Boolean primitive type
+
+A boolean value is the most basic primitive in JavaScript and it remains the same with TypeScript. Boolean values restrict the assignment to two values: `true` and `false`. These terms are case sensitive – only the **lowercase** format is accepted.
+
+```tsx
+let b: boolean = true;
+console.log(b);
+```
+
+```
+true
+```
+
+You cannot assign the value `0` or `1`, or the `true` or `false` values using any upper case letters.
+
+> Note: The following case shows two cases that TypeScript will not ❌ let you compile.
+>
+> ```tsx
+> let bWithUumber: boolean = 0;
+> let bWithUpperCase: boolean = TRUE;
+> ```
+
+
+
+## The `Boolean` function
+
+TypeScript, like JavaScript, lets you invoke a `Boolean` function. This function proves handy to convert different types into a boolean type.
+
+Typescript follows JavaScript rules, hence few values can return surprising results. For example, `Boolean("false")` will return `true` and `Boolean("not false")` will return `true;`.
+
+```tsx
+console.log(Boolean(false)); // False
+console.log(Boolean("false")); // True
+console.log(Boolean("not false")); // True
+```
+
+
+
+## Boolean objects
+
+The boolean object behaves like the boolean function. One difference is that the result is not a `boolean` but an object that wraps the boolean value. The following outputs are objects like `[Boolean: false]`instead of the primitive variable value of `false`.
+
+```tsx
+console.log(new Boolean(false)); // False
+console.log(new Boolean("false")); // True
+console.log(new Boolean("not false")); // True
+```
+
+```
+[Boolean: false]
+[Boolean: true]
+[Boolean: true]
+```
+
