@@ -388,3 +388,77 @@ Line3
 Inside the backquote, every changed line will be considered as if you were explicitly using the `\n`. The result of the string interpolation produces multiple strings with backslash *n*.
 
 
+# What is a Number in TypeScript?
+
+Another common primitive is the number. Since TypeScript is a superset of JavaScript, numbers work the same way in both languages. The openness of JavaScript allows for a broad set of numbers. Integers, signed floats, or unsigned floats are permitted. By default, a number will be base 10.
+
+## Number base
+
+You can also assign base 16 (hexadecimal), base 8 (octal) or base 2 (binary) with the prefix `0x`, `0o` and `0b`, though they’re rarely used
+
+```tsx
+let dec: number = 10;
+let hex: number = 0x10;
+let octo: number = 0o10;
+let bin: number = 0b10;
+console.log("Here are 4 numbers", dec, hex, octo, bin);
+```
+
+```
+Here are 4 numbers 10 16 8 2
+```
+
+**Like most variables in TypeScript, there is no need to explicitly mark the variable type at the time of declaration. TypeScript can infer the type. The following code is the same as the code above. `.**
+
+However, the following code does **not** define the four variables as `number`.
+
+```js
+const dec2 = 10; 
+const hex2 = 0x10; 
+const octo2 = 0o10; 
+const bin2 = 0b10; 
+console.log("Here is 4 numbers", dec2,hex2,octo2,bin2);
+```
+
+The type is actually the value meaning that **only** those values are acceptable. The difference between this snippet and the one before is `let` and `const`. With `let`, the variable may be reassigned at any time during the life of the variable, hence the narrowest type that TypeScript can infer is `number`.
+
+However, in the last example with `const`, TypeScript knows that the value will not change, hence it can narrow the type down to the only value possible.
+
+
+
+## Separator
+
+A numeric separator is a feature that simplifies how we write numbers. A long number can be hard to read and adding a separator can reduce confusion. When writing a number, you can use the underscore symbol to mark every thousand, for example. There is no rule on where to place a group separator other than it must be between two numbers.
+
+```tsx
+const numericSeparator1 = 560000067;
+const numericSeparator2 = 560_000_067;
+const numericSeparator3 = 5_6_0_000_0_6_7;
+const numericSeparator4 = Number(5_000);
+const numericSeparator5 = Number("5_000"); // Nan 
+const numericSeparator6 = parseInt("5_000");  
+const numericSeparator7 =  0xFAB_F00D; 
+const numericSeparator8 =  0b1111_11111000_11110000_00001100;
+console.log(numericSeparator1)
+console.log(numericSeparator2)
+console.log(numericSeparator3)
+console.log(numericSeparator4)
+console.log(numericSeparator5)
+console.log(numericSeparator6)
+console.log(numericSeparator7)
+console.log(numericSeparator8)
+```
+
+```
+560000067
+560000067
+560000067
+5000
+NaN
+5
+262926349
+267972620
+```
+
+
+
