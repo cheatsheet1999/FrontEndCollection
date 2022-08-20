@@ -675,3 +675,33 @@ let list1: readonly number[] = [1, 2];
 list1 = [4, 5]; // Legit, content is not mutated, we create a new list
 ```
 
+What is the inferred type by the control flow analysis for this array?
+
+```tsx
+let myArray = [];
+myArray[0] = 5;
+myArray[1] = "aString";
+myArray[2] = true;
+```
+
+> Answer: any[]
+
+What is the infered type by the control flow analysis for this array at **line #1**?
+
+```tsx
+let myArray = []; // LINE #1
+myArray.push(1);  // LINE #2
+myArray;          // LINE #3
+```
+
+> Answer: any[]
+
+What is the infered type by the control flow analysis for this array at **line #2**?
+
+> Answer: any[]
+
+What is the infered type by the control flow analysis for this array at **line #3**?
+
+> Answer: number[]
+
+The last question may surprise you. The empty array is an evolving type that will be analyzed during the “flow” of the code, meaning depending on what happens with the following operations. Functions like `push`, `shift`, `unshift`, or setting directly to an index a value `myArray[index] = value` will transform the type. The type is finally attributed once it stops changing, hence question #4 gets to its real type at the end of the code, not before, which could be anything.
