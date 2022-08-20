@@ -590,3 +590,88 @@ index.ts(2,3): error TS2322: Type 'string' is not assignable to type 'void'.
 ```
 
 
+# Mutable and Immutable Arrays
+
+## Mutable arrays
+
+Arrays in TypeScript are exactly like the ones in JavaScript in terms of features. The difference is that TypeScript assigns a type to the list. 
+
+The syntax, as shown below, utilizes square brackets `[]` with the actual type before the brackets and after the colon `:` like so:
+
+```tsx
+let a: number[];
+```
+
+TypeScript **infers** that the first one is a `number` and the second is a `string`. 
+
+```tsx
+let arrayOfNumber = [1, 2, 3]; 
+
+let arrayOfString = ["string", "array", "only"];
+```
+
+Using multiple types will require you to evaluate what the type of each value is before using an individual item of the array. This is because the variable’s operations are type-dependent. There is an equivalent syntax that uses the generic `Array<T>`. Both are the same.
+
+```tsx
+let usingArraySyntax: Array<number> = [1, 2, 3]; 
+```
+
+```tsx
+let multipleTypeArray = [1, true, 3]; 
+// Same as:
+let multipleTypeArrayExplicit: (number | boolean)[] = [1, true, 3]; 
+```
+
+It is important to note that you can also instantiate a strongly-typed object array. This is equivalent to creating a new array without assigning any values.
+
+```tsx
+let myArray = new Array<number>();
+printArray(myArray);
+
+// Is the same as:
+let myArray2: Array<number> = [];
+printArray(myArray2);
+
+// Is the same as:
+let myArray3: number[] = [];
+printArray(myArray3);
+
+function printArray(a: number[]): void {
+    console.log(`Before: ${a}`);
+    a.push(1);
+    console.log(`After: ${a}`);
+}
+```
+
+As with the mutable array, there are two ways to write a read-only collection.
+
+The first approach is to use `ReadonlyArray<T>` instead of `Array<T>`.
+
+```tsx
+let list: ReadonlyArray<number> = [1, 2];
+list.push(3);
+console.log(list);
+```
+
+The code above does not compile because you cannot mutate the array with `push`. This error is interesting and introduces the second way to write a read-only collection.
+
+```tsx
+let list: readonly number[] = [1, 2];
+list.push(3);
+console.log(list);
+```
+
+What is the difference between a constant array and a read-only array?” The answer is that a constant array won’t let you assign values to a list while a read-only array blocks you from changing values.
+
+```tsx
+const list1: number[] = [1, 2];
+list1.push(3); // Legit because list1 is not re-assigned.
+// list1 = [4, 5]; // ERROR: We cannot reassign a constant
+```
+
+```tsx
+let list1: readonly number[] = [1, 2];
+// list1.push(3); // Error, cannot mutate the content 
+list1 = [4, 5]; // Legit, content is not mutated, we create a new list
+```
+
