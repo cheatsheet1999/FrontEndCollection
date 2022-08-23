@@ -267,7 +267,9 @@ A `key` is a special string attribute we **should** include when creating arrays
 
 ## 32. What are controlled components?
 
+In a controlled component, form data is handled by a React component.  
 A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
+
 
 Normally, there are onChange = {{} => ()} and value={} attached with it
 
@@ -285,5 +287,9 @@ When several components need to share the same changing data then it is recommen
 A *higher-order component* (*HOC*) is a function that takes a component and returns a new component.
 
 We call them **pure components** because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.
+
+```js
+const EnhancedComponent = higherOrderComponent(WrappedComponent)
+```
 
 
