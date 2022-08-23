@@ -308,4 +308,7 @@ We call them **pure components** because they can accept any dynamically provide
 const EnhancedComponent = higherOrderComponent(WrappedComponent)
 ```
 
+## 36. What is reconciliation?
+
+When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the new ]element with the previously rendered one. When they are not equal, React will update the DOM. This process is called *reconciliation*.
 
