@@ -705,3 +705,23 @@ What is the infered type by the control flow analysis for this array at **line #
 > Answer: number[]
 
 The last question may surprise you. The empty array is an evolving type that will be analyzed during the “flow” of the code, meaning depending on what happens with the following operations. Functions like `push`, `shift`, `unshift`, or setting directly to an index a value `myArray[index] = value` will transform the type. The type is finally attributed once it stops changing, hence question #4 gets to its real type at the end of the code, not before, which could be anything.
+
+#  Unknown: A Better any
+
+The `unknown` type is half a specific explicit type and half the type `any` which allows everything. Declaring a variable as `unknown` allows us to set a wide variety of types without allowing unwanted access to properties or the value of a type. The following code demonstrates that a variable with type `any` can be assigned a string and then used with a function of the `string` type.
+
+
+
+Changing the type from `any` to `unknown` indicates to TypeScript that the type can receive any value but should be used cautiously. It does not allow the function to be invoked.
+
+```tsx
+let variable2: unknown;
+variable2 = "It is a string";
+console.log(variable2.substr(0,2)) // Does not compile here
+variable2 = 1;
+console.log(variable2.substr(0,2)) // Does not compile here
+```
+
+
+
+
