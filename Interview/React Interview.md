@@ -216,7 +216,7 @@ export default function App() {
 - Selectors allow the Redux store state to be as minimal as possible by computing data off of the state
 
 ## 23. What is Context API?
-- Like Redux, Context API is a solution for state management
+- Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
 ### Context has 3 main parts:
 -	A Context object is created using React.createContext(defaultValue)
