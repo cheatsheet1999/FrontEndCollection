@@ -706,6 +706,79 @@ What is the infered type by the control flow analysis for this array at **line #
 
 The last question may surprise you. The empty array is an evolving type that will be analyzed during the “flow” of the code, meaning depending on what happens with the following operations. Functions like `push`, `shift`, `unshift`, or setting directly to an index a value `myArray[index] = value` will transform the type. The type is finally attributed once it stops changing, hence question #4 gets to its real type at the end of the code, not before, which could be anything.
 
+# The Primitive Type never
+
+The type `never` means that nothing occurs. It is used when a type guard cannot occur or in a situation where an exception is always thrown. There is a difference between `void` and `never`. A function that has the explicit return type of `never` won’t allow your code to return `undefined`, which is different from a `void` function that allows code to return `undefined`.
+
+```tsx
+function functionThrow(): never {
+    throw new Error("This function return never");
+}
+```
+
+The `never` type is a subtype for every type. Hence, you can return `never` (for example, throwing an exception) when a return type is specified to be void or string, but cannot return a string when explicitly marked as `never`.
+
+TypeScript can benefit from the `never` type by performing an exhaustive check. An exhaustive check verifies that every possibility (for all types in the union or all choices in an enum) is handled. The idea is that TypeScript can find an unhandled scenario as early as design-time and also at compilation time. It works by having a potential path that falls under the `else` condition, which returns `never`.
+
+However, when all types of a union or enum cause the code to return something other than `never`, the compiler won’t complain. Using `never` is helpful when code around multiple type values evolve. When an option is added, for example, to a union or enum, TypeScript will compute that the function can return `never` and not compile. Since version 2.0, TypeScript can find out if the code was entered in the default case (or with `else` case if you are not using the switch statement).
+
+For example, in the code below, there is an `enum` with two items. TypeScript knows that only two cases are possible and the default (`else`) case cannot occur. This insight of TypeScript is perfect since the function return type only accepts a `string` and does not accept `never`. If in the future you add a new item from enum, (for example, a `ChoiceC`, without adding a new case in the switch statement), then, the code can call the `unhandledChoice` function which returns `never`.
+
+```tsx
+enum EnumWithChoices {
+    ChoiceA,
+    ChoiceB,
+    ChoiceC,
+}
+
+function functionReturnStringFromEnum(c: EnumWithChoices): string {
+    switch (c) {
+        case EnumWithChoices.ChoiceA:
+            return "A";
+        case EnumWithChoices.ChoiceB:
+            return "B";
+        default:
+            return unhandledChoiceFromEnum(c);
+    }
+}
+
+function unhandledChoiceFromEnum(x: never): never {
+    throw new Error("Choice not defined");
+}
+```
+
+```
+/usr/lib/node_modules/ts-node/src/index.ts:245
+    return new TSError(diagnosticText, diagnosticCodes)
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+index.ts(14,44): error TS2345: Argument of type 'EnumWithChoices.ChoiceC' is not assignable to parameter of type 'never'.
+
+    at createTSError (/usr/lib/node_modules/ts-node/src/index.ts:245:12)
+    at reportTSError (/usr/lib/node_modules/ts-node/src/index.ts:249:19)
+    at getOutput (/usr/lib/node_modules/ts-node/src/index.ts:362:34)
+    at Object.compile (/usr/lib/node_modules/ts-node/src/index.ts:395:32)
+    at Module.m._compile (/usr/lib/node_modules/ts-node/src/index.ts:473:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+```
+
+In cases where TypeScript is unable to logically identify a variable as a specific type, it will set the value to `never`. In the following example, the `else` case is  impossible because the `data` variable can only be `number` or `boolean`, however, the `else` is coded anyway. The value of the variable `data` is, in that case, `never`. 
+
+```tsx
+declare function ajaxCall(): number | boolean;
+let data : number | boolean = ajaxCall();
+if (typeof data == "number"){
+  console.log(`The data is a number type: ${typeof data}`);
+} else if (typeof data == "boolean"){
+  console.log(`The data is a boolean type: ${typeof data}`);
+} else{
+  console.log(`Impossible ELSE case: ${typeof data}`); // of type never here
+}
+```
+
+
+
+
 #  Unknown: A Better any
 
 The `unknown` type is half a specific explicit type and half the type `any` which allows everything. Declaring a variable as `unknown` allows us to set a wide variety of types without allowing unwanted access to properties or the value of a type. The following code demonstrates that a variable with type `any` can be assigned a string and then used with a function of the `string` type.
