@@ -2,6 +2,13 @@
 1. React is a JavaScript library for building user interfaces.
 2. Features are Virtual DOM, JSX, Unidirectional Data Flow, and Server-Side Rendering. 
 
+### What are the advantages of React?
+
+1. Increases the application's performance with *Virtual DOM*.
+2. JSX makes code easy to read and write.
+3. It renders both on client and server side
+4. Easy to write unit and integration tests with tools such as Jest.
+
 ## 2. What is JSX?
 1. JSX is a Javascript syntax extension that allows us to write HTML in our JavaScript to create React Elements.
 2. Babel compiles JSX into React.createElement() calls
