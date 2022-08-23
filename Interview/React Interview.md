@@ -67,6 +67,14 @@ export default function App() {
 <p>Hello</p>
 <p>World</p>
 ```
+### Why fragments are better than container divs?
+
+Below are the list of reasons,
+
+1. Fragments are a bit faster and use less memory by not creating an extra DOM node. This only has a real benefit on very large and deep trees.
+2. Some CSS mechanisms like *Flexbox* and *CSS Grid* have a special parent-child relationships, and adding divs in the middle makes it hard to keep the desired layout.
+3. The DOM Inspector is less cluttered.
+
 
 ## 7. Walk me through the main phases of the React Lifecycle.
 1. **Mounting:** The component is ready to mount in the browser DOM. This phase covers initialization from `constructor()`, `getDerivedStateFromProps()`, `render()`, and `componentDidMount()` lifecycle methods.
