@@ -131,6 +131,7 @@ export default function App() {
 
 ```
 ## 12. What is props.children?
+Children is a prop (this.props.children) that allows us to pass components as data to other components, just like any other prop we use.
 1. The content between the opening and closing tags of a component is passed as the children attribute of props: props.children
 2. props.children can be string literals, HTML syntax, JS expressions, and JS functions
 
@@ -277,12 +278,12 @@ Normally, there are onChange = {{} => ()} and value={} attached with it
 
 The **Uncontrolled Components** store their own state internally
 
-### 34. What is Lifting State Up in React?
+## 34. What is Lifting State Up in React?
 
 When several components need to share the same changing data then it is recommended to *lift the shared state up* to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
 
 
-### 35. What are Higher-Order Components?
+## 35. What are Higher-Order Components?
 
 A *higher-order component* (*HOC*) is a function that takes a component and returns a new component.
 
