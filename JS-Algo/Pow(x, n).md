@@ -2,13 +2,18 @@
 <img width="715" alt="Screen Shot 2022-01-16 at 01 41 21" src="https://user-images.githubusercontent.com/37787994/149653107-d6ac5a83-196c-4962-a8b5-ec312e13df33.png">
 
 
-![IMG_0919](https://user-images.githubusercontent.com/37787994/149653116-d6825f95-4ecb-412e-83ba-c4181aa330b2.jpg)
+
 
 
 ```js
 // T.C. O(logn)
+/**
+ * @param {number} x
+ * @param {number} n
+ * @return {number}
+ */
 var myPow = function(x, n) {
-    if (n===0) return 1;
+      if (n===0) return 1;
     
     let pow = Math.abs(n);
     
@@ -16,4 +21,18 @@ var myPow = function(x, n) {
     
     return n < 0 ? 1/result : result;
 };
+
+/*
+x = 2, n = 10
+10 % 2 === 0 => myPow(4, 5)
+
+x = 4, n = 5
+5 % 2 !== 0 => myPow(16, (5 - 1) / 2 * 4) => myPow(16, 8)
+
+x = 16, n = 8
+8 % 2 === 0 => myPow(256, 4)
+
+x = 256, n = 4
+4 % 2 === 0 => myPow()
+*/
 ```
