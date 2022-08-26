@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
@@ -7,40 +7,48 @@ export default function App() {
 
   const handleBinaryOnChange = (e) => {
     setBinaryNum(e.target.value);
-    setDecimalNum(parseInt(e.target.value, 2));
+    console.log(binaryNum);
   };
 
-  const handleDecimalOnChange = (e) => {
-    setBinaryNum(Number(e.target.value).toString(2));
-    setDecimalNum(e.target.value);
-  };
-
-  useEffect(() => {
+  const handleDecimalNum = (e) => {
+    e.preventDefault();
     if (binaryNum.match(/^[0-1]+$/g) === null) {
-      if (binaryNum !== "") {
-        alert("Error"); 
-      }
+      alert("Error");
     } else {
       setDecimalNum(parseInt(binaryNum, 2));
     }
-  }, [binaryNum]);
+  };
+
+  const handleDecimalOnChange = (e) => {
+    setDecimalNum(e.target.value);
+  };
+
+  const handleDecimalToBinary = (e) => {
+    e.preventDefault();
+    setBinaryNum(Number(decimalNum).toString(2));
+  };
 
   return (
     <div className="App">
       Binary:{" "}
       <input
         placeholder="Enter 0 or 1"
-        value={binaryNum}
         onChange={handleBinaryOnChange}
+        value={binaryNum}
         maxLength="8"
       ></input>
       <p />
-      Decimal:{" "}
-      <input
-        placeholder="Decimal"
-        value={decimalNum}
-        onChange={handleDecimalOnChange}
-      ></input>
+      <form onSubmit={handleDecimalNum}>
+        Decimal:{" "}
+        <input
+          placeholder="Decimal"
+          value={decimalNum}
+          onChange={handleDecimalOnChange}
+        ></input>
+        <p />
+        <button type="submit">Binary to Decimal</button>
+      </form>
+      <button onClick={handleDecimalToBinary}>Decimal to Binary</button>
     </div>
   );
 }
