@@ -215,31 +215,13 @@
 
 [Linked List Cycle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle.md)   
 [Middle of the Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Middle%20of%20the%20Linked%20List.md)    
-
-</details>
-</ul>
-
-<ul>
-<details>
-  <summary> ⭐⭐ </summary> 
-  
-[Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)  
-
-</details>
-</ul>
-
-<ul>
-<details>
-  <summary> ⭐⭐⭐ </summary> 
-  
+[Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)   
 [Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Add%20Two%20Numbers.md)  
 [Design Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Design%20Linked%20List.md)        
 [LRU Cache](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/LRU%20Cache.md)   
 
 </details>
 </ul>
-
-</details>
 
 <details>
 <summary><strong>Tree</strong></summary>
