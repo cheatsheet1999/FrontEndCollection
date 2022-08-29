@@ -208,11 +208,7 @@
 
 <details>
 <summary><strong>Linked-List </strong></summary>
-
-<ul>
-<details>
-  <summary> ⭐ </summary>
-
+[0002. Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0002.%20Add%20Two%20Numbers.md)            
 [Linked List Cycle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle.md)   
 [Middle of the Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Middle%20of%20the%20Linked%20List.md)    
 [Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)   
