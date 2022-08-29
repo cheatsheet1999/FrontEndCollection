@@ -208,7 +208,7 @@
 
 
 <details>
-<summary><strong>Stack</strong></summary>
+<summary><strong>Set</strong></summary>
   
 [0003. Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0003.%20Longest%20Substring%20Without%20Repeating%20Characters.md)     
   
