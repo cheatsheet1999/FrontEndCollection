@@ -147,28 +147,22 @@
 
 <ul>
 <details>
-  <summary> ⭐ </summary>
+<summary>Palindrome</summary>
+
+[0005. Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0005.%20Longest%20Palindromic%20Substring.md)    
+  
+</details>
+</ul>
+
+
+<ul>
+<details>
+  <summary> Uncategorized </summary>
 
 [Reverse String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20String.md)    
 [Reverse Words in a String III](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20Words%20in%20a%20String%20III.md)      
-
-</details>
-</ul>
-
-<ul>
-<details>
-  <summary> ⭐⭐ </summary>
-  
-[Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)   
-[Valid Palindrome II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Palindrome%20II.md)    
-
-</details>
-</ul>
-
-<ul>
-<details>
-  <summary> ⭐⭐⭐ </summary>
-  
+[Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)    
+[Valid Palindrome II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Valid%20Palindrome%20II.md)     
 [Longest Substring Without Repeating Characters](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Substring%20Without%20Repeating%20Characters.md)   
 [Letter Combinations of a Phone Number](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Letter%20Combinations%20of%20a%20Phone%20Number.md)   
 [Generate Parentheses](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Generate%20Parentheses.md)   
@@ -190,10 +184,12 @@
 [Fraction to Recurring Decimal](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Fraction%20to%20Recurring%20Decimal.md)     
 [Accounts Merge](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Accounts%20Merge.md)     
 [Longest Happy String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Happy%20String.md)    
-[Minimum Deletions to Make Character Frequencies Unique](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)    
-
+[Minimum Deletions to Make Character Frequencies Unique](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.md)     
+ 
 </details>
 </ul>
+
+
 
 </details>
 
