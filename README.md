@@ -146,6 +146,7 @@
 <details>
   <summary> Uncategorized </summary>
 
+[0006. Zigzag Conversion](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0006.%20Zigzag%20Conversion.md)    
 [Reverse String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20String.md)    
 [Reverse Words in a String III](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20Words%20in%20a%20String%20III.md)      
 [Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)    
@@ -163,8 +164,7 @@
 [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md)      
 [Reorganize String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reorganize%20String.md)    
 [Group Anagrams](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Group%20Anagrams.md)    
-[Shortest Word Distance II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Shortest%20Word%20Distance%20II.md)     
-[Zigzag Conversion](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Zigzag%20Conversion.md)           
+[Shortest Word Distance II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Shortest%20Word%20Distance%20II.md)          
 [Simplify Path](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Simplify%20Path.md)       
 [Search Suggestions System](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Search%20Suggestions%20System.md)           
 [Remove All Adjacent Duplicates in String II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.md)      
