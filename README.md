@@ -69,7 +69,6 @@
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)        
 [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
-[Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/issues/24)  
 [Rotate Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/32)  
 [Meeting Rooms II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Meeting%20Rooms%20II.md)  
 [Intersection of Two Arrays II](https://github.com/cheatsheet1999/FrontEndCollection/issues/36)  
@@ -200,7 +199,8 @@
 <details>
 <summary><strong>Linked-List </strong></summary>  
   
-[0002. Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0002.%20Add%20Two%20Numbers.md)            
+[0002. Add Two Numbers](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0002.%20Add%20Two%20Numbers.md)    
+[206. Reverse Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/206.%20Reverse%20Linked%20List.md)     
 [Linked List Cycle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle.md)   
 [Middle of the Linked List](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Middle%20of%20the%20Linked%20List.md)    
 [Linked List Cycle II](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Linked%20List%20Cycle%20II.md)   
