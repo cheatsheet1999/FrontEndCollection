@@ -123,7 +123,7 @@
  
  
 <details>
-<summary><strong>Two Pointer</strong></summary>
+<summary><strong>Two Pointers</strong></summary>
 
 [0283. Move Zeroes](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0283.%20Move%20Zeroes.md)
 
