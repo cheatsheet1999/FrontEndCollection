@@ -10,6 +10,7 @@
 var findBuildings = function(heights) {
     let stack = [];
     for(let i = 0; i < heights.length; i++) {
+        // if current building's length
         while(stack.length && heights[i] >= heights[stack[stack.length - 1]]) {
             stack.pop();
         }
