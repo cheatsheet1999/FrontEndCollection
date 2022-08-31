@@ -146,6 +146,7 @@
   <summary> Uncategorized </summary>
 
 [0006. Zigzag Conversion](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0006.%20Zigzag%20Conversion.md)    
+[0007. Reverse Integer](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0007.%20Reverse%20Integer.md)        
 [Reverse String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20String.md)    
 [Reverse Words in a String III](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Reverse%20Words%20in%20a%20String%20III.md)      
 [Longest Common Prefix](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Common%20Prefix.md)    
