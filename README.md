@@ -135,7 +135,8 @@
 <details>
 <summary>Palindrome</summary>
 
-[0005. Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0005.%20Longest%20Palindromic%20Substring.md)  [0009. Palindrome Number](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0009.%20Palindrome%20Number.md)       
+[0005. Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0005.%20Longest%20Palindromic%20Substring.md).            
+[0009. Palindrome Number](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0009.%20Palindrome%20Number.md)       
   
 </details>
 </ul>
