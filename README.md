@@ -158,7 +158,6 @@
 [Decode String](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Decode%20String.md)   
 [Longest Palindromic Substring](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20Palindromic%20Substring.md)   
 [Time Based Key-Value Store](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Time%20Based%20Key-Value%20Store.md)  
-[Roman to Integer](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Roman%20to%20Integer.md)        
 [Longest String Chain](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Longest%20String%20Chain.md)  
 [Robot Bounded In Circle](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Robot%20Bounded%20In%20Circle.md)  
 [Word Break](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Word%20Break.md)    
@@ -203,6 +202,7 @@
 <summary><strong>Object Manipulation</strong></summary>
  
 [0012. Integer to Roman](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0012.%20Integer%20to%20Roman.md)      
+[0013. Roman to Integer](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0013.%20Roman%20to%20Integer.md)           
   
 </details>
 
