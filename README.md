@@ -198,6 +198,15 @@
   
 </details>
 
+
+<details>
+<summary><strong>Object Manipulation</strong></summary>
+ 
+[0012. Integer to Roman](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0012.%20Integer%20to%20Roman.md)      
+  
+</details>
+
+
 <details>
 <summary><strong>Linked-List </strong></summary>  
   
