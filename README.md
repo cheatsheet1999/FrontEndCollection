@@ -193,6 +193,12 @@
 
 </details>
 
+<details>
+<summary><strong>Map</strong></summary>
+  
+[0560. Subarray Sum Equals K](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0560.%20Subarray%20Sum%20Equals%20K.md)
+  
+</details>
 
 <details>
 <summary><strong>Set</strong></summary>
