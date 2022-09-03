@@ -67,7 +67,7 @@
 [Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
 [Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)   
 [0011. Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0011.%20Container%20With%20Most%20Water.md)    
-[0015. 3Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0015.%203Sum.md)         
+
 [Search Insert Position](https://github.com/cheatsheet1999/FrontEndCollection/issues/26)  
 [Squares of a Sorted Array](https://github.com/cheatsheet1999/FrontEndCollection/issues/31)        
 [Last and Second Last](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Last%20and%20Second%20Last.md)  
@@ -123,7 +123,9 @@
  
 <details>
 <summary><strong>Two Pointers</strong></summary>
-
+  
+[0015. 3Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0015.%203Sum.md)           
+[0016. 3Sum Closest](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0016.%203Sum%20Closest.md)
 [0283. Move Zeroes](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0283.%20Move%20Zeroes.md)
 
 </details>
