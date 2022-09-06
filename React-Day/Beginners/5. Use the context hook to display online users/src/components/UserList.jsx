@@ -4,13 +4,12 @@ import UsersContext from "../contexts/UsersContext";
 const UserList = () => {
   const { userState, setUserState } = useContext(UsersContext);
 
-
   const handleRandomUserStatus = () => {
     let userNamesArr = Object.keys(userState);
     let randomNum = Math.floor(Math.random() * userNamesArr.length);
-    let new_users = Object.assign({}, userState);
-    console.log(new_users[userNamesArr[randomNum]] );
-    
+    let new_users = { ...userState };
+    console.log(new_users[userNamesArr[randomNum]]);
+
     new_users[userNamesArr[randomNum]] = !userState[userNamesArr[randomNum]];
     setUserState(new_users);
   };
