@@ -13,6 +13,10 @@ export default function App() {
   ]);
   let [boxProperty, setBoxProperty] = useState(0);
 
+   const handleBoxProp = (e) => {
+    setBoxProperty(e.target.value);
+  };
+  
   const handleColorsChange = (e) => {
     let new_box = [...boxes];
     new_box[boxProperty].color = e.target.value;
@@ -25,9 +29,7 @@ export default function App() {
     setBoxes(new_box);
   };
 
-  const handleBoxProp = (e) => {
-    setBoxProperty(e.target.value);
-  };
+ 
 
   return (
     <div className="App">
