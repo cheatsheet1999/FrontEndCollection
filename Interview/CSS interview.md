@@ -6,3 +6,6 @@
 - inline The element doesn’t start on a new line and only occupy just the width it requires. You can’t set the width or height.
 - inline-block It’s formatted just like the inline element, where it doesn’t start on a new line. BUT, you can set width and height values.
 - block The element will start on a new line and occupy the full width available. And you can set width and height values.
+
+
+
