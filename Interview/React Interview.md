@@ -204,9 +204,9 @@ Children is a prop (this.props.children) that allows us to pass components as da
 
 
 ## 20. What are main parts of Redux?
-1. A store that holds the state of the application
-2. An action that describes the changes in the state of the application
-3. A reducer which actucally carries out the state transition depending on the action
+1. A **store** that holds the state of the application
+2. An **action** that describes the changes in the state of the application
+3. A **reducer** which actually carries out the state transition depending on the action
 
 ### Actions
 - Actions are plain Javascript objects with type property to indicate what type of action is being performed.
