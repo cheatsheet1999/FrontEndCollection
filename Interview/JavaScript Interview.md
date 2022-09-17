@@ -220,6 +220,11 @@ There's no simple explanation for this; it is one of the most confusing concepts
 - Modules
 
 
+## 12. What is the differnece between Array.map, Array.forEach, Array.filter, etc?
+<img width="608" alt="Screen Shot 2022-09-16 at 19 55 56" src="https://user-images.githubusercontent.com/37787994/190837959-75008e9d-3ae2-440d-be72-a22ec232b408.png">
+
+
+
 
 
 ---
