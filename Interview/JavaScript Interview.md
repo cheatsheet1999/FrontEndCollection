@@ -225,21 +225,7 @@ There's no simple explanation for this; it is one of the most confusing concepts
 <img width="608" alt="Screen Shot 2022-09-16 at 20 45 50" src="https://user-images.githubusercontent.com/37787994/190839304-f11b10ea-42ca-4f3b-beac-f0c299f4b8c7.png">
 <img width="608" alt="Screen Shot 2022-09-16 at 20 46 18" src="https://user-images.githubusercontent.com/37787994/190840292-6192c951-c7ef-449b-850a-0919d5462a7c.png">
 
----
-
-
-
-6. What is promise
-A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
-
-A Promise is in one of these states:
-
-pending: initial state, neither fulfilled nor rejected.
-fulfilled: meaning that the operation was completed successfully.
-rejected: meaning that the operation failed.
-A pending promise can either be fulfilled with a value or rejected with a reason (error). When either of these options happens, the associated handlers queued up by a promise's then method are called. If the promise has already been fulfilled or rejected when a corresponding handler is attached, the handler will be called, so there is no race condition between an asynchronous operation completing and its handlers being attached.
-
-7. what is async await
+## 13. what is async await
 
 Promises were introduced to solve the famous callback hell problem, but they introduced complexity on their own, and syntax complexity.      
 They were good primitives around which a better syntax could be exposed to the developers, so when the time was right we got async functions.     
@@ -261,6 +247,7 @@ const doSomething = async () => {
 };
 
 ```
+
 
 
 
