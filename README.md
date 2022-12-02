@@ -64,7 +64,7 @@
 <summary><strong>Array</strong></summary>
 
 
-[Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum.md)  
+[0001. Two Sum](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0001.%20Two%20Sum.md)           
 [Two Sum II - Input Array Is Sorted](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)   
 [0011. Container With Most Water](https://github.com/cheatsheet1999/FrontEndCollection/blob/main/JS-Algo/0011.%20Container%20With%20Most%20Water.md)    
 
