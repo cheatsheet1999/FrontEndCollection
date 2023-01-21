@@ -147,18 +147,18 @@ It will print out b, c, a because when we do `setTimeout`, it becomes an asynchr
 
 **This is an easy example of closure**
 ```js
-function outer() {
-    let a = 3;
-
-    function inner() {
-        let b = 4;
-        console.log(a + b);
-    }
-
-    inner();
+function makeCounter() {
+  let count = 0;
+  return function() {
+    return count++;
+  };
 }
 
-outer()
+let counter = makeCounter();
+console.log(counter()); // prints 0
+console.log(counter()); // prints 1
+console.log(counter()); // prints 2
+
 ```
 
 **Unlike calltack, variable in Heap memory can be kept indefinitely then decide when you get rid of it later with the garbage collector**
