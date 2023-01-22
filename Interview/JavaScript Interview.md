@@ -143,7 +143,7 @@ console.log('c')
 It will print out b, c, a because when we do `setTimeout`, it becomes an asynchronous, it will come into the event loop after executing 'b' and 'c'.
 
 ## 10. What is a closure and how do you use it?
-- A closure is the combination of a function enclosed with references to its surrounding state, which is the lexical environment. In other words, a closure gives us access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, we first define a function inside another function and return it or pass it to another function. The inner function then will have access to the variables in the outer function scope, even after the outer function has returned.
+- A closure is the combination of a function enclosed with its lexical environment. In other words, a closure gives us access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time. To use a closure, we first define a function inside another function and return it to another function. The inner function then will have access to the variables in the outer function scope, even after the outer function has returned.
 
 **This is an easy example of closure**
 ```js
