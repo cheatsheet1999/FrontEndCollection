@@ -3,6 +3,46 @@
 2. Inheritance
 3. Polymorphism
 
+
+### Encapsulation
+Encapsulation helps to protect the integrity of an object by preventing unauthorized access to its internal state. It refers to the practice of hiding an object's internal state and behavior from the outside world, and providing a controlled interface for interacting with the object.
+
+```ts
+class BankAccount {
+    private _balance: number; // the "_" prefix denotes that this is a private property
+
+    constructor(initialBalance: number) {
+        this._balance = initialBalance;
+    }
+
+    public deposit(amount: number) {
+        this._balance += amount;
+    }
+
+    public withdraw(amount: number) {
+        if (this._balance < amount) {
+            console.log("Insufficient funds");
+        } else {
+            this._balance -= amount;
+        }
+    }
+
+    public get balance(): number { // this is a getter, it allows to access the private property as if it was public
+        return this._balance;
+    }
+}
+
+let myAccount = new BankAccount(1000);
+console.log(myAccount.balance); // 1000
+myAccount.deposit(250);
+console.log(myAccount.balance); // 1250
+myAccount.withdraw(500);
+console.log(myAccount.balance); // 750
+```
+In this example, the BankAccount class encapsulates the internal state of the account (the _balance property) by making it private. This means that it can only be accessed and modified within the class itself, and not from outside the class. Instead, the class provides public methods (deposit(), withdraw()) for interacting with the account, which enforce certain rules and constraints on the balance. Additionally, the get balance() accessor allows the user to read the balance of the account as if it was public property.
+This way, the class implementation can change without affecting the other parts of the code that use it.
+
+
 ### Polymorphism
 Polymorphism refers to the ability of a single function to operate on multiple types of data or objects. This allows for flexibility and code reuse, as a single function can be used with different types of objects, rather than having to write a separate function for each type. In most OOP languages, polymorphism is achieved through the use of interfaces, abstract classes, and virtual functions.
 
