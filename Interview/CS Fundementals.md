@@ -48,3 +48,5 @@ console.log(getArea(rect));  // 200
 console.log(getArea(circle)); // 78.53981633974483
 
 ```
+
+In this example, `Shape` is an interface that defines a single method `area()`. The `Rectangle` and `Circle` classes both implement this interface, providing their own implementation of the `area()` method. The getArea function takes an instance of any object that implements the Shape interface and calls its `area()` method. By using the `Shape` interface, the `getArea` function is able to operate on both rectangles and circles, which are different types of shapes. This is an example of polymorphism, where a single function can be used with different types of objects.
