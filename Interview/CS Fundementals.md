@@ -1,4 +1,4 @@
-## What are some important features in OOP?
+## 1. What are some important features in OOP?
 1. Encapsulation
 2. Inheritance
 3. Polymorphism
@@ -90,3 +90,18 @@ console.log(getArea(circle)); // 78.53981633974483
 ```
 
 In this example, `Shape` is an interface that defines a single method `area()`. The `Rectangle` and `Circle` classes both implement this interface, providing their own implementation of the `area()` method. The getArea function takes an instance of any object that implements the Shape interface and calls its `area()` method. By using the `Shape` interface, the `getArea` function is able to operate on both rectangles and circles, which are different types of shapes. This is an example of polymorphism, where a single function can be used with different types of objects.
+
+
+## 2. When you type a URL into a website, the following process happens:
+
+The browser sends a request to the DNS (Domain Name System) resolver to get the IP address of the server associated with the domain name in the URL.
+
+The DNS resolver returns the IP address of the server to the browser, which then sends an HTTP (HyperText Transfer Protocol) request to the server using that IP address.
+
+The server processes the request and returns an HTTP response, which includes the status code, headers, and body (e.g. HTML, CSS, JavaScript) of the requested web page.
+
+The browser uses the information in the HTTP response to render the web page and display it to the user.
+
+The browser also caches the resources required to display the web page, such as images and stylesheets, to speed up subsequent requests for the same page.
+
+Note: This is a high-level overview of the process and does not cover all details, such as SSL/TLS encryption, HTTP redirects, or browser-side caching.
