@@ -185,6 +185,10 @@ Children is a prop (this.props.children) that allows us to pass components as da
 - useState is a Hook that allows us to have state variables in functional components
 - we  pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value
 
+When we use this.setState in React, it schedules an update to the component's state and re-renders the component. The update is executed asynchronously, meaning that multiple calls to setState in the same cycle are merged into a single update.
+
+Once setState is called, React will compare the current state with the new state and perform a shallow merge of the two states. The component's render method is then called, which generates a virtual DOM representation of the updated component. React then uses a diffing algorithm to determine the minimum number of DOM operations required to update the actual DOM to match the virtual DOM. This allows React to efficiently update the component's view in the browser.
+
 ## 17. What is the useEffect hook
 - The useEffect Hook allows us to perform side effects in our components.
 - useEffect is triggered after a render.
