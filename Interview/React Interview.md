@@ -285,24 +285,12 @@ setState({ name: 'John' }, () => console.log('The name has updated and component
 A `key` is a special string attribute we **should** include when creating arrays of elements. *Key* helps React identify which items have changed, are added, or are removed.
 
 
-## 32. What are controlled components?
-
-In a controlled component, form data is handled by a React component.  
-A component that controls the input elements within the forms on subsequent user input is called **Controlled Component**, i.e, every state mutation will have an associated handler function.
-
-
-Normally, there are onChange = {{} => ()} and value={} attached with it
-
-## 33. What are uncontrolled components?
-
-The **Uncontrolled Components** store their own state internally
-
-## 34. What is Lifting State Up in React?
+## What is Lifting State Up in React?
 
 When several components need to share the same changing data then it is recommended to *lift the shared state up* to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
 
 
-## 35. What are Higher-Order Components?
+## What are Higher-Order Components?
 
 A *higher-order component* (*HOC*) is a function that takes a component and returns a new component.
 
@@ -312,7 +300,7 @@ We call them **pure components** because they can accept any dynamically provide
 const EnhancedComponent = higherOrderComponent(WrappedComponent)
 ```
 
-## 36. What is reconciliation?
+## What is reconciliation?
 
 When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the new ]element with the previously rendered one. When they are not equal, React will update the DOM. This process is called *reconciliation*.
 
