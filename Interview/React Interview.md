@@ -110,10 +110,9 @@ Below are the list of reasons,
 3. Keys are necessary because reconciling list elements differences without them is highly inefficient
 
 ## 11. What are Controlled and Uncontrolled components in React?
-1. Both are ways to implement form controls in React
-2. Controlled: form data is handled by a React component
-3. Uncontrolled: form data is handled by the DOM itself
-4. Controlled components are the recommended way to implement forms
+In React, a controlled component is a form element where the value is determined and updated by the React component state, rather than the DOM. This allows for better control and handling of the form element's behavior.
+
+An uncontrolled component in React is a form element where the value is managed by the DOM and not by the React component state. This can lead to unexpected behavior, such as persistent value even after the form is submitted. So it's generally recommended to use controlled components instead.
 
 Controlled component
 ```jsx
