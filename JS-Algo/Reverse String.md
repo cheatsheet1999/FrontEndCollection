@@ -2,7 +2,8 @@ Write a function that reverses a string. The input string is given as an array o
 
 You must do this by modifying the input array in-place with O(1) extra memory.    
 
-<img width="498" alt="Screen Shot 2021-11-15 at 20 02 55" src="https://user-images.githubusercontent.com/37787994/141888244-503ff480-4fdb-422e-90d0-de3fb6d4dfd8.png">
+<img width="854" alt="Screen Shot 2023-02-24 at 6 15 57 PM" src="https://user-images.githubusercontent.com/37787994/221324220-5e09c5bf-d3fa-47e1-9c55-38038e6c26c1.png">
+
 
 
 ```js
@@ -12,10 +13,11 @@ You must do this by modifying the input array in-place with O(1) extra memory.
  */
 var reverseString = function(s) {
     let i = 0, j = s.length - 1;
-    while (i < j) { 
+    while(i < j) {
         [s[i], s[j]] = [s[j], s[i]];
         i++;
         j--;
-  }
+    }
+    return s;
 };
 ```
