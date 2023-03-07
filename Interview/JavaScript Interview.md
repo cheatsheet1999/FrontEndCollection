@@ -326,5 +326,68 @@ var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, n
 ```
 
 
+## What is Prototypal Inheritance in JS? How does it work?
 
+In JavaScript, every object has a hidden property called `[[Prototype]]`, which refers to its prototype object. When you try to access a property or method of an object that does not exist on the object itself, JavaScript will look up the prototype chain until it finds the property or method on the prototype.
+
+Prototypal inheritance is a way of sharing properties and methods between objects in JavaScript. In this type of inheritance, an object can inherit properties and methods from another object, known as its prototype.
+
+For example, let's say we have an object called `person` with a method `greet`:
+
+```js
+const person = {
+  greet: function() {
+    console.log("Hello!");
+  }
+};
+
+```
+
+We can create a new object called `employee` that inherits from `person` by setting `employee`'s `[[Prototype]]` to `person`:
+
+```js
+const employee = Object.create(person);
+```
+
+Now, if we call `employee.greet()`, JavaScript will first look for the `greet` method on `employee` itself. Since it doesn't exist, it will then look for it on `employee`'s prototype (`person`). If it finds it there, it will execute it:
+
+```js
+employee.greet(); // logs "Hello!"
+```
+
+We can also add new properties and methods to `employee` directly, without affecting `person`:
+
+```js
+employee.name = "Alice";
+employee.work = function() {
+  console.log("Working...");
+};
+```
+
+Now, `employee` has its own `name` property and `work` method, but it can still access the `greet` method from its prototype
+
+## Explain `this` keyword in JavaScript
+
+- Arrow functions do have a `this` keyword, but they inherit the value of `this` from their surrounding lexical scope and do not have their own `this` value.
+- The value of `this` is determined at invocation time and can change depending on how the function is called.
+- If a function is called as a standalone function, `this` refers to the global object (`window` in a browser environment, `global` in Node.js) in non-strict mode, and `undefined` in strict mode.
+- If a function is called as a method of an object, `this` refers to that object.
+- If a function is called with `call()` or `apply()`, `this` is determined by the first argument passed to the method.
+- In the context of an event listener, `this` refers to the element that the listener is attached to.
+- If a function is called as a constructor with the `new` keyword, `this` refers to a newly-created object whose prototype is set to the `prototype` property of the constructor function.
+- If a function is the result of a `bind()` operation, `this` is set to the first argument passed to `bind()`, and this `this` value cannot be changed.
+
+## Explain how different CSS `position` property works
+
+- `static`: This is the default position value for all elements. It means that the element will be positioned according to its normal position in the document flow. `top`, `bottom`, `left`, and `right` properties have no effect on static positioned elements.
+- `relative`: This value positions the element relative to its normal position in the document flow. The element can be moved using the `top`, `bottom`, `left`, and `right` properties. The element still takes up its normal space in the document flow, so other elements will be positioned as if it were still in its original position.
+- `absolute`: This value positions the element relative to its nearest positioned ancestor, if any; otherwise, it is positioned relative to the initial containing block. The element is removed from the document flow and other elements will be positioned as if it were not there. This value is often used to position elements inside a container element.
+- `fixed`: This value is similar to `absolute`, but the element is positioned relative to the viewport instead of a containing element. This means that the element will stay in the same position even if the user scrolls the page.
+- `sticky`: This value is a relatively new addition to the `position` property. It acts as a hybrid of `relative` and `fixed` positioning. The element is positioned relative to its normal position in the document flow until the viewport scrolls to a certain point, at which point it "sticks" to the viewport and acts like a `fixed` positioned element.
+
+When elements are positioned using `relative`, `absolute`, or `fixed`, they create a stacking context. The stacking context is the order in which elements are layered on top of each other on the page. The order is determined by a combination of the `z-index` property and the order in which the elements are defined in the HTML document. Elements that have a higher `z-index` value are layered on top of elements with lower `z-index` values.
+
+When an element has a `position` value of `static`, it does not create a stacking context. However, if an element has a `position` value of `relative`, `absolute`, or `fixed`, it creates a stacking context, even if it has a `z-index` value of `auto`.
+
+In summary, `position` property in CSS allows us to position elements on the page in different ways, and `sticky` is a relatively new value that allows for an element to stick to the viewport at a certain point. Stacking context is important for understanding how elements are layered on top of each other, and it is created when an element has a `position` value of `relative`, `absolute`, or `fixed`.
 
