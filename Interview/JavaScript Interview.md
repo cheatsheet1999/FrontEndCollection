@@ -391,3 +391,95 @@ When an element has a `position` value of `static`, it does not create a stackin
 
 In summary, `position` property in CSS allows us to position elements on the page in different ways, and `sticky` is a relatively new value that allows for an element to stick to the viewport at a certain point. Stacking context is important for understanding how elements are layered on top of each other, and it is created when an element has a `position` value of `relative`, `absolute`, or `fixed`.
 
+
+
+## what is the difference between `block` and `inline`?
+
+`block` and `inline` elements differ in their behavior in the normal flow of a web page, as well as their role in formatting context. `block` elements create block-level formatting context and take up the full width of their parent container, while `inline` elements create an inline-level formatting context and only take up as much width as necessary for their content.
+
+## How HTTP works ? What is HTTP/2?
+
+HTTP is a protocol used to transfer data over the internet. It is a client-server protocol, which means that a client, such as a web browser, requests data from a server, and the server responds with the requested data.
+
+When a client makes an HTTP request, it sends a message to the server containing a method, such as GET or POST, and a URL that identifies the resource that the client wants to access. The server then processes the request and sends back a response, which typically contains the requested data, along with a status code indicating whether the request was successful or not.
+
+HTTP is built on top of TCP/IP, which is a lower-level networking protocol. This means that HTTP messages are transmitted over TCP connections, which provide reliable, ordered delivery of data packets.
+
+One of the key features of HTTP/2 is its support for multiplexing, which allows multiple requests to be sent and received on a single TCP connection. This can improve performance by reducing the number of connections that need to be established, which can be particularly beneficial for sites that make many small requests.
+
+## What is Event Delegation
+
+Event delegation is a technique in Javascript that allows you to attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. With event delegation, you can handle events for multiple elements with a single event listener, which can be more efficient and reduce the amount of code needed.
+
+## How does `instanceOf` work? difference with `typeof`
+
+In summary, `typeof` is used to determine the primitive type of a value, while `instanceOf` is used to determine whether an object is an instance of a particular class or constructor function.
+
+```js
+class Animal {}
+class Dog extends Animal {}
+
+const myDog = new Dog();
+console.log(myDog instanceof Dog); // true
+console.log(myDog instanceof Animal); // true
+console.log(myDog instanceof Object); // true
+console.log(myDog instanceof String); // false
+```
+
+ 
+
+## Explain `new` operator in JavaScript. What exactly does it do?
+
+the `new` operator is used to create an instance of an object that is defined by a constructor function. When a constructor function is invoked with the `new` operator, it creates a new object, sets the `this` keyword to point to the new object, and returns the new object.
+
+Under the hood, the `new` operator does several things:
+
+1. Creates a new empty object.
+2. Sets the prototype to the prototype of the constructor function.
+3. Calls the constructor function with the new object as the value of `this`. This allows the constructor function to set properties and methods on the new object.
+4. Returns the new object created by the constructor function. If the constructor function does not explicitly return an object, the `new` operator returns the new object created in step 1.
+
+## Explain `macrotask` and `microtask` in javascript
+
+In JavaScript, `macrotasks` and `microtasks` are two types of tasks that are queued in the event loop.
+
+A `macrotask` is a task that is executed asynchronously and may take a longer time to complete. Examples of macrotasks in JavaScript include:
+
+- setTimeout and setInterval callbacks
+- DOM events
+- I/O operations (e.g. reading from or writing to a file)
+- AJAX requests
+- rendering updates to the screen
+
+A `microtask` is a task that is executed immediately after the current macrotask and before the next macrotask in the event loop. Examples of microtasks in JavaScript include:
+
+- Promises
+- process.nextTick in Node.js
+- MutationObserver callbacks
+
+It is important to note that microtasks are executed before the next macrotask in the queue, even if they are added to the queue after the macrotask. This can lead to unexpected behavior if the order of execution is not taken into account.
+
+## What happens when you type a URL in browser's address bar?
+
+1. You enter a URL into a web browser
+2. The browser looks up the IP address for the domain name via DNS
+3. The browser sends a HTTP *request* to the server
+4. The server sends back a HTTP *response*
+5. The browser begins rendering the HTML
+6. The browser sends requests for additional objects such as images, css, JavaScript and repeats previous step
+7. Once the page is loaded, the browser sends further async requests as needed.
+
+## What are the steps for building an API?
+
+1. Set up a new Node.js project: Use a package manager like NPM or Yarn to initialize a new Node.js project and install the required dependencies. For example, you can run `npm init` to create a new project and `npm install express` to install the Express.js framework.
+2. Define the API endpoints: Define the URLs and HTTP methods that the API will support, along with the request and response formats. Use clear and consistent naming conventions to make the API intuitive and easy to use. You can define the endpoints in a separate file or in the main file.
+3. Implement the API endpoints: Write the code that handles the requests and generates the responses. Use appropriate data structures, algorithms, and error handling techniques to ensure the API is efficient and reliable. For example, you can use the Express.js `app.get()`, `app.post()`, `app.put()`, and `app.delete()` methods to define the API endpoints.
+4. Use middleware: Use middleware to add additional functionality to the API endpoints, such as authentication, logging, and error handling. Express.js provides built-in middleware and you can also create custom middleware functions.
+5. Use HTTP status codes: Use HTTP status codes to indicate the status of the API request, such as 200 for success, 400 for bad request, and 404 for resource not found. You can set the status code using the `res.status()` method.
+6. Use HTTP headers: Use HTTP headers to provide additional information about the request and response, such as content type, authentication token, and cache control. You can set the headers using the `res.set()` method.
+7. Implement authentication and authorization: Implement authentication and authorization mechanisms to restrict access to the API endpoints and protect sensitive data. Use industry-standard security protocols, such as OAuth and SSL, to prevent unauthorized access and data breaches.
+8. Test the API: Verify that the API endpoints behave as expected and return the correct responses for various inputs and scenarios. Use automated testing tools and manual testing techniques to ensure the API is robust and reliable. You can use tools like Postman or Insomnia to test the API endpoints.
+9. Document the API: Create documentation that describes the purpose, functionality, and usage of the API endpoints. Use clear and concise language, examples, and diagrams to help developers understand and use the API effectively. You can use tools like Swagger or Apiary to create API documentation.
+10. Publish the API: Deploy the API on a server or cloud platform that is accessible to the consumers. Use versioning and release management techniques to ensure compatibility and backward compatibility with previous versions.
+11. Maintain and evolve the API: Monitor the usage and performance of the API and respond to feedback
+
