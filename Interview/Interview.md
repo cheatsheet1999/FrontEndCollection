@@ -483,3 +483,37 @@ It is important to note that microtasks are executed before the next macrotask i
 10. Publish the API: Deploy the API on a server or cloud platform that is accessible to the consumers. Use versioning and release management techniques to ensure compatibility and backward compatibility with previous versions.
 11. Maintain and evolve the API: Monitor the usage and performance of the API and respond to feedback
 
+## What is HTTP Cache? How does it work?
+
+HTTP cache works based on the HTTP headers sent in the request and response. When a client sends a request, it includes a set of headers that describe the request, including a cache-control header that specifies how the response should be cached. The server then sends a response back to the client that includes a set of headers describing the response, including cache-control headers that specify how the response can be cached.
+
+If the cache-control headers allow it, the client will store the response in its cache. When the client sends the same request again in the future, it will check its cache first to see if it has a cached copy of the response that is still valid based on the cache-control headers. If it does, it will use the cached response instead of making a new request to the server.
+
+## Explain TCP 3-Way Handshake process
+
+It is a process used to establish a connection between two devices over a network. It is also known as SYN, SYN-ACK, and ACK process. The 3-Way Handshake is performed in the following steps:
+
+1. SYN (Synchronize): In this step, the client (initiating device) sends a SYN packet to the server (receiving device) with an initial sequence number. This packet indicates that the client wants to establish a connection with the server and also includes a random value, called a nonce, that the server will use to generate a cryptographic hash. The sequence number is used to identify each packet in the communication stream and prevent data from getting mixed up.
+2. SYN-ACK (Synchronize-Acknowledge): When the server receives the SYN packet, it sends a SYN-ACK packet back to the client. This packet indicates that the server has received the client's request to establish a connection and is willing to proceed with the connection. The SYN-ACK packet also includes an acknowledgment number, which is the client's initial sequence number plus one, and a nonce that the client will use to generate a cryptographic hash.
+3. ACK (Acknowledge): When the client receives the SYN-ACK packet from the server, it sends an ACK packet back to the server. This packet confirms that the client has received the server's response and is ready to proceed with the connection. The ACK packet includes an acknowledgment number, which is the server's sequence number plus one, and a cryptographic hash that proves the authenticity of the communication.
+
+##  What is CDN? Why do we use it?
+
+Content Delivery Network is a network of servers distributed across the globe that work together to provide faster and more reliable delivery of web content. The primary purpose of a CDN is to reduce the time it takes for a user's browser to receive content from a web server, which can improve the user's experience and reduce the load on the web server.
+
+## Explain Box Model
+
+In the Box Model, every HTML element is treated as a rectangular box that has four layers: content, padding, border, and margin.
+
+1. Content: This is the innermost layer of the box and contains the actual content of the element, such as text, images, or other HTML elements.
+2. Padding: This is the space between the content and the border of the box. Padding can be used to add extra space around the content, such as adding whitespace between text and the border.
+3. Border: This is the line that surrounds the padding and content of the box. Borders can be styled in different ways, such as with different colors, widths, and styles.
+4. Margin: This is the space between the border of the box and the neighboring elements. Margins can be used to create space between elements and to control the layout of the page.
+
+## Explain `async` and `await`
+
+`async` and `await` are features introduced in ES8 that make it easier to write asynchronous code in JavaScript.
+
+- `async` is used to mark a function as asynchronous. An async function always returns a promise and allows you to use the `await` keyword inside of it.
+- `await` is used to wait for a promise to resolve or reject. When you use `await` inside of an async function, the function is paused until the promise is settled. If the promise is resolved, `await` returns the value of the promise. If the promise is rejected, `await` throws an error.
+
