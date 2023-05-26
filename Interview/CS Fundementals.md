@@ -1,8 +1,4 @@
 ## 1. What are some important features in OOP?
-1. Encapsulation
-2. Inheritance
-3. Polymorphism
-
 
 1️⃣ Encapsulation:
 - Creating classes with private data members and public methods
