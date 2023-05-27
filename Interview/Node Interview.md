@@ -1,5 +1,8 @@
 ## 1. What is Node.js and why is it important?
 ## 2. How does the event loop work in Node.js?
+
+JavaScript is a single-threaded programming language. This means that JavaScript can do only one thing at a single point in time. The JavaScript engine executes a script from the top of the file and works its way down. It creates the execution contexts, pushes, and pops functions onto and off the call stack in the execution phase.    
+
 The event loop in Node.js is a mechanism that allows the execution of JavaScript code in a non-blocking way, by using an event-driven, asynchronous programming model. The event loop is a single thread that runs in the background and handles all the tasks that are scheduled by the JavaScript runtime, such as I/O operations, timers, and promises.
 
 The event loop operates in a continuous loop, where it repeatedly checks the message queue, also known as the task queue, for new tasks to execute. When a task is added to the queue, the event loop will start processing it. Once a task is completed, the event loop will check for any new tasks in the queue, and continue to process them in the order they were received.
