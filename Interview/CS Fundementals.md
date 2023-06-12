@@ -1,22 +1,22 @@
 ## 1. What are some important features in OOP?
 
-1️⃣ Encapsulation:
+**1️. Encapsulation:**
 - Creating classes with private data members and public methods
 - Using access modifiers (public, private, protected)
 - Implementing getters and setters to control access to object properties
 
-2️⃣ Inheritance:
+**2️. Inheritance:**
 - Concept of inheritance and its role in code reuse
 - Implementing inheritance hierarchies with base and derived classes
 - Overriding methods and properties in derived classes
 - Understanding the "is-a" relationship and the Liskov substitution principle
 
-3️⃣ Polymorphism:
+**3️. Polymorphism:**
 - Implementing polymorphism through method overriding and interfaces
 - Using abstract classes and interfaces to define common behaviour
 - Leveraging polymorphism for flexible and extensible code design
 
-4️⃣ Abstraction:
+**4️. Abstraction:**
 - Concept of abstraction and its role in modeling real-world entities
 - Using abstract classes and interfaces to define common behavior
 - Implementing abstract methods and properties
