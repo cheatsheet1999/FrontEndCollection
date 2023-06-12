@@ -22,11 +22,6 @@
 - Implementing abstract methods and properties
 - Achieving code modularity and reducing dependencies through abstraction
 
-5️⃣ Encapsulation:
-- Creating classes with private data members and public methods
-- Using access modifiers (public, private, protected)
-- Implementing getters and setters to control access to object properties
-
 ### Encapsulation
 Encapsulation helps to protect the integrity of an object by preventing unauthorized access to its internal state. It refers to the practice of hiding an object's internal state and behavior from the outside world, and providing a controlled interface for interacting with the object.
 
