@@ -161,7 +161,7 @@ console.log(counter()); // prints 2
 
 ```
 
-**Unlike calltack, variable in Heap memory can be kept indefinitely then decide when you get rid of it later with the garbage collector**
+**Unlike callstack, variable in Heap memory can be kept indefinitely then decide when you get rid of it later with the garbage collector**
 
 ### why use closure if it requires more memory and procecssing power than a pure function?
 1. Data Encapsulation is one of the most important reason because clouse helps to prevent leaking or exposing data where it's not needed.
