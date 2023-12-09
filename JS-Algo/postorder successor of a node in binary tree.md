@@ -1,6 +1,7 @@
 
 <img width="887" alt="Screenshot 2023-12-08 at 6 53 08 PM" src="https://github.com/cheatsheet1999/FrontEndCollection/assets/37787994/c4a5bfee-733b-40d4-9bce-dc295522e8c0">
-```js
+
+```js      
 class TreeNode {
     constructor(value) {
         this.value = value;
