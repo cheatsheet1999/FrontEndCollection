@@ -10,7 +10,7 @@
  */
 export default function promiseAll(promises) {
     return new Promise((resolve, reject) => {
-        const results = [];
+        let results = [];
         let completedPromises = 0;
     
         if (promises.length === 0) {
@@ -21,7 +21,7 @@ export default function promiseAll(promises) {
           // Promise.resolve() 用于处理非 Promise 值
           Promise.resolve(promise).then(value => {
             results[index] = value;
-            completedPromises += 1;
+            completedPromises ++;
     
             // 如果所有 Promises 都解决了，解决 promiseAll 返回的 Promise
             if (completedPromises === promises.length) {
