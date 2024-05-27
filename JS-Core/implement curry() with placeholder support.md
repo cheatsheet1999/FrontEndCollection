@@ -1,4 +1,5 @@
 ### please implement curry() which also supports placeholder. Here is an example
+
 ```Javascript
 const  join = (a, b, c) => {
    return `${a}_${b}_${c}`
@@ -13,9 +14,6 @@ curriedJoin(_, 2)(1, 3) // '1_2_3'
 
 curriedJoin(_, _, _)(1)(_, 3)(2) // '1_2_3'
 ```
-
-
-
 
 ```Javascript
 
@@ -40,17 +38,18 @@ function curry(fn) {
     }
   }
 }
+curry.placeholder = Symbol()
 
 function mergeArgs(args, nextArgs) {
   let result = [];
-  // iterate over args (because we need to replace from it) 
+  // iterate over args (because we need to replace from it)
   // in each iteration, if we find element == curry.placeholder
   // then we replace that placeholder with first element from nextArgs
   // else we put current element
   args.forEach((arg) => {
-    if(arg === curry.placeholder) {
+    if(arg === curry.placeholder && nextArgs.length) {
       result.push(nextArgs.shift());
-    } 
+    }
     else {
       result.push(arg);
     }
@@ -59,10 +58,6 @@ function mergeArgs(args, nextArgs) {
   // merge result and nextArgs together, and return it
   return [...result, ...nextArgs];
 }
-
-
-curry.placeholder = Symbol()
-
 
 
 ```
