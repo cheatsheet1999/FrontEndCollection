@@ -1,3 +1,4 @@
+Print prime number includes n  
 
 ```py
 def sieve_of_eratosthenes(n):
@@ -16,12 +17,26 @@ def sieve_of_eratosthenes(n):
     primes = [p for p in range(2, n + 1) if is_prime[p]]
     return primes
 
-# Test the algorithm to find all primes less than or equal to 100
-n = 100
-primes = sieve_of_eratosthenes(n)
-print(f"All primes less than or equal to {n}: {primes}")
-
 ```
 
+Print prime number strictly less than n
+
+```py
+class Solution:
+    def countPrimes(self, n: int) -> int:
+        if n < 2:
+            return 0
+        is_prime = [True] * n
+        is_prime[0] = is_prime[1] = False
+
+        p = 2
+        while p * p < n:
+            if is_prime[p]:
+                for i in range(p * p, n, p):
+                    is_prime[i] = False
+            p += 1
 
 
+        prime = [p for p in range(2, n) if is_prime[p]]
+        return prime
+```
